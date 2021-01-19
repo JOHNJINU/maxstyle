@@ -1,0 +1,113 @@
+.row {
+    height: 350px;
+}
+
+.firstBar .firstHalf {
+    background-color:#F9E0AE;
+}
+
+.secondBar .firstHalf {
+    background-color:#FC8621;
+}
+
+
+.firstBar .firstHalf img{
+    position: absolute;
+    top:20px;
+    left: 125px;
+    width: 68px;
+}
+
+.firstBar .secondHalf  img{
+    width: 50vw;
+    height: 350px;
+}
+
+
+.secondBar .secondHalf  img{
+    width: 50vw;
+    height: 350px;
+}
+
+
+.secondBar .firstHalf img{
+    position: absolute;
+    top:20px;
+    left: 125px;
+    width: 68px;
+}
+
+hr{
+    width: 100vw;
+    border: 2px solid #C24914;
+    opacity: 1;
+}
+
+.whyToChooseContainer .tagLine{
+color:#FF4646;
+font-size: 64px;
+font-style: italic;
+}
+
+.whyToChooseContainer img {
+    
+    width: 294px;
+    height: 131px;
+}
+
+.firstColumn div{
+    background-color:aqua;
+    margin: 50px 10px;
+    height: 275px;
+}
+
+.firstColumn div img {
+    height: 275px;
+}
+
+.seondColumn div{
+    background-color:aqua;
+    margin: 50px 10px;
+    height: 600px;
+}
+
+.seondColumn div img{
+    height: 340px;
+}
+
+.customerExperienceContainer{
+    width: 90%;
+    margin: 40px auto;
+}
+
+.customerExperienceList{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.customerExperienceList div{
+    background-color: #F9E0AE;
+    width: 48%;
+    height: 220px;
+    padding: 25px;
+}
+
+.customerExperienceList img{
+
+    width: 120px;
+    border: 2px solid #F3D361;
+}
+
+.testimonialLine{
+    border: 2px solid #F3D361 !important;
+    width: 75px;
+}
+
+#viewAllTestimonialsButton{
+    display: block;
+    margin-left: auto;
+    margin-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}

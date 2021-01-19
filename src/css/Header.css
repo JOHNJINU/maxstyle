@@ -1,0 +1,25 @@
+.headerStrip {
+    background : #FF4646;
+    color: #ffffff;
+}
+
+.headerStrip img{
+    width: 14px;
+}
+
+nav{
+    background-color: #ffffff;
+}
+
+.navBarCompanyLogo{
+
+    width: 237px;
+    height: 110px;
+}
+
+.getEstimateButton{
+
+    background-color: #FF7F00;
+    border:1px solid #E57200;
+    border-radius: 0;
+}

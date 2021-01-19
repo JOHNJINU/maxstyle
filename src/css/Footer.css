@@ -1,0 +1,56 @@
+.patternLogoContainer{
+}
+
+.patternLogoContainerImages{
+    width: 45%;
+    height: 250px;
+    margin: 0px auto;
+}
+
+.patternLogoContainerImages div{
+    margin-left: 100px;
+
+}
+
+#icPattern{
+    width: 195px;
+    height: 250px;
+}
+
+#icAstiea{
+    height: 150px;
+    width: 243px;
+}
+
+.fromText{
+    margin: 55px auto 0px;
+}
+
+.bottomRectangle{
+
+    background-color: #FFD700;
+    padding: 20px 5%;
+}
+
+.firstColumn{
+    padding-top: 15px;
+}
+
+.secondColumn{
+text-align: center;
+padding-top: 25px;
+}
+
+.secondColumn img{
+    width: 40px;
+    margin-left: 25px;
+}
+
+.thirdColumn{
+    padding-top: 45px;
+}
+
+.thirdColumn li {
+    display: inline;
+    margin: 0px 10px;
+}
