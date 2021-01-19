@@ -9,6 +9,7 @@ import icShakeHand from '../img/icShakeHand.png';
 import icLogoWhyToChoose from '../img/icLogoWhyToChoose.png';
 import icTestimonialPerson1 from '../img/ic_person_1.png';
 import icTestimonialPerson2 from '../img/ic_person_2.png';
+import icIso from '../img/ic_iso.png';
 
 
 class Home extends Component{
@@ -66,8 +67,8 @@ class Home extends Component{
 
 <div className="firstBar d-flex row-fluid">
     <div className="firstHalf position-relative col-6">
-        <h4>The trusted brand in Kerala</h4>
-        <span className="d-block" >Over 20 years <br/> of experience</span>
+        <h4 className="text-center">The trusted brand in Kerala</h4>
+        <span className="d-block " >Over 20 years <br/> of experience</span>
         <img src={icShakeHand}/>
     </div> 
     <div className="secondHalf col-6">
@@ -80,9 +81,9 @@ class Home extends Component{
         <img src={icCarousel2}/>
     </div>
     <div className="firstHalf position-relative col-6">
-        <h4>Our quality measures</h4>
+        <h4 className="text-center">Our quality measures</h4>
         <span className="d-block" >An ISO 9001 <br/> certified Company</span>
-        <img src={icShakeHand}/>
+        <img src={icIso}/>
     </div> 
 
 </div>
@@ -101,15 +102,15 @@ class Home extends Component{
 <div className="firstColumn col-8 ">
         <div className="position-relative">
             <img src={icCarousel1} className="w-50" />
-            <h4 className="position-absolute"  style= { {top:'0px', left:'440px'} }>IMPORTED GOODS</h4>
-            <p className="position-absolute" style= { {top:'40px', left:'440px'} } >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero accumsan nisi dignissim feugiat.</p>
-            <button type="button" className="btn btn-primary getEstimateButton position-absolute" style= { {bottom:'4px', left:'440px'} }>EXPLORE</button>
+            <h4 className="position-absolute"  >IMPORTED GOODS</h4>
+            <p className="position-absolute" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero accumsan nisi dignissim feugiat.</p>
+            <button type="button" className="btn btn-primary getEstimateButton position-absolute" >EXPLORE</button>
         </div>
         <div className="position-relative">
             <img src={icCarousel2} className="w-50" />
-            <h4 className="position-absolute"  style= { {top:'0px', left:'440px'} }>FINEST DETAILING</h4>
-            <p className="position-absolute" style= { {top:'40px', left:'440px'} } >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero accumsan nisi dignissim feugiat.</p>
-            <button type="button" className="btn btn-primary getEstimateButton position-absolute" style= { {bottom:'4px', left:'440px'} }>EXPLORE</button>
+            <h4 className="position-absolute">FINEST DETAILING</h4>
+            <p className="position-absolute"  >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero accumsan nisi dignissim feugiat.</p>
+            <button type="button" className="btn btn-primary getEstimateButton position-absolute" >EXPLORE</button>
         </div>
 </div>
 <div className="seondColumn col-4 ">

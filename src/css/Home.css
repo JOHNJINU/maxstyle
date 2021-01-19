@@ -4,6 +4,17 @@
 
 .firstBar .firstHalf {
     background-color:#F9E0AE;
+
+}
+
+.firstBar .firstHalf h4{
+     font-size: 34px;
+     margin-top: 50px;
+}
+.firstBar .firstHalf span{
+     font-size: 30px;
+     margin-left: 170px;
+     margin-top: 50px;
 }
 
 .secondBar .firstHalf {
@@ -13,9 +24,9 @@
 
 .firstBar .firstHalf img{
     position: absolute;
-    top:20px;
-    left: 125px;
-    width: 68px;
+    top:125px;
+    left: 415px;
+    width: 108px;
 }
 
 .firstBar .secondHalf  img{
@@ -32,9 +43,22 @@
 
 .secondBar .firstHalf img{
     position: absolute;
-    top:20px;
-    left: 125px;
-    width: 68px;
+    top:145px;
+    left: 415px;
+    width: 88px;
+}
+
+
+.secondBar .firstHalf h4{
+    font-size: 34px;
+    margin-top: 50px;
+}
+
+
+.secondBar .firstHalf span{
+    font-size: 30px;
+    margin-left: 170px;
+    margin-top: 50px;
 }
 
 hr{
@@ -53,6 +77,25 @@ font-style: italic;
     
     width: 294px;
     height: 131px;
+}
+
+.whyToChooseContent{
+    padding: 0px 5%;
+}
+
+.whyToChooseContent h4{
+    top: 0px; 
+    left: 390px;
+}
+.whyToChooseContent p{
+    top: 40px; 
+    left: 390px;
+    font-size: 20px;
+}
+
+.whyToChooseContent button{
+    bottom: 4px; 
+    left: 390px;
 }
 
 .firstColumn div{
@@ -111,3 +154,4 @@ font-style: italic;
     padding-left: 30px;
     padding-right: 30px;
 }
+

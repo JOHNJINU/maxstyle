@@ -9,7 +9,7 @@ class Header extends Component{
 
         return(
             <div>
-                <div className="headerStrip" >
+                <div className="headerStrip text-center" >
                 <span> For enquiries please call : <img src={icPhoneReceiver} /> INDIA - 0091 123 45678 90. UAE - 00971 123 4566 2123. <img src={icEmail} /> enquiry@maxstyleinteriors.com </span>
                 </div>
                 

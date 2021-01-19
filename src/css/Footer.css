@@ -32,25 +32,25 @@
     padding: 20px 5%;
 }
 
-.firstColumn{
+.bottomRectangleFirstColumn{
     padding-top: 15px;
 }
 
-.secondColumn{
+.bottomRectangleSecondColumn{
 text-align: center;
 padding-top: 25px;
 }
 
-.secondColumn img{
+.bottomRectangleSecondColumn img{
     width: 40px;
     margin-left: 25px;
 }
 
-.thirdColumn{
+.bottomRectangleThirdColumn{
     padding-top: 45px;
 }
 
-.thirdColumn li {
+.bottomRectangleThirdColumn li {
     display: inline;
     margin: 0px 10px;
 }

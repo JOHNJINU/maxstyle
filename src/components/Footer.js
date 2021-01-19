@@ -30,18 +30,18 @@ class Footer extends Component{
                 {/* bottom rectangle starts */}
                 <div className="bottomRectangle d-flex">
 
-                    <div className="firstColumn col-4">
+                    <div className="bottomRectanglefirstColumn col-4">
                         <p>Ready to make your interiors <br/> a piece of art?</p>
                         <button type="button" className="btn btn-primary getEstimateButton">GET AN ESTIMATE</button>
                     </div>
-                    <div className="secondColumn col-4">
+                    <div className="bottomRectangleSecondColumn col-4">
                         <p>+91 1234567890</p>
                         <p>+91 1234567890</p>
                         <span>Follow us </span>
                         <img src={icFacebook} />
                         <img src={icInstagram} />
                     </div>
-                    <div className="thirdColumn col-4">
+                    <div className="bottomRectangleThirdColumn col-4">
                         <ul>
                             <li>Home</li>
                             <li>About Us</li>
