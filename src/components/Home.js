@@ -29,37 +29,47 @@ class Home extends Component{
     <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
     <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
   </ol>
-  <div class="carousel-inner">
+  <div class="carousel-inner position-relative">
     <div class="carousel-item active">
       <img src={icCarousel1} class="d-block w-100" alt="..." />
+      <div className="blackOverlayCarousel" ></div>
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <h5>Turn your interior into masterpiece.</h5>
       </div>
     </div>
     <div class="carousel-item">
-      <img src={icCarousel2} class="d-block w-100" alt="..." />
+      <img src={icCarousel1} class="d-block w-100" alt="..." />
+      <div className="blackOverlayCarousel" ></div>
       <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h5>Create Memories</h5>
       </div>
     </div>
     <div class="carousel-item">
-      <img src={icCarousel3} class="d-block w-100" alt="..." />
+      <img src={icCarousel1} class="d-block w-100" alt="..." />
+      <div className="blackOverlayCarousel" ></div>
       <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        <h5>Precise and artistic</h5>
       </div>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+    <div className="prevIconContainer position-absolute"></div>
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </a>
   <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+    <div className="prevIconContainer position-absolute"></div>
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </a>
+  <div className="offerBoardCarousel">
+      <div className="innerBoxofferBoardCarousel">
+        <h5> 35% LESS THAN <br/> RETAIL OUTLET </h5>
+        <h5> FACTORY <br/> PRODUCTION </h5>
+        <h5> DIRECT INSTALLATION </h5>
+        <button type="button" className="btn btn-primary " >MORE OFFERS</button>
+      </div>
+  </div>
 </div>
 {/* carousel ends */}
 
