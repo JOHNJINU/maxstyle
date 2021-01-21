@@ -1,5 +1,4 @@
 import {Component} from 'react';
-import Header from './Header';
 import Footer from './Footer';
 import '../css/Home.css';
 import icCarousel1 from '../img/carousel_img_1.png';
@@ -20,7 +19,6 @@ class Home extends Component{
 
         <div>
             
-        <Header />
 
         {/* carousel starts */}
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
