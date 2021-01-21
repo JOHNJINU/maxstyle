@@ -70,6 +70,7 @@ class Home extends Component{
         <button type="button" className="btn btn-primary " >MORE OFFERS</button>
       </div>
   </div>
+  <button type="button" className="btn btn-primary getEstimateButton" id="downloadBrochureButton" >DOWNLOAD BROCHURE</button>
 </div>
 {/* carousel ends */}
 
@@ -124,11 +125,11 @@ class Home extends Component{
         </div>
 </div>
 <div className="seondColumn col-4 ">
-        <div>
+        <div className="position-relative">
         <img src={icCarousel1} className="w-100"/>
             <h4>COST EFFICIENT</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero accumsan nisi dignissim feugiat.</p>
-            <button type="button" className="btn btn-primary getEstimateButton" style= { {bottom:'4px', left:'330px'} }>EXPLORE</button>
+            <button type="button" className="btn btn-primary getEstimateButton position-absolute" style= { {bottom:'0px', left:'0px'} }>EXPLORE</button>
         </div>
 </div>
 
@@ -147,13 +148,13 @@ class Home extends Component{
         <img src={icTestimonialPerson1} />
         <h5 className="position-absolute" style= { {top:'25px', left:'165px'} }>Mr Gautham Vasudev <br/> Vytilla</h5>
         <hr className="testimonialLine position-absolute" style= { {top:'67px', left:'165px'} }/>
-        <p className="position-absolute" style= { {top:'105px', left:'165px'} }>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero accumsan nisi dignissim feugiat.</p>
+        <p className="position-absolute" style= { {top:'105px', left:'165px'} }>" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero accumsan nisi dignissim feugiat. "</p>
         </div>
         <div className="customerExperienceBox1 col-6 position-relative">
         <img src={icTestimonialPerson2} />
         <h5 className="position-absolute" style= { {top:'25px', left:'165px'} }>Mr Sabu Thomas <br/> Thrissur</h5>
         <hr className="testimonialLine position-absolute" style= { {top:'67px', left:'165px'} }/>
-        <p className="position-absolute" style= { {top:'105px', left:'165px'} }>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero accumsan nisi dignissim feugiat.</p>
+        <p className="position-absolute" style= { {top:'105px', left:'165px'} }>" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero accumsan nisi dignissim feugiat. "</p>
         </div>
     </div>
     <button type="button" className="btn btn-primary getEstimateButton " id="viewAllTestimonialsButton" >View All</button>

@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 .row {
     height: 350px;
@@ -12,13 +13,18 @@
 }
 
 .firstBar .firstHalf h4{
-     font-size: 34px;
-     margin-top: 50px;
+     font-size: 45px;
+     margin-top: 85px;
+     color: #7A5656;
+     font-family: 'Roboto Condensed', sans-serif;
 }
 .firstBar .firstHalf span{
      font-size: 30px;
      margin-left: 170px;
      margin-top: 50px;
+     color: #7A5656;
+     font-weight: 300;
+    font-family: 'Roboto', sans-serif;
 }
 
 .secondBar .firstHalf {
@@ -28,9 +34,9 @@
 
 .firstBar .firstHalf img{
     position: absolute;
-    top:125px;
+    top:188px;
     left: 415px;
-    width: 108px;
+    width: 82px;
 }
 
 .firstBar .secondHalf  img{
@@ -47,22 +53,27 @@
 
 .secondBar .firstHalf img{
     position: absolute;
-    top:145px;
+    top:188px;
     left: 415px;
-    width: 88px;
+    width: 82px;
 }
 
 
 .secondBar .firstHalf h4{
-    font-size: 34px;
-    margin-top: 50px;
+    font-size: 45px;
+    margin-top: 85px;
+    color: #ffffff;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 
 .secondBar .firstHalf span{
     font-size: 30px;
-    margin-left: 170px;
+    margin-left: 135px;
     margin-top: 50px;
+    font-weight: 300;
+   font-family: 'Roboto', sans-serif;
+   color: #ffffff;
 }
 
 hr{
@@ -73,8 +84,10 @@ hr{
 
 .whyToChooseContainer .tagLine{
 color:#FF4646;
-font-size: 64px;
+font-size: 56px;
+font-weight: 400;
 font-style: italic;
+font-family: 'Roboto', sans-serif;
 }
 
 .whyToChooseContainer img {
@@ -90,20 +103,23 @@ font-style: italic;
 .whyToChooseContent h4{
     top: 0px; 
     left: 390px;
+    font-family: 'Roboto Slab', serif;
 }
 .whyToChooseContent p{
     top: 40px; 
     left: 390px;
-    font-size: 20px;
+    font-size: 22px;
+    color:#000000a9;
 }
 
 .whyToChooseContent button{
-    bottom: 4px; 
+    bottom: 0px; 
     left: 390px;
+    font-size: 21px;
+    padding: 8px 28px;
 }
 
 .firstColumn div{
-    background-color:aqua;
     margin: 50px 10px;
     height: 275px;
 }
@@ -113,7 +129,6 @@ font-style: italic;
 }
 
 .seondColumn div{
-    background-color:aqua;
     margin: 50px 10px;
     height: 600px;
 }
@@ -122,21 +137,39 @@ font-style: italic;
     height: 340px;
 }
 
+.seondColumn h4 {
+    margin-top: 20px;
+}
+
 .customerExperienceContainer{
-    width: 90%;
-    margin: 40px auto;
+    width: 85%;
+    margin: 40px auto 20px;
+}
+
+.customerExperienceContainer h4{
+    color: #000000;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .customerExperienceList{
     display: flex;
     margin-top: 40px;
     justify-content: space-between;
+    font-size: 24px;
+    color: #000000;
+}
+
+.customerExperienceList p {
+
+    margin-right: 39px;
+    color: #000000;
+    line-height: 1.1;
 }
 
 .customerExperienceList div{
     background-color: #F9E0AE;
-    width: 48%;
-    height: 220px;
+    width: 49%;
+    height: 280px;
     padding: 25px;
 }
 
@@ -248,4 +281,16 @@ font-style: italic;
     border-radius: 0;
     box-shadow: 0px 3px 3px #00000045;
     font-family: 'Roboto', sans-serif;
+}
+
+#downloadBrochureButton{
+    background-color: #C24914;
+    border: 2px solid #E57200;
+    display: block;
+    position: absolute;
+    z-index: 100;
+    right: 5%;
+    bottom: 28px;
+    font-size: 15px;
+    padding: 12px 8px;
 }

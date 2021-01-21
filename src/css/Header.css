@@ -10,7 +10,23 @@
 nav{
     background-color: #ffffff;
 }
+.navbar-nav{
+    margin-left: auto;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #E57200;
+    font-weight: 500;
+}
 
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+    font-weight: 400;
+}
+
+.navbar-nav button {
+    margin-left: 15px;
+    margin-right: 15px;
+}
 .navBarCompanyLogo{
 
     width: 237px;
@@ -22,4 +38,5 @@ nav{
     background-color: #FF7F00;
     border:1px solid #E57200;
     border-radius: 0;
+    padding: 12px 15px;
 }

@@ -1,10 +1,9 @@
-.patternLogoContainer{
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,400&display=swap');
 
 .patternLogoContainerImages{
     width: 45%;
     height: 250px;
-    margin: 0px auto;
+    margin: 0px auto 20px;
 }
 
 .patternLogoContainerImages div{
@@ -23,17 +22,25 @@
 }
 
 .fromText{
-    margin: 55px auto 0px;
+    margin: 35px auto 0px;
+    font-size: 34px;
 }
 
 .bottomRectangle{
 
     background-color: #FFD700;
-    padding: 20px 5%;
+    padding: 20px 0% 20px 8%;
 }
 
 .bottomRectangleFirstColumn{
     padding-top: 15px;
+    background-color: red;
+}
+.bottomRectanglefirstColumn p{
+
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: #000000b0;
 }
 
 .bottomRectangleSecondColumn{
@@ -46,11 +53,19 @@ padding-top: 25px;
     margin-left: 25px;
 }
 
+.bottomRectangleSecondColumn p,.followText{
+    font-weight: 500;
+    color: #000000b0;
+}
+
 .bottomRectangleThirdColumn{
     padding-top: 45px;
+    margin-left: 40px;
 }
 
 .bottomRectangleThirdColumn li {
     display: inline;
-    margin: 0px 10px;
+    margin: 0px 8px;
+    font-weight: 500;
+    color: #000000b0;
 }

@@ -34,10 +34,10 @@ class Footer extends Component{
                         <p>Ready to make your interiors <br/> a piece of art?</p>
                         <button type="button" className="btn btn-primary getEstimateButton">GET AN ESTIMATE</button>
                     </div>
-                    <div className="bottomRectangleSecondColumn col-4">
+                    <div className="bottomRectangleSecondColumn col-3">
                         <p>+91 1234567890</p>
                         <p>+91 1234567890</p>
-                        <span>Follow us </span>
+                        <span className="followText">Follow us </span>
                         <img src={icFacebook} />
                         <img src={icInstagram} />
                     </div>
