@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+.topQuadrantAbout{
+    width: 100vw;
+}
+
+.topQuadrantFirstBarAbout {
+    background-color: #FFFCCA;
+    height: 370px;
+}
+
+.topQuadrantSecondBarAbout {
+    background-color: #537780;
+    height: 370px;
+}
+
+.topQuadrantFirstBarAbout .firstBarHalfAbout{
+    width: 50vw;
+    padding: 50px 72px 25px 80px;
+}
+
+.topQuadrantFirstBarAbout .firstBarHalfAbout h4{
+    color: #000000;
+    font-size: 43px;
+}
+
+.topQuadrantFirstBarAbout .firstBarHalfAbout p{
+    color: #322F2F;
+    font-size: 26px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    line-height: 1;
+}
+
+.topQuadrantFirstBarAbout .secondBarHalfAbout img{
+    width: 50vw;
+    height: 370px;
+}
+
+.topQuadrantSecondBarAbout .secondBarHalfAbout img{
+    width: 50vw;
+    height: 370px;
+}
+
+.topQuadrantSecondBarAbout .firstBarHalfAbout{
+    width: 50vw;
+    padding: 80px 72px 25px 80px;
+}
+
+.topQuadrantSecondBarAbout .firstBarHalfAbout p {
+    color: #F9E0AE;
+    font-size: 26px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    line-height: 1;
+}
+
+.offerStripAbout{
+    width: 95%;
+    height: 115px;
+    margin: 20px auto;
+    background-color: #FFC93C;
+    padding: 20px;
+}
+
+.innerOfferStripAbout{
+    border: 2px solid #F2910A;
+    padding: 20px 5px 4px 5px;
+    margin-left: 15px;
+    margin-right: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.innerOfferStripAbout h5{
+    font-size: 24px;
+    color: #7A5656;
+    margin-left: 9px;
+    margin-right: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.innerOfferStripAbout button{
+    display: block;
+    height: 32px;
+    margin-left: 75px;
+    margin-top: -4px;
+    font-size: 15px;
+    padding: 6px 12px 5px;
+    background-color: #14C245;
+    border: none;
+    border-radius: 0;
+    box-shadow: 0px 3px 3px #00000045;
+    font-family: 'Roboto', sans-serif;
+}
+
+.innerOfferStripAbout img{
+    width: 15px;
+    height: 15px;
+    margin-top: 7px;
+    margin-left: 9px;
+}
+
+.ourFeatuesAboutTagline{
+    width: 72%;
+    color: #537780;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    margin: 50px auto;
+}
