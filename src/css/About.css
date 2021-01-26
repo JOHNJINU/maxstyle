@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 .topQuadrantAbout{
     width: 100vw;
@@ -112,4 +113,88 @@
     font-style: italic;
     font-weight: 500;
     margin: 50px auto;
+}
+
+.ourFeatuesAbout {
+    width: 100vw;
+    padding: 15px 95px;
+}
+
+
+.ourFeatuesAboutFirstBar .secondBarHalfFeaturesAbout img{
+    width: 50vw;
+    height: 375px;
+    padding-left: 30px;
+}
+
+.ourFeatuesAboutFirstBar .firstBarHalfFeaturesAbout{
+    width: 50vw;
+}
+
+.ourFeatuesAboutFirstBar .firstBarHalfFeaturesAbout h3{
+    font-size: 43px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.ourFeatuesAboutFirstBar .firstBarHalfFeaturesAbout p{
+    color: #000000a9;
+    font-size: 26px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    line-height: 1;
+}
+
+.firstCapitalFeatureAbout {
+    font-size: 70px;
+}
+
+.readMoreButton{
+    background-color: #11D3BC;
+    border:2px solid #13AE9C;
+    border-radius: 0;
+    padding: 12px 15px;
+    width: 170px;
+    margin-top: 20px;
+}
+
+.ourFeatuesAboutSecondBar {
+    margin-top: 40px;
+}
+
+
+.ourFeatuesAboutSecondBar .secondBarHalfFeaturesAbout img{
+    width: 50vw;
+    height: 375px;
+    padding-right: 30px;
+}
+
+.ourFeatuesAboutSecondBar .firstBarHalfFeaturesAbout{
+    width: 50vw;
+}
+
+
+.ourFeatuesAboutSecondBar .firstBarHalfFeaturesAbout p{
+    color: #000000a9;
+    font-size: 26px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    line-height: 1;
+}
+
+
+.ourFeatuesAboutSecondBar .firstBarHalfFeaturesAbout h3{
+    font-size: 43px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+#ourFeatuesAboutThirdBar{
+    margin-top: 40px;
+}
+
+#ourFeatuesAboutFourthBar{
+    margin-bottom: 40px;
 }

@@ -63,6 +63,60 @@ class About extends Component{
                 <h3 className="ourFeatuesAboutTagline">As you saw the process is hassle free, time bound, and a memorable one.</h3>
 
                 {/* about our features starts */}
+
+                <div className="ourFeatuesAbout">
+
+                    <div className="ourFeatuesAboutFirstBar d-flex">
+                        <div className="firstBarHalfFeaturesAbout">
+                            <h3><span className="firstCapitalFeatureAbout">U</span>nique design</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero accumsan nisi dignissim feugiat. 
+                            Vestibulum mollis, justo sed vulputate fermentum, augue dolor facilisis erat, sed venenatis mi velit ac enim.</p>
+                            <button type="button" className="btn btn-primary readMoreButton">READ MORE</button>
+                        </div>
+                        <div className="secondBarHalfFeaturesAbout">
+                            <img src={icCarousel1} />
+                        </div>
+                    </div>
+
+                    <div className="ourFeatuesAboutSecondBar d-flex">
+                        <div className="secondBarHalfFeaturesAbout">
+                            <img src={icCarousel1} />
+                        </div>
+                        <div className="firstBarHalfFeaturesAbout">
+                            <h3><span className="firstCapitalFeatureAbout">T</span>op-notch materials</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero accumsan nisi dignissim feugiat. 
+                            Vestibulum mollis, justo sed vulputate fermentum, augue dolor facilisis erat, sed venenatis mi velit ac enim.</p>
+                            <button type="button" className="btn btn-primary readMoreButton">READ MORE</button>
+                        </div>
+                    </div>
+
+                    <div className="ourFeatuesAboutFirstBar d-flex" id="ourFeatuesAboutThirdBar">
+                        <div className="firstBarHalfFeaturesAbout">
+                            <h3><span className="firstCapitalFeatureAbout">S</span>killed employees</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero accumsan nisi dignissim feugiat. 
+                            Vestibulum mollis, justo sed vulputate fermentum, augue dolor facilisis erat, sed venenatis mi velit ac enim.</p>
+                            <button type="button" className="btn btn-primary readMoreButton">READ MORE</button>
+                        </div>
+                        <div className="secondBarHalfFeaturesAbout">
+                            <img src={icCarousel1} />
+                        </div>
+                    </div>
+
+                    <div className="ourFeatuesAboutSecondBar d-flex" id="ourFeatuesAboutFourthBar">
+                        <div className="secondBarHalfFeaturesAbout">
+                            <img src={icCarousel1} />
+                        </div>
+                        <div className="firstBarHalfFeaturesAbout">
+                            <h3><span className="firstCapitalFeatureAbout">H</span>igh end machineries</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero accumsan nisi dignissim feugiat. 
+                            Vestibulum mollis, justo sed vulputate fermentum, augue dolor facilisis erat, sed venenatis mi velit ac enim.</p>
+                            <button type="button" className="btn btn-primary readMoreButton">READ MORE</button>
+                        </div>
+                    </div>
+
+                </div>
+
+
                 {/* about our features end */}
 
 
