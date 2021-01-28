@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 
 .topQuadrantAbout{
     width: 100vw;
@@ -202,19 +203,24 @@
 .processContainerAbout{
     width: 90vw;
     margin: 10px auto;
+    
+
 }
 
 .processContainerAbout h3 {
     font-size: 43px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+    margin-left: 25px;
+    margin-top: 30px;
 }
 
-.processContainerAbout p {
+.processParaInAbout {
     font-size: 33px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     margin-top: 30px;
+    margin-left: 25px;
     color: #000000be;
     width: 80%;
 }
@@ -225,9 +231,9 @@
 
 .processContainerAbout .diagramContainerAbout {
     width: 70%;
-    background-color: aqua;
     height: 610px;
     margin-top: 50px;
+    padding-right: 3%;
 }
 
 .processContainerAbout .bannerContainerAbout {
@@ -241,17 +247,66 @@
 
 .innerBoxbannerContainerAbout{
     width: 86%;
-    height: 86%;
-    margin-top: 7%;
-    margin-left: 7%;
+    height: 560px;
+    margin-top: 25px;
+    margin-left: 25px;
     border: 2px solid #F2910A;
     text-align: center;
 }
 
 .innerBoxbannerContainerAbout h4 {
-    color: #ffffffd3;
+    color: #ffffffb4;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 31px;
+    margin-top: 80px;
 }
 .innerBoxbannerContainerAbout img {
-    color: #ffffffd3;
-    width: 200px;
+    width: 185px;
+    margin-top: 60px;
+}
+
+.firstRowDiagramContainerAbout{
+    width: 100%;
+}
+
+.blockDiagramContainerAbout{
+    width: 28%;
+    text-align: center;
+}
+
+
+.blockDiagramContainerAbout img{
+    margin: 0px auto;
+    width: 50px;
+}
+
+.blockDiagramContainerAbout p{
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+.arrowDiagramContainerAbout {
+    width: 8%;
+}
+
+.arrowDiagramContainerAbout img {
+    width: 75%;
+    margin-top: 20px;
+}
+
+.downArrowDiagramContainerAbout {
+    width: 30%;
+    margin-left: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.downArrowDiagramContainerAbout img {
+    height: 45px;
+}
+
+.downArrowLeftDiagramContainerAbout{
+    margin-left: 0px;
+    width: 28%;
 }

@@ -5,6 +5,20 @@ import icCarousel1 from '../img/carousel_img_1.png';
 import icOfferStripBullet from '../img/ic_offer_strip_bullet.png';
 import icMechanic from '../img/ic_mechanic.png';
 
+
+import ic_requirement from '../img/ic_requirement.png';
+import ic_quotation from '../img/ic_quotation.png';
+import ic_advance from '../img/ic_advance.png';
+import ic_confirm_design from '../img/ic_confirm_design.png';
+import ic_suggestion from '../img/ic_suggestion.png';
+import ic_design from '../img/ic_design.png';
+import ic_confirm_order from '../img/ic_confirm_order.png';
+import ic_production from '../img/ic_production.png';
+import ic_delivery from '../img/ic_delivery.png';
+import ic_right_arrow from '../img/ic_right_arrow.png';
+import ic_down_arrow from '../img/ic_down_arrow.png';
+import ic_left_arrow from '../img/ic_left_arrow.png';
+
 class About extends Component{
 
     render(){
@@ -62,10 +76,88 @@ class About extends Component{
 
                 <div className="processContainerAbout">
                     <h3>How the process work</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p className="processParaInAbout">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         
                         <div className="diagramBannerContainer">
                             <div className="diagramContainerAbout">
+
+                                <div className="firstRowDiagramContainerAbout d-flex">
+
+                                    <div className="blockDiagramContainerAbout">
+                                        <img src={ic_requirement} className="d-block" />
+                                        <p>Understanding the client requirement.</p>
+                                    </div>
+                                    <div className="arrowDiagramContainerAbout">
+                                        <img src={ic_right_arrow}  />
+                                    </div>
+                                    <div className="blockDiagramContainerAbout">
+                                        <img src={ic_quotation} className="d-block" />
+                                        <p>A quotation is given.</p>
+                                    </div>
+                                    <div className="arrowDiagramContainerAbout">
+                                        <img src={ic_right_arrow}  />
+                                    </div>
+                                    <div className="blockDiagramContainerAbout">
+                                        <img src={ic_advance} className="d-block" />
+                                        <p>Receiving an advance amount.</p>
+                                    </div>
+                                  
+                                </div>
+
+                                <div className="downArrowDiagramContainerAbout">
+                                    <img src={ic_down_arrow}  />
+                                </div>
+                                
+
+                                <div className="thirdRowDiagramContainerAbout d-flex">
+
+                                    <div className="blockDiagramContainerAbout">
+                                        <img src={ic_confirm_design} className="d-block" />
+                                        <p>Confirm the design.</p>
+                                    </div>
+                                    <div className="arrowDiagramContainerAbout">
+                                        <img src={ic_right_arrow}  />
+                                    </div>
+                                    <div className="blockDiagramContainerAbout">
+                                        <img src={ic_suggestion} className="d-block" />
+                                        <p>Client can also suggest their ideas.</p>
+                                    </div>
+                                    <div className="arrowDiagramContainerAbout">
+                                        <img src={ic_right_arrow}  />
+                                    </div>
+                                    <div className="blockDiagramContainerAbout">
+                                        <img src={ic_design} className="d-block" />
+                                        <p>Design is presented to you.</p>
+                                    </div>
+                                  
+                                </div>
+
+                                <div className="downArrowDiagramContainerAbout downArrowLeftDiagramContainerAbout">
+                                    <img src={ic_down_arrow}  />
+                                </div>
+
+                                <div className="fifthRowDiagramContainerAbout d-flex">
+                                   
+                                    <div className="blockDiagramContainerAbout">
+                                            <img src={ic_confirm_design} className="d-block" />
+                                            <p>Confirm the order.</p>
+                                        </div>
+                                        <div className="arrowDiagramContainerAbout">
+                                            <img src={ic_right_arrow}  />
+                                        </div>
+                                        <div className="blockDiagramContainerAbout">
+                                            <img src={ic_suggestion} className="d-block" />
+                                            <p>Production at the factory.</p>
+                                        </div>
+                                        <div className="arrowDiagramContainerAbout">
+                                            <img src={ic_right_arrow}  />
+                                        </div>
+                                        <div className="blockDiagramContainerAbout">
+                                            <img src={ic_design} className="d-block" />
+                                            <p>Delivering and installation at the site.</p>
+                                        </div>
+                                    
+                                    </div>
 
                             </div>
                             <div className="bannerContainerAbout">
