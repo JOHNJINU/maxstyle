@@ -3,6 +3,7 @@ import Footer from './Footer';
 import '../css/About.css';
 import icCarousel1 from '../img/carousel_img_1.png';
 import icOfferStripBullet from '../img/ic_offer_strip_bullet.png';
+import icMechanic from '../img/ic_mechanic.png';
 
 class About extends Component{
 
@@ -58,6 +59,28 @@ class About extends Component{
                 <hr />
 
                 {/* process work start  */}
+
+                <div className="processContainerAbout">
+                    <h3>How the process work</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        
+                        <div className="diagramBannerContainer">
+                            <div className="diagramContainerAbout">
+
+                            </div>
+                            <div className="bannerContainerAbout">
+                                <div className="innerBoxbannerContainerAbout">
+                                    <h4>LIFETIME <br /> SERVICE <br />  GUARANTEED</h4>
+                                    <img src={icMechanic} />
+                                </div>
+
+                            </div>
+                        </div>
+
+                </div>
+
+                <hr />
+               
                 {/* process work end    */}
 
                 <h3 className="ourFeatuesAboutTagline">As you saw the process is hassle free, time bound, and a memorable one.</h3>

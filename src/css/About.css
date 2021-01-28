@@ -198,3 +198,60 @@
 #ourFeatuesAboutFourthBar{
     margin-bottom: 40px;
 }
+
+.processContainerAbout{
+    width: 90vw;
+    margin: 10px auto;
+}
+
+.processContainerAbout h3 {
+    font-size: 43px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.processContainerAbout p {
+    font-size: 33px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-top: 30px;
+    color: #000000be;
+    width: 80%;
+}
+
+.diagramBannerContainer{
+    display: flex;
+}
+
+.processContainerAbout .diagramContainerAbout {
+    width: 70%;
+    background-color: aqua;
+    height: 610px;
+    margin-top: 50px;
+}
+
+.processContainerAbout .bannerContainerAbout {
+    width: 30%;
+    background-color: #FFC93C;
+    height: 610px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+.innerBoxbannerContainerAbout{
+    width: 86%;
+    height: 86%;
+    margin-top: 7%;
+    margin-left: 7%;
+    border: 2px solid #F2910A;
+    text-align: center;
+}
+
+.innerBoxbannerContainerAbout h4 {
+    color: #ffffffd3;
+}
+.innerBoxbannerContainerAbout img {
+    color: #ffffffd3;
+    width: 200px;
+}
