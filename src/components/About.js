@@ -116,14 +116,14 @@ class About extends Component{
                                         <p>Confirm the design.</p>
                                     </div>
                                     <div className="arrowDiagramContainerAbout">
-                                        <img src={ic_right_arrow}  />
+                                        <img src={ic_left_arrow}  />
                                     </div>
                                     <div className="blockDiagramContainerAbout">
                                         <img src={ic_suggestion} className="d-block" />
                                         <p>Client can also suggest their ideas.</p>
                                     </div>
                                     <div className="arrowDiagramContainerAbout">
-                                        <img src={ic_right_arrow}  />
+                                        <img src={ic_left_arrow}  />
                                     </div>
                                     <div className="blockDiagramContainerAbout">
                                         <img src={ic_design} className="d-block" />

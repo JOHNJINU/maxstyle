@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,400&display=swap');
+
+.topBannerPackages{
+    background-color: #FFC93C;
+    height: 350px;
+    padding-left: 70px;
+    padding-top: 50px;
+}
+
+.topBannerPackagesHeading{
+    font-size: 43px;
+}
+
+.topBannerPackagesDescription{
+    width: 55vw;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.1;
+    margin-top: 49px;
+}
+
+.offerBoardPackages{
+    width: 270px;
+    height: 320px;
+    background-color: #FF7F00;
+    position:absolute;
+    z-index: 100;
+    top:180px;
+    right: 10%;
+}
+
+.innerBoxofferBoardPackages{
+    width: 86%;
+    height: 86%;
+    margin-top: 7%;
+    margin-left: 7%;
+    border: 2px solid #FFFFFF;
+}
+
+.innerBoxofferBoardPackages h5{
+    font-size: 21px;
+    margin-left: 8%;
+    margin-top: 10%;
+    color: #FFFFFF;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.innerBoxofferBoardPackages button{
+    display: block;
+    position: absolute;
+    right: 15%;
+    bottom: 11%;
+    height: 29px;
+    font-size: 14px;
+    padding: 2px 12px 5px;
+    background-color: #14C245;
+    border: none;
+    border-radius: 0;
+    box-shadow: 0px 3px 3px #00000045;
+    font-family: 'Roboto', sans-serif;
+}
+
+.imgWarranty{
+    width: 205px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.packageHeading{
+    color: #C24914;
+    display: inline-block;
+    font-size: 32px;
+    margin-left: 100px;
+    margin-top: 140px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #C24914;
+}
+
+.offerPackDiv {
+    border: solid 3px #C24914;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 70px;
+}
+
+.offerPackDivHeader{
+    background-color: #FFDD55;
+    display: flex;
+    justify-content: space-between;
+}
+
+.offerPackDivHeader h2{
+    margin-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 50px;
+}
+
+.offerPackDivBody{
+    display: flex;
+    margin: 40px 40px 0px 40px;
+}
+
+.offerPackDivLeftColumn{
+    width: 50%;
+}
+
+.offerPackDivLeftColumn p{
+    margin: 20px;
+}
+
+.offerPackDivRightColumn p{
+    margin: 20px;
+}
+
+.offerPackDivBottom{
+    margin: 20px 40px 20px 40px;
+}
+
+.offerPackDivBottom p{
+    margin: 30px 20px 0px 0px;
+}

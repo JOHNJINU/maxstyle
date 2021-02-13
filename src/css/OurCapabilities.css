@@ -1,0 +1,66 @@
+.firstBar{
+    background-color: #FF6F3C;
+}
+
+.firstBar .firstHalf{
+    background-color: #FF6F3C;
+}
+
+.firstBar .firstHalf span{ 
+    margin-left: 85px;
+    margin-top: 20px;
+    margin-right: 45px;
+    font-size: 24px;
+    line-height: 1.1;
+    color: #ffffff;
+}
+
+.firstBar .firstHalf h4{
+    font-size: 42px;
+    margin-top: 45px;
+    margin-left: 85px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.secondBar .firstHalf span {
+    color: #000;
+    font-size: 24px;
+    line-height: 1.1;
+    margin-left: 85px;
+    margin-top: 100px;
+    margin-right: 45px;
+}
+.secondBar .firstHalf{
+    background-color: #FF9A3C
+}
+
+.ourFeatuesAboutFirstBar{
+    margin-top: 50px;
+    width: 92vw;
+    margin-left: 5vw;
+    margin-right: 3vw;
+}
+
+.ourFeatuesAboutFirstBar .firstBarHalfFeaturesAbout{
+    width: 47vw;
+}
+
+.ourFeatuesAboutFirstBar .firstBarHalfFeaturesAbout h3{
+    color: #155263;
+}
+
+.ourFeatuesAboutFirstBar .firstBarHalfFeaturesAbout h5{
+    color: #000000;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.ourFeatuesAboutFirstBar .secondBarHalfFeaturesAbout img{
+    width: 53vw;
+    height: 375px;
+    background-color: aqua;
+    padding-left: 0;
+}
+
