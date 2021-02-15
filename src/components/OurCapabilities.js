@@ -49,6 +49,79 @@ class OurCapabilities extends Component{
 
              {/* production facility ends */}
 
+            <hr className="hrLineourCapabilitiesOne" />
+         
+            {/* projects and years facility starts */}
+
+            <div className="projectsYearsContainer">
+
+                <div className="left">
+
+                    <div className="secondBarHalfFeaturesAbout">
+                        <img src={icCarousel1} />
+                    </div>
+
+                    <div className="firstBarHalfFeaturesAbout">
+                        <h3>50</h3>
+                        <h5>Projects per month.</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero accumsan nisi dignissim feugiat. 
+                            Vestibulum mollis, justo sed vulputate fermentum, augue dolor facilisis erat, sed venenatis mi velit ac enim.</p>    
+                    </div>
+                   
+                </div>
+
+                <div className="center">
+                    <hr/>
+                </div>
+
+                <div className="right">
+                    <div className="firstBarHalfFeaturesAbout">
+                        <h3>20</h3>
+                        <h5>Years of experience.</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero accumsan nisi dignissim feugiat. 
+                            Vestibulum mollis, justo sed vulputate fermentum, augue dolor facilisis erat, sed venenatis mi velit ac enim.</p>    
+                    </div>
+                    <div className="secondBarHalfFeaturesAbout">
+                        <img src={icCarousel1} />
+                    </div>
+                </div>
+            </div>
+
+            {/* projects and years facility ends */}
+
+            {/* hassle free experience starts */}
+            <div className="hassleFreeContainer">
+                <div className="firstSection">
+
+                    <div className="firstImage">
+                            <img src={icCarousel1} />
+                        <div className="firstBarHalfFeaturesAbout">
+                            <p>Our experienced professionals will make sure your idea is transformed into precise drawings.</p>    
+                        </div>
+                    </div>
+                    <div className="secondImage">
+                            <img src={icCarousel1} />
+                        <div className="firstBarHalfFeaturesAbout">
+                            <p>Since every material is pre-inspected and kept in our facility, there is no delay for production.</p>    
+                        </div>
+                    </div>
+                    <div className="thirdImage">
+                        <img src={icCarousel1} />
+                        <div className="firstBarHalfFeaturesAbout">
+                            <p>By producing at our own facility, with high end machinery, time and budget is always in check.</p>    
+                        </div>
+                    </div>
+
+                </div>
+                <div className="secondSection">
+
+                </div>
+                <div className="thirdSection">
+
+                </div>
+            </div>
+
+            {/* hassle free experience ends */}
                 <Footer />
             </div>
         )
