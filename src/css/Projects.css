@@ -1,0 +1,61 @@
+/* 
+.topBannerProjects{
+
+}
+
+.offerBoardPackages{
+    width: 53vw;
+    right: 0;
+}
+
+.ourWorksImageContainer img{
+
+    width: 53vw;
+}
+
+.topBannerPackagesDescription{
+    
+width: 40vw;
+font-size: 25px;
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+line-height: 1.1;
+margin-top: 490px;
+background-color: green;
+padding-right: 20px;
+} */
+
+.topBannerProjects {
+    background-color: #EA5455;
+    height: 410px;
+    padding-left: 70px;
+    padding-top: 50px;
+    color: #ffffff;
+}
+.topBannerProjectsHeading {
+    font-size: 43px;
+}
+.topBannerProjectsDescription {
+    width: 40vw;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.1;
+    margin-top: 49px;
+    padding-right: 20px;
+}
+
+.ourWorksImageContainer {
+    width: 53vw;
+    height: 340px;
+    background-color: #FF7F00;
+    position: absolute;
+    z-index: 100;
+    top: 200px;
+    right: 0;
+}
+
+.ourWorksImageContainer img{
+    width: 53vw;
+    height: 340px;
+}

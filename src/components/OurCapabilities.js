@@ -89,6 +89,8 @@ class OurCapabilities extends Component{
 
             {/* projects and years facility ends */}
 
+            <h3 className="hassleFreeTagline">Want to know how this transforms to a hassle free experience?</h3>
+
             {/* hassle free experience starts */}
             <div className="hassleFreeContainer">
                 <div className="firstSection">
@@ -114,10 +116,24 @@ class OurCapabilities extends Component{
 
                 </div>
                 <div className="secondSection">
-
+                    <hr className="hrLineourCapabilitiesOne" />
                 </div>
                 <div className="thirdSection">
-
+                    <div className="firstImage">
+                            <img src={icCarousel1} />
+                        <div className="firstBarHalfFeaturesAbout">
+                            <p>Installation is done with utmost precision and guidance.</p>    
+                        </div>
+                    </div>
+                    <div className="center">
+                        <hr/>
+                    </div>
+                    <div className="secondImage">
+                            <img src={icCarousel1} />
+                        <div className="firstBarHalfFeaturesAbout">
+                            <p>After sales service will be a pleasant experience.</p>    
+                        </div>
+                    </div>
                 </div>
             </div>
 

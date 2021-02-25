@@ -1,6 +1,6 @@
 import {Component} from 'react';
 import Footer from './Footer';
-import '../css/About.css';
+import '../css/Projects.css';
 import icCarousel1 from '../img/carousel_img_1.png';
 
 class Projects extends Component{
@@ -9,25 +9,18 @@ class Projects extends Component{
         return(
             <div>
                 
-                <p>THis is projects</p>
+                {/* top banner starts */}
 
-                {/* top quadrant starts */}
-
-                <div className="topQuadrantFirstBar d-flex" >
-                    <div>
-
-                    </div>
-                    <div>
-                        <img src={icCarousel1} />
-                    </div>
-                </div>
-                <div className="topQuadrantSecondBar d-flex">
-                    <div>
-
-                    </div>
+                <div className="topBannerProjects">
+                    <h3 className="topBannerProjectsHeading">Our works</h3>
+                    <p className="topBannerProjectsDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero accumsan nisi dignissim feugiat. Vestibulum mollis, justo sed vulputate fermentum, augue dolor facilisis erat, sed venenatis mi velit ac enim.</p>
                 </div>
 
-                {/* top quadrant ends */}
+                <div className="ourWorksImageContainer">
+                   <img src={icCarousel1} />
+                </div>
+
+                {/* top banner ends */}
                 
 
                 <Footer />

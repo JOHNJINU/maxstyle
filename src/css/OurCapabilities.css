@@ -113,6 +113,7 @@
     display: flex;
     margin-top: 30px;
     position: relative;
+    width: 50vw;
 }
 
 .projectsYearsContainer .left{
@@ -175,6 +176,11 @@
     top:-48px;
 }
 
+.hassleFreeContainer{
+    margin-top: 60px;
+    position: relative;
+}
+
 .hassleFreeContainer .firstSection .firstImage{
     width: 30vw;
 }
@@ -232,9 +238,66 @@
     height: 17vw;
 }
 
-.hassleFreeContainer .firstSection {
+.hassleFreeContainer .firstSection, .thirdSection {
     display: flex;
     justify-content: space-evenly;
     margin-left: 2vw;
     margin-right: 2vw;
+}
+
+.hassleFreeContainer .thirdSection{
+    height: 420px;
+}
+
+.hassleFreeContainer .thirdSection .firstImage{
+    width: 46vw;
+}
+.hassleFreeContainer .thirdSection .secondImage{
+    width: 46vw;
+}
+
+.hassleFreeContainer .thirdSection .firstImage img {
+    width: 46vw;
+    height: 24vw;
+}
+
+.hassleFreeContainer .thirdSection .secondImage img {
+    width: 46vw;
+    height: 24vw;
+}
+
+.hassleFreeContainer .thirdSection .center{
+    width: 1vw;
+    height: 62vw;
+}
+
+
+.hassleFreeContainer .thirdSection .center hr{
+    width: 2px;
+    height: 26vw;
+    border: 1px solid #FFC93C;
+    position: absolute;
+    top:375px;
+    left: 640px;
+}
+
+.hassleFreeContainer p{
+    color: #000000;
+    font-size: 24px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    line-height: 1;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.hassleFreeTagline {
+    color: #FF6F3C;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    font-style: italic;
+    letter-spacing: 0px;
+    text-align: center;
 }
