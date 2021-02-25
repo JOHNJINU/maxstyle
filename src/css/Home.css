@@ -53,7 +53,7 @@
 
 .secondBar .firstHalf img{
     position: absolute;
-    top:188px;
+    top:162px;
     left: 415px;
     width: 82px;
 }
@@ -70,7 +70,7 @@
 .secondBar .firstHalf span{
     font-size: 30px;
     margin-left: 135px;
-    margin-top: 50px;
+    margin-top: 20px;
     font-weight: 300;
    font-family: 'Roboto', sans-serif;
    color: #ffffff;

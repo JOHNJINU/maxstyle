@@ -1,21 +1,32 @@
-.firstBar{
+.firstBarOurCapabilities{
     background-color: #FF6F3C;
 }
 
-.firstBar .firstHalf{
+.firstBarOurCapabilities .firstHalf{
     background-color: #FF6F3C;
 }
 
-.firstBar .firstHalf span{ 
+.firstBarOurCapabilities .secondHalf  img{
+    width: 50vw;
+    height: 350px;
+}
+.secondBarCapabilities .secondHalf  img{
+    width: 50vw;
+    height: 350px;
+}
+
+.firstBarOurCapabilities .firstHalf span{ 
     margin-left: 85px;
     margin-top: 20px;
     margin-right: 45px;
     font-size: 24px;
     line-height: 1.1;
     color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
-.firstBar .firstHalf h4{
+.firstBarOurCapabilities .firstHalf h4{
     font-size: 42px;
     margin-top: 45px;
     margin-left: 85px;
@@ -24,15 +35,17 @@
     font-weight: 500;
 }
 
-.secondBar .firstHalf span {
+.secondBarCapabilities .firstHalf span {
     color: #000;
     font-size: 24px;
     line-height: 1.1;
     margin-left: 85px;
     margin-top: 100px;
     margin-right: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
-.secondBar .firstHalf{
+.secondBarCapabilities .firstHalf{
     background-color: #FF9A3C
 }
 

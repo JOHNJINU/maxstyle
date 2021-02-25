@@ -12,7 +12,7 @@ class OurCapabilities extends Component{
 
             {/* quadrant block starts */}
 
-            <div className="firstBar d-flex row-fluid">
+            <div className="firstBarOurCapabilities d-flex row-fluid">
                 <div className="firstHalf position-relative col-6">
                     <h4>Our infrastructure</h4>
                     <span className="d-block " >10,750 SqFt own production facility for assuring fast production and delivery. Superior German panel processing machines for best fit and finish. Skilled artisans, talented designers & dedicated management for making your home into a class apart.</span>
@@ -21,7 +21,7 @@ class OurCapabilities extends Component{
                     <img src={icCarousel1}/>
                 </div>
             </div>
-            <div className="secondBar d-flex row-fluid no-gutters">
+            <div className="secondBarCapabilities d-flex row-fluid no-gutters">
                 <div className="secondHalf col-6">
                     <img src={icCarousel1}/>
                 </div>
