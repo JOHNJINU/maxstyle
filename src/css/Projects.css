@@ -33,3 +33,71 @@
     width: 53vw;
     height: 340px;
 }
+
+.projectListItemsContainer {
+    padding: 50px 15px 110px 70px;
+}
+
+.projectListItemsContainer .listItemOne {
+    display: flex;
+}
+
+
+.projectListItemsContainer .listItemOne {
+    display: flex;
+    position: relative;
+}
+
+.projectListItemsContainer .listItemOne .right .imageOne{
+    width: 500px;
+    height: 350px;
+}
+
+.projectListItemsContainer .listItemOne .right .imageTwo{
+    width: 315px;
+    height: 195px;
+    position: absolute;
+    top: 155px;
+    right: 0;
+}
+
+.projectListItemsContainer .listItemOne .right .imageThree{
+    width: 315px;
+    height: 145px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+.projectListItemsContainer .listItemOne .left{
+    width: 372px;
+}
+
+.listItemOne .left h3{
+    font-size: 30px;
+    color: #F07B3F;
+}
+
+
+.listItemOne .left h6{
+    font-size: 25px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+
+.listItemOne .left p{
+    font-size: 16px;
+    color: #000000c0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-top: 28px;
+    padding-right: 50px;
+}
+
+.secondItem, .thirdItem{
+    margin-top: 30px;
+}
