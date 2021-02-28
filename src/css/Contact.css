@@ -1,3 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .addressCardContainer{
     margin: 0px 0px 50px 0px;
 }
+
+.generalEnquiryText{
+    color: #153E90;
+    width: 700px;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: 0 auto;  
+    padding-top: 70px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.enquirySectionContainer{
+    position: relative;
+    height: 700px;
+}
+
+.enquirySectionContainer img {
+    width: 100vw;
+}
+
+.typingFieldContainer{
+    position: absolute;
+    background-color: #ffffff;
+    padding: 20px 50px 20px 50px;
+    width: 600px;
+    height: 500px;
+    top:70px;
+    right: 100px
+}
+
+::placeholder {
+    color: #0000008e;
+    font-size: 1.5rem;
+  }
+
+  .typingFieldContainer input[type=text],textarea{
+      width: 100%;
+      margin-top: 30px;
+      background-color: #00000010;
+      border-width: 0px;
+      padding: 10px 0px 10px 30px;
+      font-size: 1.5rem;
+  }
+
+  .typingFieldContainer input[type=submit]{
+    background-color: #153E90;
+    color: #ffffff;
+    margin-top: 30px;
+    width: 30%;
+    border-width: 0px;
+    padding: 10px 0px 10px 10px;
+    font-size: 1.5rem;
+    display: block;
+    margin-left:auto;
+  }
+  
+  .typingFieldContainer h5 {
+    font-size: 2rem;
+    color: #0E49B5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+
