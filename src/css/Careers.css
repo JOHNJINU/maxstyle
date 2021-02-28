@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.careerHeading{
+    font-size: 2.5rem;
+    color: #000000b0;
+    margin: 50px 0px 40px 80px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.careerBar {
+    background-color: #155263;
+    display: flex;
+    height: 600px;
+}
+
+.careerBar img{
+    width: 53vw;
+}
+
+.careerBarTextContent{
+    font-size: 1.5rem;
+    width: 300px;
+    margin: 165px 50px 50px 65px;
+    color: #ffffff;
+}
+
+.careerBarTextTagLine{
+    margin: 40px 50px 0px 65px;
+    font-size: 2rem;
+    color: #ffffff;
+    display: block;
+}
+.careerBarTextMailId{
+    margin: 0px 50px 0px 65px;
+    font-size: 3rem;
+    color: #ffffff;
+    display: block;
+    position: relative;
+    bottom: 15px;
+}
+
+.careerBarTextMailIdUnderLine{
+    border: 1px solid #FF6F3C;
+    width: 295px;
+    height: 10px;
+    margin: 0px 0px 0px 70px;
+}
