@@ -31,6 +31,19 @@ class Gallery extends Component{
                 {/* top advertisement bar ends */}
                 </div>
 
+                {/* gallery image container starts */}
+                
+                <div className="galleryImageContainer">
+                    <img src={icCarousel1}/>
+                    <img src={icCarousel1}/>
+                    <img src={icCarousel1}/>
+                    <img src={icCarousel1}/>
+                    <img src={icCarousel1}/>
+                    <img src={icCarousel1}/>
+                </div>
+
+                {/* gallery image container ends */}
+
                 <Footer />
             </div>
         )
