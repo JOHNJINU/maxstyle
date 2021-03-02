@@ -1,0 +1,39 @@
+.galleryTopSection{
+    display: flex;
+}
+
+.galleryHeading{
+    font-size: 46px;
+    color: #000000;
+    margin: 40px 0px 40px 80px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.offerStripGallery {
+    height: 105px;
+    margin-right: 25px;
+    margin-left: 75px;    
+    padding: 20px 15px 5px 25px;
+}
+
+
+.offerStripGallery .innerOfferStripAbout {
+    padding: 20px 5px 10px 0px;    
+    margin-left: 5px;
+    margin-right: 0px;
+}
+
+.offerStripGallery h5{
+    font-size: 19px;
+    margin-right: 20px;
+}
+.offerStripGallery button{
+    margin-left: 40px;
+    font-size: 14px;
+}
+
+.offerStripGallery img{
+    width: 8px;
+    height: 8px;
+}

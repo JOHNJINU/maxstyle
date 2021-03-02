@@ -1,7 +1,8 @@
 import {Component} from 'react';
 import Footer from './Footer';
-import '../css/About.css';
+import '../css/Gallery.css';
 import icCarousel1 from '../img/carousel_img_1.png';
+import icOfferStripBullet from '../img/ic_offer_strip_bullet.png';
 
 class Gallery extends Component{
 
@@ -9,26 +10,26 @@ class Gallery extends Component{
         return(
             <div>
                 
-                <p>THis is gallery</p>
+                <div className="galleryTopSection">
 
-                {/* top quadrant starts */}
+                <h3 className="galleryHeading">Gallery</h3>   
 
-                <div className="topQuadrantFirstBar d-flex" >
-                    <div>
+                {/* top advertisement bar starts */}
 
-                    </div>
-                    <div>
-                        <img src={icCarousel1} />
+                <div className="offerStripAbout offerStripGallery">
+                    <div className=" innerOfferStripAbout d-flex">
+                        <img src={icOfferStripBullet} className="d-block" />
+                        <h5> 35% LESS THAN RETAIL OUTLET </h5>
+                        <img src={icOfferStripBullet} className="d-block" />
+                        <h5> FACTORY PRODUCTION </h5>
+                        <img src={icOfferStripBullet} className="d-block" />
+                        <h5> DIRECT INSTALLATION </h5>
+                        <button type="button" className="btn btn-primary moreBtnAbout" >MORE OFFERS</button>
                     </div>
                 </div>
-                <div className="topQuadrantSecondBar d-flex">
-                    <div>
 
-                    </div>
+                {/* top advertisement bar ends */}
                 </div>
-
-                {/* top quadrant ends */}
-                
 
                 <Footer />
             </div>
