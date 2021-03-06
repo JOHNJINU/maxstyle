@@ -1,5 +1,4 @@
 import {Component} from 'react';
-import Footer from './Footer';
 import '../css/Projects.css';
 import icCarousel1 from '../img/carousel_img_1.png';
 
@@ -71,9 +70,7 @@ class Projects extends Component{
                 </div>
 
                 {/* project list ends */}
-                
-
-                <Footer />
+               
             </div>
         )
     }

@@ -1,5 +1,4 @@
 import {Component} from 'react';
-import Footer from './Footer';
 import '../css/Contact.css';
 import icCarousel1 from '../img/ic_enquiry_bg.png';
 
@@ -61,7 +60,6 @@ class Contact extends Component{
                 </div>
 
 
-                <Footer />
             </div>
         )
     }

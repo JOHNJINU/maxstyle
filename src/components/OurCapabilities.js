@@ -1,5 +1,4 @@
 import {Component} from 'react';
-import Footer from './Footer';
 import '../css/OurCapabilities.css';
 import icCarousel1 from '../img/carousel_img_1.png';
 
@@ -138,7 +137,7 @@ class OurCapabilities extends Component{
             </div>
 
             {/* hassle free experience ends */}
-                <Footer />
+                
             </div>
         )
     }

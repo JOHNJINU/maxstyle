@@ -1,5 +1,4 @@
 import {Component} from 'react';
-import Footer from './Footer';
 import '../css/Gallery.css';
 import icCarousel1 from '../img/carousel_img_1.png';
 import icOfferStripBullet from '../img/ic_offer_strip_bullet.png';
@@ -34,17 +33,19 @@ class Gallery extends Component{
                 {/* gallery image container starts */}
                 
                 <div className="galleryImageContainer">
-                    <img src={icCarousel1}/>
-                    <img src={icCarousel1}/>
-                    <img src={icCarousel1}/>
-                    <img src={icCarousel1}/>
-                    <img src={icCarousel1}/>
-                    <img src={icCarousel1}/>
+                    <img loading="lazy" src={icCarousel1}/>
+                    <img loading="lazy"  src={icCarousel1}/>
+                    <img  loading="lazy" src={icCarousel1}/>
+                    <img  loading="lazy" src={icCarousel1}/>
+                    <img  loading="lazy" src={icCarousel1}/>
+                    <img  loading="lazy" src={icCarousel1}/>
+                    <img loading="lazy" src={icCarousel1}/>
+                    <img loading="lazy"  src={icCarousel1}/>
+                    <img  loading="lazy" src={icCarousel1}/>
                 </div>
 
                 {/* gallery image container ends */}
 
-                <Footer />
             </div>
         )
     }

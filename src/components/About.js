@@ -1,5 +1,4 @@
 import {Component} from 'react';
-import Footer from './Footer';
 import '../css/About.css';
 import icCarousel1 from '../img/carousel_img_1.png';
 import icOfferStripBullet from '../img/ic_offer_strip_bullet.png';
@@ -231,12 +230,8 @@ class About extends Component{
 
                 </div>
 
-
                 {/* about our features end */}
 
-
-
-                <Footer />
             </div>
         )
     }

@@ -1,0 +1,58 @@
+
+.getEstimateContainer{
+    position: fixed;
+    height: 100%;
+    background-color: #0000008e;
+    z-index: 101;
+    width: 100%;
+    top:0;
+    left: 0;
+    padding: 200px;
+    overflow-y: scroll;
+}
+
+
+.getEstimateTypingContainer{
+    position: absolute;
+    background-color: #ffffff;
+    padding: 20px 50px 20px 50px;
+    margin: 20px;
+    width: 600px;
+    height: 735px;
+    top:20px;
+    right: 300px
+}
+
+::placeholder {
+    color: #0000008e;
+    font-size: 1.5rem;
+  }
+
+  .getEstimateTypingContainer input[type=text],textarea{
+      width: 100%;
+      margin-top: 30px;
+      background-color: #00000010;
+      border-width: 0px;
+      padding: 10px 0px 10px 30px;
+      font-size: 1.5rem;
+  }
+
+  .getEstimateTypingContainer input[type=submit]{
+    background-color: #153E90;
+    color: #ffffff;
+    margin-top: 25px;
+    width: 30%;
+    border-width: 0px;
+    padding: 10px 0px 10px 10px;
+    font-size: 1.5rem;
+    display: block;
+    margin-left:auto;
+  }
+  
+  .getEstimateTypingContainer h5 {
+    font-size: 2rem;
+    color: #0E49B5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+  }

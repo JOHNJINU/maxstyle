@@ -1,25 +1,26 @@
 import './App.css';
+import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
-import Navbar from './components/Navbar';
+import Packages from './components/Packages';
 import OurCapabilities from './components/OurCapabilities';
 import Projects from './components/Projects';
 import Gallery from './components/Gallery';
 import Careers from './components/Careers';
 import Contact from './components/Contact';
-
+import Footer from './components/Footer';
 import {
   BrowserRouter,
   Switch,
   Route
 } from 'react-router-dom';
-import Packages from './components/Packages';
 
 function App() {
 
   return (
     <BrowserRouter>
-   <Navbar />
+
+    <Navbar />
 
       <Switch>
         <Route exact path="/">
@@ -47,10 +48,13 @@ function App() {
           <Contact/>
         </Route>
       </Switch>
+
+      <Footer />
+      
       </BrowserRouter>
   
   );
 }
 
-export default App;
+export default App ;
 

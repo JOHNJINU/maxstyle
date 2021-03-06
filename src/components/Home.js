@@ -1,5 +1,4 @@
 import {Component} from 'react';
-import Footer from './Footer';
 import '../css/Home.css';
 import icCarousel1 from '../img/carousel_img_1.png';
 import icCarousel2 from '../img/carousel_img_2.png';
@@ -160,10 +159,6 @@ class Home extends Component{
 </div>
 
 {/* customer experience ends */}
-
-
-
-        <Footer />
 
         </div>
     )

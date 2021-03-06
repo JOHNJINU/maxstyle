@@ -1,5 +1,4 @@
 import {Component} from 'react';
-import Footer from './Footer';
 import '../css/Packages.css';
 import ic_warranty from '../img/ic_warranty.png';
 
@@ -161,7 +160,6 @@ class Packages extends Component{
                     </div>
                 </div>
 
-                <Footer />
             </div>
         )
     }

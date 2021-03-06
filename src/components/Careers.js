@@ -1,5 +1,4 @@
 import {Component} from 'react';
-import Footer from './Footer';
 import '../css/Careers.css';
 import icCarousel1 from '../img/carousel_img_1.png';
 import icListDot from '../img/ic_list_dot.png'
@@ -30,7 +29,6 @@ class Careers extends Component{
                     <li><img src={icListDot}/> QA Manager</li> 
                 </ul>  
 
-                <Footer />
             </div>
         )
     }
