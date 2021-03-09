@@ -112,11 +112,8 @@ class Navbar extends Component{
       </div>
     </nav>
 
-    {this.state.isEstimatePopupVisible && <GetEstimateModal/> }
-    
-    <button onClick={this.toggleEstimatePopupVisibility}>
-        {this.state.isEstimatePopupVisible ? 'ON' : 'OFF'}
-      </button>
+    {this.state.isEstimatePopupVisible && <GetEstimateModal closeBtnClickChild={this.toggleEstimatePopupVisibility} /> }
+        
     </>
 
     )
