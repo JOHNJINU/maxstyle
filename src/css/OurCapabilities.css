@@ -49,67 +49,80 @@
     background-color: #FF9A3C
 }
 
-.ourFeatuesAboutFirstBar{
+.ourFeatuesCapabilitiesFirstBar{
     
-    width: 92vw;
-    margin-right: 3vw;
+    width: 100vw;
+    padding: 50px 35px 10px 65px;
 }
 
-.ourFeatuesAboutFirstBar .firstBarHalfFeaturesAbout{
-    width: 35vw;
+.ourFeatuesCapabilitiesFirstBar .firstBarHalfFeaturesCapabilities{
+    width: 39vw;
 }
 
-.ourFeatuesAboutFirstBar .firstBarHalfFeaturesAbout h3{
-    color: #155263;
+.ourFeatuesCapabilitiesFirstBar .firstBarHalfFeaturesCapabilities h3{
+    font-size: 43px;
+    color: #155263;    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
-.ourFeatuesAboutFirstBar .firstBarHalfFeaturesAbout h5{
+.ourFeatuesCapabilitiesFirstBar .firstBarHalfFeaturesCapabilities h5{
     color: #000000;
     font-size: 30px;
     font-weight: 300;
 }
 
-.ourFeatuesAboutFirstBar .secondBarHalfFeaturesAbout img{
-    width: 50vw;
-    height: 375px;
-    padding-left: 3vw;
+.ourFeatuesCapabilitiesFirstBar .firstBarHalfFeaturesCapabilities p {
+    color: #000000a9;
+    font-size: 24px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    margin-right: 20px;
+    line-height: 1.2;
 }
 
+.ourFeatuesCapabilitiesFirstBar .secondBarHalfFeaturesCapabilities img{
+    width: 54vw;
+    height: 375px;
+}
 .hrLineourCapabilitiesOne{
     border: 1px solid #FFC93C;
-    margin-top: 40px;
+    margin-top: 15px;
+    margin-left: 35px;
+    width: 1210px;
 }
 
 
 
-.projectsYearsContainer .left .firstBarHalfFeaturesAbout{
+.projectsYearsContainer .left .firstBarHalfFeaturesCapabilities{
     width: 47vw;
 }
 
-.projectsYearsContainer .left .firstBarHalfFeaturesAbout h3{
+.projectsYearsContainer .left .firstBarHalfFeaturesCapabilities h3{
     color: #155263;
-    margin-left: 20px;
+    margin-left: 40px;
     font-size: 41px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     margin-top: 30px;
 }
 
-.projectsYearsContainer .left .firstBarHalfFeaturesAbout h5{
+.projectsYearsContainer .left .firstBarHalfFeaturesCapabilities h5{
     color: #000000;
     font-size: 30px;
     font-weight: 300;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
-.projectsYearsContainer .left .firstBarHalfFeaturesAbout p{
+.projectsYearsContainer .left .firstBarHalfFeaturesCapabilities p{
     color: #000000a9;
     font-size: 26px;
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
     margin-top: 30px;
     line-height: 1.2;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 
@@ -139,38 +152,39 @@
     width: 46vw;
 }
 
-.projectsYearsContainer .right .firstBarHalfFeaturesAbout h3{
+.projectsYearsContainer .right .firstBarHalfFeaturesCapabilities h3{
     color: #155263;
-    margin-left: 20px;
+    margin-left: 55px;
     font-size: 41px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
 
-.projectsYearsContainer .right .firstBarHalfFeaturesAbout h5{
+.projectsYearsContainer .right .firstBarHalfFeaturesCapabilities h5{
     color: #000000;
     font-size: 30px;
     font-weight: 300;
-    margin-left: 20px;
+    margin-left: 55px;
 }
 
-.projectsYearsContainer .right .firstBarHalfFeaturesAbout p{
+.projectsYearsContainer .right .firstBarHalfFeaturesCapabilities p{
     color: #000000a9;
     font-size: 26px;
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
     margin-top: 30px;
     line-height: 1;
-    margin-left: 20px;
+    margin-left: 55px;
+    margin-right: 20px;
 }
 
 
 .projectsYearsContainer .right .secondBarHalfFeaturesAbout img{
     width: 50vw;
     height: 375px;
-    padding-right: 50px;
-    padding-left: 20px;
-    margin-top: 30px;
+    padding-right: 35px;
+    padding-left: 40px;
+    margin-top: 15px;
 }
 
 .projectsYearsContainer .center{
@@ -288,7 +302,7 @@
     height: 26vw;
     border: 1px solid #FFC93C;
     position: absolute;
-    top:375px;
+    top:350px;
     left: 640px;
 }
 

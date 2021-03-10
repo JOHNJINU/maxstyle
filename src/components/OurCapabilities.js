@@ -1,6 +1,11 @@
 import {Component} from 'react';
 import '../css/OurCapabilities.css';
-import icCarousel1 from '../img/carousel_img_1.png';
+import icCarousel2 from '../img/carousel_img_2.png';
+import icCapabilities1 from '../img/ic_capabilities_1.png';
+import icCapabilities2 from '../img/ic_capabilities_2.png';
+import icCapabilities3 from '../img/ic_capabilities_3.png';
+import icCapabilities4 from '../img/ic_capabilities_4.png';
+import icCapabilities5 from '../img/ic_capabilities_5.png';
 
 class OurCapabilities extends Component{
 
@@ -17,12 +22,12 @@ class OurCapabilities extends Component{
                     <span className="d-block " >10,750 SqFt own production facility for assuring fast production and delivery. Superior German panel processing machines for best fit and finish. Skilled artisans, talented designers & dedicated management for making your home into a class apart.</span>
                 </div> 
                 <div className="secondHalf col-6">
-                    <img src={icCarousel1}/>
+                    <img src={icCarousel2}/>
                 </div>
             </div>
             <div className="secondBarCapabilities d-flex row-fluid no-gutters">
                 <div className="secondHalf col-6">
-                    <img src={icCarousel1}/>
+                    <img src={icCarousel2}/>
                 </div>
                 <div className="firstHalf position-relative col-6">
                     <span className="d-block" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero accumsan nisi dignissim feugiat. Vestibulum mollis, justo sed vulputate fermentum, augue dolor facilisis erat, sed venenatis mi velit ac enim.</span>
@@ -33,16 +38,16 @@ class OurCapabilities extends Component{
 
             {/* production facility starts */}
 
-            <div className="ourFeatuesAboutFirstBar d-flex">
-                        <div className="firstBarHalfFeaturesAbout">
+            <div className="ourFeatuesCapabilitiesFirstBar d-flex">
+                        <div className="firstBarHalfFeaturesCapabilities">
                             <h3>10,750 SqFt</h3>
                             <h5>Production facility.</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero accumsan nisi dignissim feugiat. 
                             Vestibulum mollis, justo sed vulputate fermentum, augue dolor facilisis erat, sed venenatis mi velit ac enim.</p>
                             
                         </div>
-                        <div className="secondBarHalfFeaturesAbout">
-                            <img src={icCarousel1} />
+                        <div className="secondBarHalfFeaturesCapabilities">
+                            <img src={icCarousel2} />
                         </div>
                     </div>
 
@@ -57,10 +62,10 @@ class OurCapabilities extends Component{
                 <div className="left">
 
                     <div className="secondBarHalfFeaturesAbout">
-                        <img src={icCarousel1} />
+                        <img src={icCarousel2} />
                     </div>
 
-                    <div className="firstBarHalfFeaturesAbout">
+                    <div className="firstBarHalfFeaturesCapabilities">
                         <h3>50</h3>
                         <h5>Projects per month.</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero accumsan nisi dignissim feugiat. 
@@ -74,14 +79,14 @@ class OurCapabilities extends Component{
                 </div>
 
                 <div className="right">
-                    <div className="firstBarHalfFeaturesAbout">
+                    <div className="firstBarHalfFeaturesCapabilities">
                         <h3>20</h3>
                         <h5>Years of experience.</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero accumsan nisi dignissim feugiat. 
                             Vestibulum mollis, justo sed vulputate fermentum, augue dolor facilisis erat, sed venenatis mi velit ac enim.</p>    
                     </div>
                     <div className="secondBarHalfFeaturesAbout">
-                        <img src={icCarousel1} />
+                        <img src={icCarousel2} />
                     </div>
                 </div>
             </div>
@@ -95,19 +100,19 @@ class OurCapabilities extends Component{
                 <div className="firstSection">
 
                     <div className="firstImage">
-                            <img src={icCarousel1} />
-                        <div className="firstBarHalfFeaturesAbout">
+                            <img src={icCapabilities1} />
+                        <div className="firstBarHalfFeaturesCapabilities">
                             <p>Our experienced professionals will make sure your idea is transformed into precise drawings.</p>    
                         </div>
                     </div>
                     <div className="secondImage">
-                            <img src={icCarousel1} />
+                            <img src={icCapabilities2} />
                         <div className="firstBarHalfFeaturesAbout">
                             <p>Since every material is pre-inspected and kept in our facility, there is no delay for production.</p>    
                         </div>
                     </div>
                     <div className="thirdImage">
-                        <img src={icCarousel1} />
+                        <img src={icCapabilities3} />
                         <div className="firstBarHalfFeaturesAbout">
                             <p>By producing at our own facility, with high end machinery, time and budget is always in check.</p>    
                         </div>
@@ -119,8 +124,8 @@ class OurCapabilities extends Component{
                 </div>
                 <div className="thirdSection">
                     <div className="firstImage">
-                            <img src={icCarousel1} />
-                        <div className="firstBarHalfFeaturesAbout">
+                            <img src={icCapabilities4} />
+                        <div className="firstBarHalfFeaturesCapabilities">
                             <p>Installation is done with utmost precision and guidance.</p>    
                         </div>
                     </div>
@@ -128,8 +133,8 @@ class OurCapabilities extends Component{
                         <hr/>
                     </div>
                     <div className="secondImage">
-                            <img src={icCarousel1} />
-                        <div className="firstBarHalfFeaturesAbout">
+                            <img src={icCapabilities5} />
+                        <div className="firstBarHalfFeaturesCapabilities">
                             <p>After sales service will be a pleasant experience.</p>    
                         </div>
                     </div>
