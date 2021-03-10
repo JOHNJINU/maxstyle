@@ -1,6 +1,6 @@
 import {Component} from 'react';
 import '../css/Careers.css';
-import icCarousel1 from '../img/carousel_img_1.png';
+import icCareer1 from '../img/ic_career_1.png';
 import icListDot from '../img/ic_list_dot.png'
 
 class Careers extends Component{
@@ -10,7 +10,7 @@ class Careers extends Component{
             <div>
                 <h3 className="careerHeading">Careers</h3>                
                 <div className="careerBar">
-                    <img src={icCarousel1} />
+                    <img src={icCareer1} />
                     <div className="careerBarText">
                         <p className="careerBarTextContent" >If you believe you can bring more value to our team,</p>
                         <span className="careerBarTextTagLine">Send your resume to</span>

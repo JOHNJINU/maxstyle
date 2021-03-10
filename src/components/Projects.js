@@ -1,6 +1,10 @@
 import {Component} from 'react';
 import '../css/Projects.css';
 import icCarousel1 from '../img/carousel_img_1.png';
+import icCarousel2 from '../img/carousel_img_2.png';
+import icCarousel3 from '../img/carousel_img_3.png';
+import icProjects2 from '../img/ic_projects_2.png';
+import icProjects3 from '../img/ic_projects_3.png';
 
 class Projects extends Component{
 
@@ -16,7 +20,7 @@ class Projects extends Component{
                 </div>
 
                 <div className="ourWorksImageContainer">
-                   <img src={icCarousel1} />
+                   <img src={icCarousel3} />
                 </div>
 
                 {/* top banner ends */}
@@ -33,9 +37,9 @@ class Projects extends Component{
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero accumsan nisi dignissim feugiat. Vestibulum mollis, justo sed vulputate fermentum, augue dolor facilisis erat, sed venenatis mi velit ac enim.</p>
                         </div>
                         <div className="right">
-                            <img className="imageOne" src={icCarousel1} />
-                            <img className="imageTwo"  src={icCarousel1} />
-                            <img className="imageThree"  src={icCarousel1} />
+                            <img className="imageOne objectCoverImage" src={icCarousel2} />
+                            <img className="imageTwo objectCoverImage"  src={icCarousel2} />
+                            <img className="imageThree objectCoverImage"  src={icCarousel2} />
                         </div>
                     </div>
 
@@ -47,9 +51,9 @@ class Projects extends Component{
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero accumsan nisi dignissim feugiat. Vestibulum mollis, justo sed vulputate fermentum, augue dolor facilisis erat, sed venenatis mi velit ac enim.</p>
                         </div>
                         <div className="right">
-                            <img className="imageOne" src={icCarousel1} />
-                            <img className="imageTwo"  src={icCarousel1} />
-                            <img className="imageThree"  src={icCarousel1} />
+                            <img className="imageOne objectCoverImage" src={icProjects2} />
+                            <img className="imageTwo objectCoverImage"  src={icProjects2} />
+                            <img className="imageThree objectCoverImage"  src={icProjects2} />
                         </div>
                     </div>
 
@@ -61,9 +65,9 @@ class Projects extends Component{
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero accumsan nisi dignissim feugiat. Vestibulum mollis, justo sed vulputate fermentum, augue dolor facilisis erat, sed venenatis mi velit ac enim.</p>
                         </div>
                         <div className="right">
-                            <img className="imageOne" src={icCarousel1} />
-                            <img className="imageTwo"  src={icCarousel1} />
-                            <img className="imageThree"  src={icCarousel1} />
+                            <img className="imageOne objectCoverImage" src={icProjects3} />
+                            <img className="imageTwo objectCoverImage"  src={icProjects3} />
+                            <img className="imageThree objectCoverImage"  src={icProjects3} />
                         </div>
                     </div>
 
