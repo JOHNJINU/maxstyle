@@ -50,14 +50,13 @@
 }
 
 .ourFeatuesAboutFirstBar{
-    margin-top: 50px;
+    
     width: 92vw;
-    margin-left: 5vw;
     margin-right: 3vw;
 }
 
 .ourFeatuesAboutFirstBar .firstBarHalfFeaturesAbout{
-    width: 47vw;
+    width: 35vw;
 }
 
 .ourFeatuesAboutFirstBar .firstBarHalfFeaturesAbout h3{
@@ -71,10 +70,9 @@
 }
 
 .ourFeatuesAboutFirstBar .secondBarHalfFeaturesAbout img{
-    width: 53vw;
+    width: 50vw;
     height: 375px;
-    background-color: aqua;
-    padding-left: 0;
+    padding-left: 3vw;
 }
 
 .hrLineourCapabilitiesOne{
@@ -110,7 +108,7 @@
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
     margin-top: 30px;
-    line-height: 1;
+    line-height: 1.2;
     margin-left: 20px;
 }
 

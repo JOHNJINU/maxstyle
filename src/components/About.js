@@ -1,10 +1,9 @@
 import {Component} from 'react';
 import '../css/About.css';
 import icCarousel1 from '../img/carousel_img_1.png';
+import icCarousel2 from '../img/carousel_img_2.png';
 import icOfferStripBullet from '../img/ic_offer_strip_bullet.png';
 import icMechanic from '../img/ic_mechanic.png';
-
-
 import ic_requirement from '../img/ic_requirement.png';
 import ic_quotation from '../img/ic_quotation.png';
 import ic_advance from '../img/ic_advance.png';
@@ -17,6 +16,12 @@ import ic_delivery from '../img/ic_delivery.png';
 import ic_right_arrow from '../img/ic_right_arrow.png';
 import ic_down_arrow from '../img/ic_down_arrow.png';
 import ic_left_arrow from '../img/ic_left_arrow.png';
+
+
+import ic_about_1 from '../img/ic_about_1.png';
+import ic_about_2 from '../img/ic_about_2.png';
+import ic_about_3 from '../img/ic_about_3.png';
+import ic_about_4 from '../img/ic_about_4.png';
 
 class About extends Component{
 
@@ -42,7 +47,7 @@ class About extends Component{
                 <div className="topQuadrantSecondBarAbout d-flex">
                    
                     <div className="secondBarHalfAbout">
-                        <img src={icCarousel1} />
+                        <img src={icCarousel2} />
                     </div>
                     <div className="firstBarHalfAbout">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero accumsan nisi dignissim feugiat. 
@@ -183,18 +188,17 @@ class About extends Component{
                     <div className="ourFeatuesAboutFirstBar d-flex">
                         <div className="firstBarHalfFeaturesAbout">
                             <h3><span className="firstCapitalFeatureAbout">U</span>nique design</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero accumsan nisi dignissim feugiat. 
-                            Vestibulum mollis, justo sed vulputate fermentum, augue dolor facilisis erat, sed venenatis mi velit ac enim.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus nisl quis diam cursus, nec ultricies ligula aliquam. Mauris vel purus in nibh sollicitudin porta eu vitae eros. Proin pulvinar tellus nulla, eu pharetra est viverra quis.</p>
                             <button type="button" className="btn btn-primary readMoreButton">READ MORE</button>
                         </div>
                         <div className="secondBarHalfFeaturesAbout">
-                            <img src={icCarousel1} />
+                            <img src={ic_about_1} />
                         </div>
                     </div>
 
                     <div className="ourFeatuesAboutSecondBar d-flex">
                         <div className="secondBarHalfFeaturesAbout">
-                            <img src={icCarousel1} />
+                            <img src={ic_about_2} />
                         </div>
                         <div className="firstBarHalfFeaturesAbout">
                             <h3><span className="firstCapitalFeatureAbout">T</span>op-notch materials</h3>
@@ -212,13 +216,13 @@ class About extends Component{
                             <button type="button" className="btn btn-primary readMoreButton">READ MORE</button>
                         </div>
                         <div className="secondBarHalfFeaturesAbout">
-                            <img src={icCarousel1} />
+                            <img src={ic_about_3} />
                         </div>
                     </div>
 
                     <div className="ourFeatuesAboutSecondBar d-flex" id="ourFeatuesAboutFourthBar">
                         <div className="secondBarHalfFeaturesAbout">
-                            <img src={icCarousel1} />
+                            <img src={ic_about_4} />
                         </div>
                         <div className="firstBarHalfFeaturesAbout">
                             <h3><span className="firstCapitalFeatureAbout">H</span>igh end machineries</h3>

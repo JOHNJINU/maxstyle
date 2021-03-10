@@ -8,6 +8,10 @@ import icLogoWhyToChoose from '../img/icLogoWhyToChoose.png';
 import icTestimonialPerson1 from '../img/ic_person_1.png';
 import icTestimonialPerson2 from '../img/ic_person_2.png';
 import icIso from '../img/ic_iso.png';
+import icHome2 from '../img/ic_home_2.png';
+import icHome3 from '../img/ic_home_3.png';
+import icHome4 from '../img/ic_home_4.png';
+import icHome5 from '../img/ic_home_5.png';
 
 
 class Home extends Component{
@@ -86,7 +90,7 @@ class Home extends Component{
 <div className="secondBar d-flex row-fluid no-gutters">
    
     <div className="secondHalf col-6">
-        <img src={icCarousel2}/>
+        <img src={icHome2}/>
     </div>
     <div className="firstHalf position-relative col-6">
         <h4 className="text-center">Our quality measures</h4>
@@ -109,13 +113,13 @@ class Home extends Component{
 
 <div className="firstColumn col-8 ">
         <div className="position-relative">
-            <img src={icCarousel1} className="w-50" />
+            <img src={icHome3} className="w-50 objectCoverImage" />
             <h4 className="position-absolute"  >IMPORTED GOODS</h4>
             <p className="position-absolute" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero accumsan nisi dignissim feugiat.</p>
             <button type="button" className="btn btn-primary getEstimateButton position-absolute" >EXPLORE</button>
         </div>
         <div className="position-relative">
-            <img src={icCarousel2} className="w-50" />
+            <img src={icHome4} className="w-50 objectCoverImage" />
             <h4 className="position-absolute">FINEST DETAILING</h4>
             <p className="position-absolute"  >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero accumsan nisi dignissim feugiat.</p>
             <button type="button" className="btn btn-primary getEstimateButton position-absolute" >EXPLORE</button>
@@ -123,7 +127,7 @@ class Home extends Component{
 </div>
 <div className="seondColumn col-4 ">
         <div className="position-relative">
-        <img src={icCarousel1} className="w-100"/>
+        <img src={icHome5} className="w-100 objectCoverImage"/>
             <h4>COST EFFICIENT</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero accumsan nisi dignissim feugiat.</p>
             <button type="button" className="btn btn-primary getEstimateButton position-absolute" style= { {bottom:'0px', left:'0px'} }>EXPLORE</button>

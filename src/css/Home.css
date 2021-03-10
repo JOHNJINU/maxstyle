@@ -294,3 +294,7 @@ font-family: 'Roboto', sans-serif;
     font-size: 15px;
     padding: 12px 8px;
 }
+
+.objectCoverImage{
+    object-fit: cover;
+}
