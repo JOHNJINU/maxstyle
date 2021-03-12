@@ -34,21 +34,21 @@ class Home extends Component{
     <div class="carousel-item active">
       <img src={icCarousel1} class="d-block w-100" alt="..." />
       <div className="blackOverlayCarousel" ></div>
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-md-block">
         <h5>Turn your interior into masterpiece.</h5>
       </div>
     </div>
     <div class="carousel-item">
       <img src={icCarousel1} class="d-block w-100" alt="..." />
       <div className="blackOverlayCarousel" ></div>
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-md-block">
         <h5>Create Memories</h5>
       </div>
     </div>
     <div class="carousel-item">
       <img src={icCarousel1} class="d-block w-100" alt="..." />
       <div className="blackOverlayCarousel" ></div>
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-md-block">
         <h5>Precise and artistic</h5>
       </div>
     </div>
@@ -161,6 +161,8 @@ class Home extends Component{
     <button type="button" className="btn btn-primary getEstimateButton " id="viewAllTestimonialsButton" >View All</button>
 
 </div>
+
+
 
 {/* customer experience ends */}
 

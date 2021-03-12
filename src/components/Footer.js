@@ -19,8 +19,8 @@ class Footer extends Component{
                     <div className="patternLogoContainerImages d-flex">
                         <img src={icDotPattern} id="icPattern" className="d-block"/>
                         <div className="d-flex flex-column">
-                        <p className="fromText">from</p>    
-                        <img src={icLogo} id="icAstiea" className="d-block"/>
+                            <p className="fromText">from</p>    
+                            <img src={icLogo} id="icAstiea" className="d-block"/>
                         </div>
                     </div>
 

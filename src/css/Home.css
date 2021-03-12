@@ -301,28 +301,19 @@ font-family: 'Roboto', sans-serif;
 
 
 @media (max-width: 1279.98px){
-    body{
-        background-color: red;
-    }
+  
 }
 
 @media (max-width: 991.98px){
-    body{
-        background-color: green;
-    }
+    
 }
 
 @media (max-width: 767.98px){
-    body{
-        background-color: blue;
-    }
+   
 }
 
 @media (max-width: 575.98px){
 
-    body{
-        background-color: violet;
-    }
     .firstBar{
         display: flex;
         flex-direction: column;
@@ -368,7 +359,7 @@ font-family: 'Roboto', sans-serif;
     }
 
     .whyToChooseContent img{
-        width: 100vw !important;
+        width: 70vw !important;
     }
 
     .whyToChooseContent .seondColumn {
@@ -387,4 +378,73 @@ font-family: 'Roboto', sans-serif;
         font-size: 20px;
     }
 
+    .prevIconContainer{
+        background-color:#FFD700;
+        width: 30px;
+        height: 50px;
+        z-index: -1;
+    }
+
+    .whyToChooseContent{
+        padding: 0;
+    }
+    .carousel{
+        height: 400px;
+    }
+    .carousel-item img {
+        height: 400px;
+    }
+
+    .offerBoardCarousel{
+        width: 80vw;
+        display: none;
+    }
+
+    .innerBoxofferBoardCarousel h5 br{
+        display: none;
+    }
+    .innerBoxofferBoardCarousel h5 {
+        margin-top: 1%;
+    }
+
+    .innerBoxofferBoardCarousel button {
+        position: static;
+        margin-left: auto;
+    }
+
+    .offerBoardCarousel{
+        height: 200px;
+    }
+    .innerBoxofferBoardCarousel {
+        height: 76%;
+    }
+    .carousel-caption {
+        margin-bottom: 150px;
+        left: 0; 
+        right: 0;
+    }
+    .carousel-indicators {
+        left: 0; 
+        right: 0;
+    }
+
+    #downloadBrochureButton {
+        right: 1%;
+        bottom: 8px;
+    }
+
+    .firstBar .firstHalf h4 {
+        margin-top: 35px;
+    }
+
+    .firstBar .firstHalf span {
+        margin-left: 70px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .firstBar .firstHalf img {
+        top: 110px;
+        left: 305px;
+    }
 }
