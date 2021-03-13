@@ -310,3 +310,139 @@
     margin-left: 0px;
     width: 28%;
 }
+
+@media (max-width: 1279.98px){
+  
+}
+
+@media (max-width: 991.98px){
+    
+}
+
+@media (max-width: 767.98px){
+   
+}
+
+@media (max-width: 575.98px){
+    .topQuadrantAbout {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .topQuadrantFirstBarAbout,.topQuadrantSecondBarAbout {
+        height: auto; 
+        display: flex;
+    }
+
+    .topQuadrantFirstBarAbout {
+        flex-direction: column;
+    }
+    .topQuadrantSecondBarAbout {
+        flex-direction: column-reverse;
+    }
+
+    .topQuadrantFirstBarAbout .firstBarHalfAbout,
+    .topQuadrantSecondBarAbout .firstBarHalfAbout {
+        width: auto;
+    }
+   
+    .topQuadrantFirstBarAbout .secondBarHalfAbout img,
+    .topQuadrantSecondBarAbout .secondBarHalfAbout img {
+        width: 100vw;
+        height: 370px;
+    }
+
+
+    .offerStripAbout {
+        height: auto; 
+    }
+
+    .innerOfferStripAbout{
+        flex-direction: column;
+    }
+
+    .innerOfferStripAbout img{
+        width: 10px;
+        height: 10px;
+    }
+    .innerOfferStripAbout h5{
+        margin-top: -19px;
+        margin-left: 35px;
+    }
+
+    .innerOfferStripAbout button {
+        width: 30vw;
+        margin-left: auto;
+    }
+
+    .processContainerAbout h3 {
+        font-size: 30px;
+    }
+
+    .processParaInAbout {
+        font-size: 23px;
+    }
+    .processContainerAbout .bannerContainerAbout {
+        width: auto;
+    }
+    .processContainerAbout .bannerContainerAbout {
+        height: auto;
+    }
+    .innerBoxbannerContainerAbout{
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+    .innerBoxbannerContainerAbout h4 {
+        margin-top: 20px;
+    }
+
+    .innerBoxbannerContainerAbout img {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .diagramBannerContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ourFeatuesAboutTagline {
+        width: 87%;
+    }
+
+    .processContainerAbout .diagramContainerAbout {
+        width: 90vw;
+        height: auto;
+        margin-top: 50px;
+        padding-right: 0%;
+    }
+
+    .ourFeatuesAbout {
+        padding: 5vw;
+    }
+
+    .ourFeatuesAboutFirstBar{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .ourFeatuesAboutSecondBar {
+        display: flex;
+        flex-direction: column;
+    }
+    .ourFeatuesAboutFirstBar .secondBarHalfFeaturesAbout img{
+        width: 90vw;
+        padding-left: 0px;
+    }
+    .ourFeatuesAboutFirstBar .firstBarHalfFeaturesAbout {
+         width: auto; 
+    }
+
+    .ourFeatuesAboutSecondBar .secondBarHalfFeaturesAbout img {
+        width: 90vw;
+        padding-right: 0px;
+    }
+    .ourFeatuesAboutSecondBar .firstBarHalfFeaturesAbout {
+        width: auto;
+    }
+}
