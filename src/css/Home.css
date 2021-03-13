@@ -348,6 +348,7 @@ font-family: 'Roboto', sans-serif;
 
     .whyToChooseContent h4{
         left: 0px;
+        margin-top: 25px;
     }
 
     .whyToChooseContent p{
@@ -359,7 +360,7 @@ font-family: 'Roboto', sans-serif;
     }
 
     .whyToChooseContent img{
-        width: 70vw !important;
+        width: 96vw !important;
     }
 
     .whyToChooseContent .seondColumn {
@@ -368,10 +369,12 @@ font-family: 'Roboto', sans-serif;
     .customerExperienceList{
         display: flex;
         flex-direction: column-reverse;
+        margin-top: 0px;
     }
 
     .customerExperienceList div{
         width: 100%;
+        margin-top: 20px;
     }
 
     .customerExperienceList p {
@@ -447,4 +450,61 @@ font-family: 'Roboto', sans-serif;
         top: 110px;
         left: 305px;
     }
+
+
+    .secondBar .firstHalf h4{
+        margin-top: 35px;
+    }
+
+    .secondBar .firstHalf span {
+        margin-left: 70px;
+        margin-bottom: 30px;
+    }
+
+    .secondBar .firstHalf img {
+        top: 115px;
+        left: 345px;
+    }
+
+    .firstColumn div{
+        display: flex;
+        flex-direction: column;
+        position: static !important;
+        height: auto;
+    }
+
+    .firstColumn div img,
+    .firstColumn div h4,
+    .firstColumn div p, 
+    .firstColumn div button
+    {
+        position: static !important;
+    }
+    .firstColumn div button
+    {
+        width: 30vw;
+    }
+
+    .seondColumn div {
+        margin-top: 0px;
+        height: auto;
+    }
+
+    .seondColumn div button {
+        position: static !important;
+    }
+
+    .whyToChooseContainer .tagLine {
+        font-size: 26px;
+    }
+
+    .whyToChooseContainer img {
+        width: 214px;
+        height: 91px;
+    }
+
+    .firstColumn div {
+        margin: 20px 10px 50px 10px;
+    }
+
 }
