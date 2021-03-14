@@ -95,3 +95,50 @@
     height: 420px;
     object-fit: cover;
 }
+
+@media (max-width: 1279.98px){
+  
+}
+
+@media (max-width: 991.98px){
+    
+}
+
+@media (max-width: 767.98px){
+   
+}
+
+@media (max-width: 575.98px){
+    .contactUsTopPortionText .firstBarHalfAbout {
+        padding: 50px 42px 25px 30px;
+    }
+    .contactUsTopPortionText .firstBarHalfAbout p {
+        margin-top: 25px;
+    }
+    .typingFieldContainer {
+        width: 90vw;
+        height: auto;
+        top: 0px;
+        left: 5vw;
+        margin: 30px auto;
+    }
+    .contactUsTopPortionText .secondBarHalfAbout img {
+        height: auto;
+    }
+    .enquirySectionContainer {
+        height: 800px;
+        margin-top: 15px;
+    }
+
+    .addressCardContainer {
+        margin: 0px 0px 50px 0px;
+    }
+    .contactUsTopPortionText {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .generalEnquiryText {
+         width: auto;
+        }
+}
