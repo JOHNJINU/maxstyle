@@ -82,3 +82,34 @@
     margin-right: 20px;
     width: 16px;
 }
+
+@media (max-width: 1279.98px){
+  
+}
+
+@media (max-width: 991.98px){
+    
+}
+
+@media (max-width: 767.98px){
+   
+}
+
+@media (max-width: 575.98px){
+    .careerBar {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 100px;
+    }
+    .careerBar img {
+        width: 100vw;
+        height: auto;
+    }
+    .careerBarTextContent {
+        margin: 65px 50px 50px 65px;
+    }
+    .currentJobOpeningLine {
+        margin-top: 40px;
+    }
+}
