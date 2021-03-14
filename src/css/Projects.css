@@ -101,3 +101,59 @@
 .secondItem, .thirdItem{
     margin-top: 30px;
 }
+
+@media (max-width: 1279.98px){
+  
+}
+
+@media (max-width: 991.98px){
+    
+}
+
+@media (max-width: 767.98px){
+   
+}
+
+@media (max-width: 575.98px){
+
+    .topBannerProjects {
+        height: auto;
+        padding-left: 30px;
+        padding-top: 25px;
+    }
+    .ourWorksImageContainer {
+        position: static;
+    }
+    .topBannerProjectsDescription {
+        width: auto;
+        margin-top: 20px;
+        padding-bottom: 50px;
+    }
+    .ourWorksImageContainer img {
+        width: 100vw;
+    }
+    .projectListItemsContainer {
+        padding: 50px 15px 30px 30px;
+    }
+    .projectListItemsContainer .listItemOne {
+        flex-direction: column;
+    }
+    .projectListItemsContainer .listItemOne .right .imageOne {
+        width: 55vw;
+        height: 200px;
+    }
+    .projectListItemsContainer .listItemOne .right .imageTwo {
+        width: 35vw;
+        height: 105px;
+        top: 270px;
+    }
+    .projectListItemsContainer .listItemOne .right .imageThree {
+        width: 35vw;
+        height: 93px;
+        top: 377px;
+    }
+
+    .projectListItemsContainer .listItemOne .left {
+        width: auto;
+    }
+}
