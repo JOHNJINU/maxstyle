@@ -49,13 +49,13 @@ class Contact extends Component{
 
                 <div className="addressCardContainer">
                     <div className="firstRow">
-                        <AddressCard header="CORPORATE OFFICE, DUBAI" address={<>Dubai, UAE<br></br>Address Line 1 <br></br>Address Line 2<br></br>Address Line 3</>} phone="Phone: +971 123456780" />  
+                        <AddressCard header="CORPORATE OFFICE, UAE" address={<>Dubai, UAE<br></br>Address Line 1 <br></br>Address Line 2<br></br>Address Line 3</>} phone="Phone: +971 123456780" locationUrl="https://goo.gl/maps/KjuxVwMttrqdSnUR7" />  
                         {/* direct html string wont be rendered as JSX so we send props like this inside empty tags fragment can be used but i didnt may be we have to import it,  */}
-                        <AddressCard header="DUBAI" address={<>Dubai, UAE<br></br>Address Line 1 <br></br>Address Line 2<br></br>Address Line 3</>} phone="Phone: +971 123456780" />  
+                        <AddressCard header="DUBAI" address={<>Dubai, UAE<br></br>Address Line 1 <br></br>Address Line 2<br></br>Address Line 3</>} phone="Phone: +971 123456780" locationUrl="https://goo.gl/maps/KjuxVwMttrqdSnUR7" />  
                     </div>
                     <div className="firstRow">
-                        <AddressCard header="ALAPPUZHA" address={<>Dubai, UAE<br></br>Address Line 1 <br></br>Address Line 2<br></br>Address Line 3</>} phone="Phone: 123456780" />  
-                        <AddressCard header="ALAPPUZHA, WAREHOUSE:" address={<>Dubai, UAE<br></br>Address Line 1 <br></br>Address Line 2<br></br>Address Line 3</>} phone="Phone: 123456780" />  
+                        <AddressCard header="CORPORATE OFFICE, KERALA" address={<>Dubai, UAE<br></br>Address Line 1 <br></br>Address Line 2<br></br>Address Line 3</>} phone="Phone: 123456780" locationUrl="https://goo.gl/maps/KjuxVwMttrqdSnUR7"  />  
+                        <AddressCard header="FACTORY" address={<>Dubai, UAE<br></br>Address Line 1 <br></br>Address Line 2<br></br>Address Line 3</>} phone="Phone: 123456780" locationUrl="https://goo.gl/maps/KjuxVwMttrqdSnUR7"  />  
                     </div>
                 </div>
 

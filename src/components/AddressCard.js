@@ -15,7 +15,7 @@ class AddressCard extends Component {
                 <div className="body">
                     <p className="address">{this.props.address}</p>
                     <p className="phone">{this.props.phone} </p>
-                    <a className="locationBlock" href="#"><div><img src={icLocation} /> LOCATION MAP  </div></a>
+                    <a className="locationBlock" href={this.props.locationUrl} target="_blank" ><div><img src={icLocation} /> LOCATION MAP  </div></a>
                 </div>
                 <hr className="locationUnderline"/>
             </div>

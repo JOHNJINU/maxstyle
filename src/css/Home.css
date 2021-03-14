@@ -202,15 +202,15 @@ font-family: 'Roboto', sans-serif;
     height: 13px;
     border-radius: 100%;
     opacity: 1;
-    border: 4px solid #ffffff;
-    background-color: #ffffff00;
+    border: 0px solid #ffffff;
+    background-color: #ffffff9d;
     margin: 0px 20px 60px;
   }
 
 .carousel-indicators .active{
 
-    border: 4px solid orange;
-    background-color: #FFD700;
+    border: 0px solid orange;
+    background-color: #F9E0AE;
 }  
 
 .blackOverlayCarousel{
