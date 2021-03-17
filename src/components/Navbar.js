@@ -30,26 +30,26 @@ class Navbar extends Component{
     // Navigation item click listener
     let nav = document.querySelector("nav");
 
-    nav.addEventListener("click", (e)=>{
+    // nav.addEventListener("click", (e)=>{
 
-      let navAnchor = document.querySelectorAll(".navbar-nav a");
-      console.log(navAnchor);
+    //   let navAnchor = document.querySelectorAll(".navbar-nav a");
+    //   console.log(navAnchor);
 
-      for(let n of navAnchor){
-        n.classList.remove("active");
-      }
+    //   for(let n of navAnchor){
+    //     n.classList.remove("active");
+    //   }
      
 
-      if(e.target.tagName == "A"){
-        //alert('hello');
+    //   if(e.target.tagName == "A"){
+    //     //alert('hello');
 
-        if( ! e.target.classList.contains("active") ) {
-          console.log(" no active class present");
-          e.target.classList.add("active");
-        }
+    //     if( ! e.target.classList.contains("active") ) {
+    //       console.log(" no active class present");
+    //       e.target.classList.add("active");
+    //     }
 
-      }
-    });  
+    //   }
+    // });  
   }
 
 
@@ -83,7 +83,7 @@ class Navbar extends Component{
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item">
-             <NavLink className="nav-link" to="/">HOME</NavLink>
+             <NavLink className="nav-link" exact to="/">HOME</NavLink>
           </li>
           <li className="nav-item">
             <NavLink className="nav-link" to="/about">ABOUT US</NavLink>
