@@ -37,7 +37,9 @@
     font-size: 1.5rem;
   }
 
-  .typingFieldContainer input[type=text],textarea{
+  .typingFieldContainer input[type=text],
+  .typingFieldContainer input[type=email],
+  textarea{
       width: 100%;
       margin-top: 30px;
       background-color: #00000010;
@@ -95,6 +97,21 @@
     height: 420px;
     object-fit: cover;
 }
+
+.enquiryStatusMessage {
+    position: absolute;
+}
+.statusSuccess{
+    background-color: white;
+    color: green ;
+    font-size: 30px ;
+  }
+
+  .statusFailure{
+    color: red;
+    font-size: 20px;
+    position: absolute
+  }
 
 @media (max-width: 1279.98px){
   
