@@ -52,7 +52,7 @@ class Contact extends Component{
             projectLocation:this.state.projectLocation,
             message:this.state.message
         }
-        axios.post("http://192.168.64.2/maxstylebackend/customerEnquiry.php", estimateData).then(response => {
+        axios.post("http://192.168.64.2/admin/customerEnquiry.php", estimateData).then(response => {
 
         console.log(response);
 
