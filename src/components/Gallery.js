@@ -8,7 +8,39 @@ import icCarousel3 from '../img/carousel_img_3.png';
 import icProjects2 from '../img/ic_projects_2.png';
 import icProjects3 from '../img/ic_projects_3.png';
 
+import axios from 'axios';
+
 class Gallery extends Component{
+
+    
+    constructor(props) {
+        super(props);
+        this.state = {
+            arrayOfImages: []
+        };
+    }
+    getUsersData() {
+        axios
+            .get("http://192.168.64.2/maxstylebackend/getGalleryImages.php")
+            .then(res => {
+                this.setState({arrayOfImages:res.data})
+
+            })
+            .catch((error) => {
+                console.log(error)
+            })
+
+    }
+    componentDidMount(){
+        this.getUsersData()
+    }
+
+    renderItems() {
+        return this.state.arrayOfImages.map((item) => (
+            <li><img src= { "http://192.168.64.2/maxstylebackend/gallery_images/" + item } /> </li>
+        ));
+    }
+
 
     render(){
         return(
@@ -37,13 +69,15 @@ class Gallery extends Component{
 
                 {/* gallery image container starts */}
                 
+                
+                
                 <div className="galleryImageContainer">
-                    <img loading="lazy" src={icProjects3}/>
-                    <img loading="lazy"  src={icCarousel2}/>
-                    <img  loading="lazy" src={icCarousel3}/>
-                    <img  loading="lazy" src={icProjects2}/>
-                    <img  loading="lazy" src={icGallery1}/>
-                    <img  loading="lazy" src={icCarousel1}/>
+
+                   { this.state.arrayOfImages.map((item) => (
+                        <img loading="lazy" src= { "http://192.168.64.2/maxstylebackend/gallery_images/" + item } /> 
+                         ))
+                   }
+
                 </div>
 
                 {/* gallery image container ends */}

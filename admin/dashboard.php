@@ -1,6 +1,6 @@
 <?php
 
-include('auth.php');
+include('config/auth.php');
 include('config/db_connect.php');
 
 $estimateListSql = "SELECT * FROM get_estimate"; 
@@ -53,6 +53,11 @@ mysqli_close($conn);
         <a href="enquiryList.php" class="cta admin-cta mx-auto mt-4 text-left"
                 ><img src="img/ic_enquiry.png" alt="" />
                 <span class="cta-number">Enquiry works</span>
+        </a>
+
+        <a href="uploadImage.php" class="cta admin-cta mx-auto mt-4 text-left"
+                ><img src="img/ic_upload.png" alt="" />
+                <span class="cta-number">Upload Images </span>
         </a>
     </div>
 
