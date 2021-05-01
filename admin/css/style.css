@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,600");
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
-
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -285,6 +285,7 @@ section {
 .dashboard_items{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 20px;
 }
@@ -297,4 +298,109 @@ section {
 
 .power_button {
   width: 28px;
+}
+
+.table_offers{
+  margin: 1% 6% 1% 6%;
+  width: 90vw;
+}
+
+.headingOffers{
+  display: inline-block;
+  margin-left: 6%;
+  margin-top: 50px;
+}
+
+.addOfferForm{
+  margin-left: 6%;
+}
+
+.addOfferForm input[type="text"]  {
+  display: block;
+  margin-top: 20px;
+  width: 90vw;
+}
+
+.descriptionBox{
+  height: 10vw;
+  width: 90vw;
+  margin-top: 10px;
+}
+
+.saveButton {
+  display: block;
+  margin-left: auto;
+  margin-right: 4vw;
+  width: 10vw;
+}
+/* switch style  */
+input.visibility-switch {
+  position: relative;
+  -webkit-appearance: none;
+  outline: none;
+  width: 50px;
+  height: 30px;
+  background-color: #fff;
+  border: 1px solid #D9DADC;
+  border-radius: 50px;
+  box-shadow: inset -20px 0 0 0 #fff;
+}
+
+input.visibility-switch:after {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  background: transparent;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  box-shadow: 2px 4px 6px rgba(0,0,0,0.2);
+}
+
+input.visibility-switch:checked {
+  box-shadow: inset 20px 0 0 0 #4ed164;
+  border-color: #4ed164;
+}
+
+input.visibility-switch:checked:after {
+  left: 20px;
+  box-shadow: -2px 4px 3px rgba(0,0,0,0.05);
+}
+
+.visibility_switch_container{
+  display: flex;
+  padding-top: 15px;
+}
+
+.publish_status{
+  font-size: 14px;
+  margin: 5px 10px;
+}
+
+.fix-table-height{
+  max-height:500px;
+}
+.row_height_limiter{
+  height: 80px;
+  overflow: scroll; 
+}
+
+th{
+  padding-left: 20px !important;
+}
+/* switch style ends */
+
+.edit_delete_container{
+margin: 10px;
+text-align: right;
+width: auto;
+}
+.edit_delete_container img {
+  margin-left: 20px;
+}
+
+.gallery_image_thumbnail{
+  width: 300px !important;
+
 }

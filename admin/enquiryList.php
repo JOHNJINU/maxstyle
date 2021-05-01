@@ -1,5 +1,5 @@
 <?php
- include('auth.php');
+ include('config/auth.php');
 include('config/db_connect.php');
 
 
@@ -32,11 +32,11 @@ mysqli_close($conn);
 
 <header>
         <div class="logo-container admin-logo">
-          <img src="img/ic_company_logo.png" alt="logo" class="logo" />
+        <a href="dashboard.php"><img src="img/ic_company_logo.png" alt="logo" class="logo" /></a>
         </div>
 
         <a href="logout.php" class="admin-logout"
-              ><img src="img/ic_log_out.png" alt="" />
+              ><img class="power_button" src="img/ic_log_out.png" alt="" />
               <span class="cta-number admin-logout-span mt-2">Logout</span>
         </a>
  </header>

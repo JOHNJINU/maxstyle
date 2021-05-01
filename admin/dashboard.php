@@ -59,6 +59,11 @@ mysqli_close($conn);
                 ><img src="img/ic_upload.png" alt="" />
                 <span class="cta-number">Upload Images </span>
         </a>
+
+        <a href="addLatestOffers.php" class="cta admin-cta mx-auto mt-4 text-left"
+                ><img src="img/ic_upload.png" alt="" />
+                <span class="cta-number">Add Latest Offers </span>
+        </a>
     </div>
 
  </div>
