@@ -7,6 +7,23 @@
     width: 14px;
 }
 
+.headerOfferStrip {
+    background : #cca56b;
+    color: #ffffff;
+    width: auto;
+    margin: 0 auto;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.offers_link_header:link {
+    text-decoration: none;
+}
+
+.headerOfferStrip img{
+    width: 20px;
+}
+
 nav{
     background-color: #ffffff;
 }

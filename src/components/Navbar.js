@@ -10,6 +10,7 @@
     BrowserRouter,
     Switch,
     Route,
+    Link,
     NavLink,
   } from 'react-router-dom';
 
@@ -24,34 +25,6 @@ class Navbar extends Component{
 
     this.toggleEstimatePopupVisibility = this.toggleEstimatePopupVisibility.bind(this);
   }
-
-  componentDidMount () {
-
-    // Navigation item click listener
-    let nav = document.querySelector("nav");
-
-    // nav.addEventListener("click", (e)=>{
-
-    //   let navAnchor = document.querySelectorAll(".navbar-nav a");
-    //   console.log(navAnchor);
-
-    //   for(let n of navAnchor){
-    //     n.classList.remove("active");
-    //   }
-     
-
-    //   if(e.target.tagName == "A"){
-    //     //alert('hello');
-
-    //     if( ! e.target.classList.contains("active") ) {
-    //       console.log(" no active class present");
-    //       e.target.classList.add("active");
-    //     }
-
-    //   }
-    // });  
-  }
-
 
  toggleEstimatePopupVisibility(){
 
@@ -112,6 +85,7 @@ class Navbar extends Component{
       </div>
     </nav>
 
+    
     {this.state.isEstimatePopupVisible && <GetEstimateModal closeBtnClickChild={this.toggleEstimatePopupVisibility} /> }
         
     </>

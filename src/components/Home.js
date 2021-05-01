@@ -12,16 +12,50 @@ import icHome2 from '../img/ic_home_2.png';
 import icHome3 from '../img/ic_home_3.png';
 import icHome4 from '../img/ic_home_4.png';
 import icHome5 from '../img/ic_home_5.png';
-
+import {
+  Link
+} from 'react-router-dom';
+import icOfferHome from '../img/ic_offer_home.png';
+import axios from 'axios';
 
 class Home extends Component{
+
+
+  componentDidMount(){
+
+    this.checkIfAnyOfferIsPresent();
+  }
+
+  checkIfAnyOfferIsPresent(){
+
+    // if number of rows greater than or equal to 1 
+    // then show this offerstrip
+
+    let checkOfferStrip = document.querySelector(".offers_link_header");
+
+    axios.get("http://192.168.64.2/admin/api/checkIfAnyOfferPresent.php")
+    .then( res => {
+        if(res.data.length >= 1){
+          checkOfferStrip.style.display = 'block';
+
+        }else{
+          checkOfferStrip.style.display = 'none';
+        }
+    })
+  }
 
    render(){
 
     return(
 
         <div>
-            
+              <div>
+              <Link to='/offers' className="offers_link_header" >
+                <div className="headerOfferStrip text-center" >
+                Check out the latest offers <img src={icOfferHome} />
+                </div> 
+                </Link>
+              </div>
 
         {/* carousel starts */}
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">

@@ -9,6 +9,7 @@ import Gallery from './components/Gallery';
 import Careers from './components/Careers';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Offers from './components/Offers'
 import {
   BrowserRouter,
   Switch,
@@ -46,6 +47,9 @@ function App() {
         </Route>
         <Route path="/contact">
           <Contact/>
+        </Route>
+        <Route path="/offers">
+          <Offers/>
         </Route>
       </Switch>
 

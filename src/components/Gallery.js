@@ -21,10 +21,9 @@ class Gallery extends Component{
     }
     getUsersData() {
         axios
-            .get("http://192.168.64.2/maxstylebackend/getGalleryImages.php")
+            .get("http://192.168.64.2/admin/api/getGalleryImages.php")
             .then(res => {
-                this.setState({arrayOfImages:res.data})
-
+               this.setState({arrayOfImages:res.data})
             })
             .catch((error) => {
                 console.log(error)
@@ -34,13 +33,6 @@ class Gallery extends Component{
     componentDidMount(){
         this.getUsersData()
     }
-
-    renderItems() {
-        return this.state.arrayOfImages.map((item) => (
-            <li><img src= { "http://192.168.64.2/maxstylebackend/gallery_images/" + item } /> </li>
-        ));
-    }
-
 
     render(){
         return(
@@ -69,12 +61,12 @@ class Gallery extends Component{
 
                 {/* gallery image container starts */}
                 
-                
-                
                 <div className="galleryImageContainer">
 
                    { this.state.arrayOfImages.map((item) => (
-                        <img loading="lazy" src= { "http://192.168.64.2/maxstylebackend/gallery_images/" + item } /> 
+                           
+                        <img loading="lazy" src= {"http://192.168.64.2/admin/gallery_images/" + item.filename}  /> 
+                       
                          ))
                    }
 
