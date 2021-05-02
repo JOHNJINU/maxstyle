@@ -24,6 +24,24 @@ class Navbar extends Component{
     };
 
     this.toggleEstimatePopupVisibility = this.toggleEstimatePopupVisibility.bind(this);
+  
+  }
+
+  componentDidMount(){
+    const navUl = document.querySelector('.navbar-nav');
+    const menuToggle = document.getElementById('navbarNav');
+
+    navUl.addEventListener('click', (e)=>{
+
+      if(e.target.className === "nav-link"){
+        console.log("hello linke");
+        console.log(menuToggle.classList );
+        menuToggle.classList.toggle('show');
+        console.log(menuToggle.classList );
+      }else{
+        console.log("illa link");
+      }
+    });
   }
 
  toggleEstimatePopupVisibility(){
@@ -33,7 +51,6 @@ class Navbar extends Component{
     this.setState( state => ({
       isEstimatePopupVisible : !state.isEstimatePopupVisible
     }));
-
   }
 
   render(){
@@ -49,8 +66,8 @@ class Navbar extends Component{
 
     <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#"><img className="navBarCompanyLogo" src={icCompanyLogo} alt="" width="30" height="24"/></a>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+         <Link to='/' className="offers_link_header navbar-brand" > <img className="navBarCompanyLogo" src={icCompanyLogo} alt="" width="30" height="24"/> </Link> 
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
       <div className="collapse navbar-collapse" id="navbarNav">
@@ -59,7 +76,7 @@ class Navbar extends Component{
              <NavLink className="nav-link" exact to="/">HOME</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" to="/about">ABOUT US</NavLink>
+            <NavLink className="nav-link" to="/about" >ABOUT US</NavLink>
           </li>
           <li className="nav-item">
            <NavLink className="nav-link" to="/packages">PACKAGES</NavLink>
