@@ -32,21 +32,13 @@ class Navbar extends Component{
     const menuToggle = document.getElementById('navbarNav');
 
     navUl.addEventListener('click', (e)=>{
-
       if(e.target.className === "nav-link"){
-        console.log("hello linke");
-        console.log(menuToggle.classList );
-        menuToggle.classList.toggle('show');
-        console.log(menuToggle.classList );
-      }else{
-        console.log("illa link");
+        menuToggle.classList.toggle('show');  
       }
     });
   }
 
  toggleEstimatePopupVisibility(){
-
-  console.log("hello world");
 
     this.setState( state => ({
       isEstimatePopupVisible : !state.isEstimatePopupVisible

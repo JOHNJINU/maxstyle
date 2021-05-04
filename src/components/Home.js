@@ -109,6 +109,7 @@ class Home extends Component{
 </div>
 {/* carousel ends */}
 
+
 {/* quadrant block starts */}
 
 <div className="firstBar d-flex row-fluid">

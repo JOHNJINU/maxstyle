@@ -79,7 +79,42 @@ padding-top: 25px;
    
 }
 
-@media (max-width: 767.98px){
+@media (max-width: 767.98px) and (min-width: 576px){
+    #icPattern {
+        width: auto;
+        height: 210px;
+    }
+
+    .patternLogoContainerImages div {
+        margin-left: 30px;
+    }
+    #icAstiea {
+        height: 120px;
+        width: auto;
+    }
+    .bottomRectangle {
+        padding: 20px 0% 20px 0%;
+    }
+    .bottomRectanglefirstColumn p {
+        font-size: 20px;
+    }
+    .bottomRectangleThirdColumn{
+        margin-left: 10px;
+        padding-top: 20px;
+    }
+    .bottomRectangleThirdColumn ul{
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+    #second_ul{
+        display: inline-flex;
+        flex-wrap: wrap;
+        width: 200px;
+    }
+    .bottomRectangleSecondColumn img {
+        width: 30px;
+        margin-left: 10px; 
+    }
     
 }
 

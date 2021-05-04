@@ -56,7 +56,7 @@ class Footer extends Component{
                             <li>Packages</li>
                             <li>Capabilities</li>
                         </ul>
-                        <ul>
+                        <ul id="second_ul">
                             <li>Projects</li>
                             <li>Gallery</li>
                             <li>Careers</li>
