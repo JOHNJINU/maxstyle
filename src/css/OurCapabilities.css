@@ -337,6 +337,89 @@
    
 }
 
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 767.98px) and (min-width: 576px) {
+    .firstBarOurCapabilities .firstHalf h4 {
+        font-size: 33px;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+    .firstBarOurCapabilities .firstHalf span {
+        margin-left: 25px;
+        font-size: 20px;
+    }
+    .secondBarCapabilities .firstHalf span {
+        font-size: 20px;
+        margin-left: 35px;
+    }
+    .projectsYearsContainer .right .firstBarHalfFeaturesCapabilities h3,
+    .projectsYearsContainer .left .firstBarHalfFeaturesCapabilities h3 {
+        margin-left: 25px;
+        font-size: 33px;
+    }
+    .projectsYearsContainer .right .firstBarHalfFeaturesCapabilities h5,
+    .projectsYearsContainer .left .firstBarHalfFeaturesCapabilities h5  {
+        margin-left: 25px;
+        font-size: 22px;
+    }
+
+    .projectsYearsContainer .right .firstBarHalfFeaturesCapabilities p,
+    .projectsYearsContainer .left .firstBarHalfFeaturesCapabilities p {
+        margin-top: 20px;
+        margin-left: 25px;
+        font-size: 22px;
+    }
+    .projectsYearsContainer .center hr {
+        height: 730px;
+    }    
+    .hrLineourCapabilitiesOne {
+        width: 600px;
+    }
+    .ourFeatuesCapabilitiesFirstBar {
+        width: 100vw;
+        padding: 40px 35px 10px 35px;
+    }
+    .ourFeatuesCapabilitiesFirstBar .secondBarHalfFeaturesCapabilities img {
+        width: 50vw;
+    }
+    .ourFeatuesCapabilitiesFirstBar .firstBarHalfFeaturesCapabilities p {
+        font-size: 22px;
+    }
+    .ourFeatuesCapabilitiesFirstBar .firstBarHalfFeaturesCapabilities h5 {
+        font-size: 24px;
+    }
+    .ourFeatuesCapabilitiesFirstBar .firstBarHalfFeaturesCapabilities h3 {
+        font-size: 33px;
+    }
+    .hassleFreeTagline {
+        font-size: 26px;
+        margin-top: 24px;
+    }
+    .hassleFreeContainer {
+        margin-top: 30px;
+    }
+    .hassleFreeContainer .firstSection .firstImage p,
+    .hassleFreeContainer .firstSection .secondImage p,
+    .hassleFreeContainer .firstSection .thirdImage p  {
+        font-size: 18px;
+        margin-top: 20px;
+        text-align: left;
+    }
+    .hassleFreeContainer p {
+        font-size: 18px;
+        margin-top: 20px;
+        text-align: left;
+    }
+    .hassleFreeContainer .thirdSection .center hr {
+        height: 38vw;
+        top: 270px;
+        left: auto;
+    }
+    .hassleFreeContainer .thirdSection {
+        height: 320px;
+    }
+}
+
 @media (max-width: 575.98px){
     .firstBarOurCapabilities {
         display: flex;

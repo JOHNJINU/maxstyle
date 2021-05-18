@@ -323,6 +323,96 @@
    
 }
 
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 767.98px) and (min-width: 576px) {
+
+    .topQuadrantFirstBarAbout .firstBarHalfAbout {
+        padding: 40px 32px 5px 20px;
+    }
+    .topQuadrantFirstBarAbout .firstBarHalfAbout h4 {
+        font-size: 33px;
+    }
+    .topQuadrantFirstBarAbout .firstBarHalfAbout p {
+        font-size: 22px;
+    }
+    .topQuadrantSecondBarAbout .firstBarHalfAbout {
+        padding: 40px 32px 25px 30px;
+    }
+    .topQuadrantSecondBarAbout .firstBarHalfAbout p {
+        font-size: 22px;
+    }
+    .innerOfferStripAbout {  
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .innerOfferStripAbout h5 {
+        font-size: 18px;
+    }
+    .offerStripAbout{
+        height: auto;
+        padding: 10px;
+    }
+
+    .innerOfferStripAbout button {
+        height: auto; 
+        margin-left: 0px;
+    }
+
+    .processContainerAbout h3 {
+        font-size: 33px;
+    }
+    .processParaInAbout {
+        font-size: 26px;
+    }
+    .diagramBannerContainer {
+        flex-direction: column;
+    }
+    .processContainerAbout .diagramContainerAbout {
+        width: auto;
+    }
+    .processContainerAbout .bannerContainerAbout {
+        width: auto;
+    }
+    .innerBoxbannerContainerAbout h4 {
+        margin-top: 20px;
+    }
+    .innerBoxbannerContainerAbout img {
+        width: 185px;
+        margin-top: auto; 
+    }
+
+    .innerBoxbannerContainerAbout {
+        height: 400px;
+        margin-left: 45px;
+    }
+    
+    .processContainerAbout .bannerContainerAbout {
+        height: 450px;
+    }
+    .ourFeatuesAbout {
+        padding: 15px 35px;
+    }
+
+    .ourFeatuesAboutFirstBar .firstBarHalfFeaturesAbout {
+        width: auto;
+    }
+    .ourFeatuesAboutFirstBar .firstBarHalfFeaturesAbout h3 {
+        font-size: 33px;
+    }
+    .ourFeatuesAboutSecondBar .firstBarHalfFeaturesAbout h3 {
+        font-size: 33px;
+    }
+    .ourFeatuesAboutFirstBar .firstBarHalfFeaturesAbout p {
+        font-size: 20px;
+        margin-top: auto;
+    }
+    .ourFeatuesAboutSecondBar .firstBarHalfFeaturesAbout p {
+        font-size: 20px;
+        margin-top: auto;
+    }
+} 
+
 @media (max-width: 575.98px){
     .topQuadrantAbout {
         width: 100vw;

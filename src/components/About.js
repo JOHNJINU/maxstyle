@@ -211,8 +211,7 @@ class About extends Component{
                     <div className="ourFeatuesAboutFirstBar d-flex" id="ourFeatuesAboutThirdBar">
                         <div className="firstBarHalfFeaturesAbout">
                             <h3><span className="firstCapitalFeatureAbout">S</span>killed employees</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero accumsan nisi dignissim feugiat. 
-                            Vestibulum mollis, justo sed vulputate fermentum, augue dolor facilisis erat, sed venenatis mi velit ac enim.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero accumsan nisi dignissim feugiat. Vestibulum mollis, justo sed vulputate fermentum, augue dolor facilisis erat, sed venenatis mi velit ac enim.</p>
                             <button type="button" className="btn btn-primary readMoreButton">READ MORE</button>
                         </div>
                         <div className="secondBarHalfFeaturesAbout">

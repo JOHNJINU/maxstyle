@@ -95,6 +95,35 @@
    
 }
 
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 767.98px) and (min-width: 576px) {
+    .careerHeading {
+        margin: 30px 0px 40px 40px;
+    }
+    .careerBar {
+        height: auto;
+        flex-direction: column;
+    }
+    .careerBar img {
+        width: auto;
+        object-fit: cover;
+    }
+    .careerBarTextContent {
+        font-size: 1.2rem;
+        width: 300px;
+        margin: 65px 50px 50px 65px;
+    }
+    .currentJobOpeningLine {
+        display: none;
+    }
+    .currentJobOpeningHeading {
+        font-size: 28px;
+    }
+    .currentJobOpeningList li {
+        font-size: 22px;
+    }
+}
+
 @media (max-width: 575.98px){
     .careerBar {
         display: flex;

@@ -24,6 +24,7 @@ class Home extends Component{
   componentDidMount(){
 
     this.checkIfAnyOfferIsPresent();
+    this.dummyApi();
   }
 
   checkIfAnyOfferIsPresent(){
@@ -41,6 +42,18 @@ class Home extends Component{
         }else{
           checkOfferStrip.style.display = 'none';
         }
+    })
+
+    
+  }
+
+  dummyApi (){
+    axios.get("api/cubixitems")
+    .then( res => {
+        console.log(res);
+    })
+    .catch(e =>{
+      console.log("error is " + e);
     })
   }
 

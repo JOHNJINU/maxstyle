@@ -7,9 +7,6 @@
  import GetEstimateModal from './GetEstimateModal';
  
  import {
-    BrowserRouter,
-    Switch,
-    Route,
     Link,
     NavLink,
   } from 'react-router-dom';
