@@ -32,15 +32,12 @@
     padding: 20px 0% 20px 8%;
 }
 
-.bottomRectangleFirstColumn{
-    padding-top: 15px;
-    background-color: red;
-}
-.bottomRectanglefirstColumn p{
 
+.bottomRectanglefirstColumn p{
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
     color: #000000b0;
+    margin-top: 20px;
 }
 
 .bottomRectangleSecondColumn{
@@ -59,7 +56,7 @@ padding-top: 25px;
 }
 
 .bottomRectangleThirdColumn{
-    padding-top: 45px;
+    padding-top: 20px;
     margin-left: 40px;
 }
 
@@ -68,6 +65,22 @@ padding-top: 25px;
     margin: 0px 8px;
     font-weight: 500;
     color: #000000b0;
+}
+
+.bottomRectangleThirdColumn ul{
+    margin-bottom: 2px;
+}
+
+.noDecoration {
+    text-decoration: none !important;
+    color: #000;
+    font-size: 14px;
+}
+
+#second_ul{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 400px;
 }
 
 
@@ -105,7 +118,9 @@ padding-top: 25px;
     .bottomRectangleThirdColumn ul{
         display: inline-flex;
         flex-wrap: wrap;
+        
     }
+ 
     #second_ul{
         display: inline-flex;
         flex-wrap: wrap;

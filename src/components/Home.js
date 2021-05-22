@@ -17,6 +17,7 @@ import {
 } from 'react-router-dom';
 import icOfferHome from '../img/ic_offer_home.png';
 import axios from 'axios';
+import MyPDF from '../img/ic_gallery_1.png';
 
 class Home extends Component{
 
@@ -24,7 +25,6 @@ class Home extends Component{
   componentDidMount(){
 
     this.checkIfAnyOfferIsPresent();
-    this.dummyApi();
   }
 
   checkIfAnyOfferIsPresent(){
@@ -42,19 +42,7 @@ class Home extends Component{
         }else{
           checkOfferStrip.style.display = 'none';
         }
-    })
-
-    
-  }
-
-  dummyApi (){
-    axios.get("api/cubixitems")
-    .then( res => {
-        console.log(res);
-    })
-    .catch(e =>{
-      console.log("error is " + e);
-    })
+    }) 
   }
 
    render(){
@@ -115,10 +103,16 @@ class Home extends Component{
         <h5> 35% LESS THAN <br/> RETAIL OUTLET </h5>
         <h5> FACTORY <br/> PRODUCTION </h5>
         <h5> DIRECT INSTALLATION </h5>
-        <button type="button" className="btn btn-primary " >MORE OFFERS</button>
+
+              <div>
+                <Link to='/offers' >
+                <button type="button" className="btn btn-primary " >MORE OFFERS</button>
+                </Link>
+              </div>
+
       </div>
   </div>
-  <button type="button" className="btn btn-primary getEstimateButton" id="downloadBrochureButton" >DOWNLOAD BROCHURE</button>
+  <a type="button" className="btn btn-primary getEstimateButton" id="downloadBrochureButton" href={MyPDF} download="ic_gallery_1.png">DOWNLOAD BROCHURE</a>
 </div>
 {/* carousel ends */}
 

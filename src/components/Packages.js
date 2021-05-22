@@ -1,8 +1,27 @@
 import {Component} from 'react';
 import '../css/Packages.css';
 import ic_warranty from '../img/ic_warranty.png';
+import GetEstimateModal from './GetEstimateModal';
 
 class Packages extends Component{
+
+    constructor(props){
+        super(props);
+    
+        this.state = {
+          isEstimatePopupVisibleP : false
+        };
+    
+        this.toggleEstimatePopupVisibilityP = this.toggleEstimatePopupVisibilityP.bind(this);
+      
+      }
+
+    toggleEstimatePopupVisibilityP(){
+
+        this.setState( state => ({
+          isEstimatePopupVisibleP : !state.isEstimatePopupVisibleP
+        }));
+      }
 
     render(){
         return(
@@ -20,7 +39,7 @@ class Packages extends Component{
                         <h5> 35% LESS THAN <br/> RETAIL OUTLET </h5>
                         <h5> FACTORY <br/> PRODUCTION </h5>
                         <h5> DIRECT INSTALLATION </h5>
-                        <button type="button" className="btn btn-primary " >GET AN ESTIMATE</button>
+                        <button type="button" className="btn btn-primary " onClick={this.toggleEstimatePopupVisibilityP} >GET AN ESTIMATE</button>
                     </div>
                 </div>
 
@@ -160,6 +179,7 @@ class Packages extends Component{
                     </div>
                 </div>
 
+                {this.state.isEstimatePopupVisibleP && <GetEstimateModal closeBtnClickChild={this.toggleEstimatePopupVisibilityP} /> }
             </div>
         )
     }

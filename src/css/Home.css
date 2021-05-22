@@ -402,10 +402,6 @@ font-family: 'Roboto', sans-serif;
 
 @media (max-width: 575.98px){
 
-    body{
-        display: none;
-    }
-
     .firstBar{
         display: flex;
         flex-direction: column;

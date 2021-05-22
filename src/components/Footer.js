@@ -4,11 +4,32 @@ import icDotPattern from '../img/ic_dot_pattern.png';
 import icLogo from '../img/ic_astiea_logo.png';
 import icFacebook from '../img/ic_facebook.png';
 import icInstagram from '../img/ic_instagram.png';
+import GetEstimateModal from './GetEstimateModal';
+import {
+   Link,
+ } from 'react-router-dom';
 
 class Footer extends Component{
 
-    render(){
+    constructor(props){
+        super(props);
+    
+        this.state = {
+          isEstimatePopupVisibleF : false
+        };
+    
+        this.toggleEstimatePopupVisibilityF = this.toggleEstimatePopupVisibilityF.bind(this);
+      
+      }
 
+    toggleEstimatePopupVisibilityF(){
+
+        this.setState( state => ({
+          isEstimatePopupVisibleF : !state.isEstimatePopupVisibleF
+        }));
+      }
+
+    render(){
 
         return(
             <div>
@@ -32,7 +53,7 @@ class Footer extends Component{
 
                     <div className="bottomRectanglefirstColumn col-4">
                         <p>Ready to make your interiors <br/> a piece of art?</p>
-                        <button type="button" className="btn btn-primary getEstimateButton">GET AN ESTIMATE</button>
+                        <button type="button" className="btn btn-primary getEstimateButton" onClick={this.toggleEstimatePopupVisibilityF}>GET AN ESTIMATE</button>
                     </div>
                     <div className="bottomRectangleSecondColumn col-3">
 
@@ -50,23 +71,42 @@ class Footer extends Component{
 
                     </div>
                     <div className="bottomRectangleThirdColumn col-4">
-                        <ul>
-                            <li>Home</li>
-                            <li>About Us</li>
-                            <li>Packages</li>
-                            <li>Capabilities</li>
-                        </ul>
-                        <ul id="second_ul">
-                            <li>Projects</li>
-                            <li>Gallery</li>
-                            <li>Careers</li>
-                            <li>Contact</li>
-                        </ul>
+
+                    <ul>
+          <li>
+             <Link className="noDecoration" to="/">HOME</Link>
+          </li>
+          <li>
+            <Link className="noDecoration" to="/about" >ABOUT US</Link>
+          </li>
+          <li>
+           <Link className="noDecoration" to="/packages">PACKAGES</Link>
+           </li>
+            </ul>
+
+            <ul id="second_ul">
+            <li>
+             <Link className="noDecoration" to="/ourcapabilities">OUR CAPABILITIES</Link>
+            </li>
+            <li>
+            <Link className="noDecoration" to="/projects">PROJECTS</Link>
+           </li>
+           <li>
+             <Link className="noDecoration" to="/gallery">GALLERY</Link>
+           </li>
+           <li>
+            <Link className="noDecoration" to="/careers">CAREERS</Link>
+           </li>
+           <li>
+             <Link className="noDecoration" to="/contact">CONTACT</Link>
+           </li>
+          </ul>
                     </div>
 
                 </div>
                 {/* bottom rectangle ends */}
 
+                {this.state.isEstimatePopupVisibleF && <GetEstimateModal closeBtnClickChild={this.toggleEstimatePopupVisibilityF} /> }
             </div>
         )
 
