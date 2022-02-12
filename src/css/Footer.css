@@ -1,199 +1,214 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,400&display=swap");
 
-.patternLogoContainerImages{
-    width: 45%;
-    height: 250px;
-    margin: 0px auto 20px;
+.patternLogoContainerImages {
+  width: 45%;
+  height: 250px;
+  margin: 0px auto 20px;
 }
 
-.patternLogoContainerImages div{
-    margin-left: 100px;
-
+.patternLogoContainerImages div {
+  margin-left: 100px;
 }
 
-#icPattern{
-    width: 195px;
-    height: 250px;
+#icPattern {
+  width: 195px;
+  height: 250px;
 }
 
-#icAstiea{
-    height: 150px;
-    width: 243px;
+#icAstiea {
+  height: 150px;
+  width: 243px;
 }
 
-.fromText{
-    margin: 35px auto 0px;
-    font-size: 34px;
+.fromText {
+  margin: 35px auto 0px;
+  font-size: 34px;
 }
 
-.bottomRectangle{
-
-    background-color: #FFD700;
-    padding: 20px 0% 20px 8%;
+.bottomRectangle {
+  background-color: #ffd700;
+  padding: 20px 0% 20px 8%;
 }
 
-
-.bottomRectanglefirstColumn p{
-    font-size: 24px;
-    font-family: 'Roboto', sans-serif;
-    color: #000000b0;
-    margin-top: 20px;
+.bottomRectanglefirstColumn p {
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  color: #000000b0;
+  margin-top: 20px;
 }
 
-.bottomRectangleSecondColumn{
-text-align: center;
-padding-top: 25px;
+.bottomRectangleSecondColumn {
+  text-align: center;
+  padding-top: 25px;
 }
 
-.bottomRectangleSecondColumn img{
-    width: 40px;
-    margin-left: 25px;
+.bottomRectangleSecondColumn img {
+  width: 40px;
+  margin-left: 25px;
 }
 
-.bottomRectangleSecondColumn p,.followText{
-    font-weight: 500;
-    color: #000000b0;
+.bottomRectangleSecondColumn p,
+.followText {
+  font-weight: 500;
+  color: #000000b0;
 }
 
-.bottomRectangleThirdColumn{
-    padding-top: 20px;
-    margin-left: 40px;
+.bottomRectangleThirdColumn {
+  padding-top: 20px;
+  margin-left: 40px;
 }
 
 .bottomRectangleThirdColumn li {
-    display: inline;
-    margin: 0px 8px;
-    font-weight: 500;
-    color: #000000b0;
+  display: inline;
+  margin: 0px 8px;
+  font-weight: 500;
+  color: #000000b0;
 }
 
-.bottomRectangleThirdColumn ul{
-    margin-bottom: 2px;
+.bottomRectangleThirdColumn ul {
+  margin-bottom: 2px;
 }
 
 .noDecoration {
-    text-decoration: none !important;
-    color: #000;
-    font-size: 14px;
+  text-decoration: none !important;
+  color: #000;
+  font-size: 14px;
 }
 
-#second_ul{
+#second_ul {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 400px;
+}
+
+@media (min-width: 992px) and (max-width: 1279.98px) {
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .bottomRectangleThirdColumn ul {
+    margin-bottom: 2px;
+    flex-direction: column;
+    display: flex;
+  }
+
+  #second_ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 200px;
+  }
+
+  .whyToChooseContent {
+    padding: 0px 5%;
+    width: 99%;
+  }
+
+  .prevIconContainer {
+    background-color: #ffd700;
+    width: 40px;
+    height: 50px;
+    z-index: -1;
+  }
+}
+
+@media (max-width: 767.98px) and (min-width: 576px) {
+  #icPattern {
+    width: auto;
+    height: 210px;
+  }
+
+  .patternLogoContainerImages div {
+    margin-left: 30px;
+  }
+  #icAstiea {
+    height: 120px;
+    width: auto;
+  }
+  .bottomRectangle {
+    padding: 20px 0% 20px 0%;
+  }
+  .bottomRectanglefirstColumn p {
+    font-size: 20px;
+  }
+  .bottomRectangleThirdColumn {
+    margin-left: 10px;
+    padding-top: 20px;
+  }
+  .bottomRectangleThirdColumn ul {
     display: inline-flex;
     flex-wrap: wrap;
-    width: 400px;
+  }
+
+  #second_ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 200px;
+  }
+  .bottomRectangleSecondColumn img {
+    width: 30px;
+    margin-left: 10px;
+  }
 }
 
+@media (max-width: 575.98px) {
+  .patternLogoContainerImages {
+    margin: 40px 20px 40px 40px;
+    height: auto;
+  }
 
-@media (max-width: 1279.98px){
-    
-}
+  .bottomRectangle {
+    display: flex;
+    flex-direction: column;
+  }
 
-@media (max-width: 991.98px){
-   
-}
+  .bottomRectanglefirstColumn {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .bottomRectangleSecondColumn {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 
-@media (max-width: 767.98px) and (min-width: 576px){
-    #icPattern {
-        width: auto;
-        height: 210px;
-    }
+  .bottomRectanglefirstColumn button {
+    width: 40vw;
+    font-size: 20px;
+  }
 
-    .patternLogoContainerImages div {
-        margin-left: 30px;
-    }
-    #icAstiea {
-        height: 120px;
-        width: auto;
-    }
-    .bottomRectangle {
-        padding: 20px 0% 20px 0%;
-    }
-    .bottomRectanglefirstColumn p {
-        font-size: 20px;
-    }
-    .bottomRectangleThirdColumn{
-        margin-left: 10px;
-        padding-top: 20px;
-    }
-    .bottomRectangleThirdColumn ul{
-        display: inline-flex;
-        flex-wrap: wrap;
-        
-    }
- 
-    #second_ul{
-        display: inline-flex;
-        flex-wrap: wrap;
-        width: 200px;
-    }
-    .bottomRectangleSecondColumn img {
-        width: 30px;
-        margin-left: 10px; 
-    }
-    
-}
+  #icPattern {
+    width: 135px;
+    height: 170px;
+  }
+  .patternLogoContainerImages div {
+    margin-left: 40px;
+  }
 
-@media (max-width: 575.98px){
+  .fromText {
+    margin: 0px auto 0px;
+    font-size: 30px;
+  }
+  #icAstiea {
+    height: 130px;
+    width: 223px;
+  }
 
-    .patternLogoContainerImages {
-        margin: 40px 20px 40px 40px;
-        height: auto;
-    }
-    
-    .bottomRectangle {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .bottomRectanglefirstColumn {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-    .bottomRectangleSecondColumn { 
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .bottomRectanglefirstColumn button{ 
-        width: 40vw;
-        font-size: 20px;
-    }
-
-    #icPattern {
-        width: 135px;
-        height: 170px;
-    }
-    .patternLogoContainerImages div {
-        margin-left: 40px;
-    }
-
-    .fromText {
-        margin: 0px auto 0px;
-        font-size: 30px;
-    }
-    #icAstiea {
-        height: 130px;
-        width: 223px;
-    }
-
-    .bottomRectanglefirstColumn button{
-        height: 50px;
-        font-size: 20px;
-    }
-    .bottomRectangleThirdColumn{
-        width: 100%;
-        margin-left: 0px;
-    }
-    .telephoneNumberContainerFooter{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: space-evenly;
-    }
-    .telephoneNumberContainerFooter p{
-        display: inline-block;
-     }
-    
+  .bottomRectanglefirstColumn button {
+    height: 50px;
+    font-size: 20px;
+  }
+  .bottomRectangleThirdColumn {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .telephoneNumberContainerFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-evenly;
+  }
+  .telephoneNumberContainerFooter p {
+    display: inline-block;
+  }
 }

@@ -1,538 +1,610 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
-
-.topQuadrantAbout{
-    width: 100vw;
+.topQuadrantAbout {
+  width: 100vw;
 }
 
 .topQuadrantFirstBarAbout {
-    background-color: #FFFCCA;
-    height: 370px;
+  background-color: #fffcca;
+  height: 370px;
 }
 
 .topQuadrantSecondBarAbout {
-    background-color: #537780;
-    height: 370px;
+  background-color: #537780;
+  height: 370px;
 }
 
-.topQuadrantFirstBarAbout .firstBarHalfAbout{
-    width: 50vw;
-    padding: 50px 72px 25px 80px;
+.topQuadrantFirstBarAbout .firstBarHalfAbout {
+  width: 50vw;
+  padding: 50px 72px 25px 80px;
 }
 
-.topQuadrantFirstBarAbout .firstBarHalfAbout h4{
-    color: #000000;
-    font-size: 43px;
+.topQuadrantFirstBarAbout .firstBarHalfAbout h4 {
+  color: #000000;
+  font-size: 43px;
 }
 
-.topQuadrantFirstBarAbout .firstBarHalfAbout p{
-    color: #322F2F;
-    font-size: 26px;
-    font-weight: 300;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 20px;
-    line-height: 1;
+.topQuadrantFirstBarAbout .firstBarHalfAbout p {
+  color: #322f2f;
+  font-size: 26px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+  line-height: 1;
 }
 
-.topQuadrantFirstBarAbout .secondBarHalfAbout img{
-    width: 50vw;
-    height: 370px;
+.topQuadrantFirstBarAbout .secondBarHalfAbout img {
+  width: 50vw;
+  height: 370px;
 }
 
-.topQuadrantSecondBarAbout .secondBarHalfAbout img{
-    width: 50vw;
-    height: 370px;
+.topQuadrantSecondBarAbout .secondBarHalfAbout img {
+  width: 50vw;
+  height: 370px;
 }
 
-.topQuadrantSecondBarAbout .firstBarHalfAbout{
-    width: 50vw;
-    padding: 80px 72px 25px 80px;
+.topQuadrantSecondBarAbout .firstBarHalfAbout {
+  width: 50vw;
+  padding: 80px 72px 25px 80px;
 }
 
 .topQuadrantSecondBarAbout .firstBarHalfAbout p {
-    color: #F9E0AE;
-    font-size: 26px;
-    font-weight: 300;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 20px;
-    line-height: 1;
+  color: #f9e0ae;
+  font-size: 26px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+  line-height: 1;
 }
 
-.offerStripAbout{
-    width: 95%;
-    height: 115px;
-    margin: 20px auto;
-    background-color: #FFC93C;
-    padding: 20px;
+.offerStripAbout {
+  width: 95%;
+  height: 115px;
+  margin: 20px auto;
+  background-color: #ffc93c;
+  padding: 20px;
 }
 
-.innerOfferStripAbout{
-    border: 2px solid #F2910A;
-    padding: 20px 5px 4px 5px;
-    margin-left: 15px;
-    margin-right: 20px;
-    font-family: 'Roboto Condensed', sans-serif;
+.innerOfferStripAbout {
+  border: 2px solid #f2910a;
+  padding: 20px 5px 4px 5px;
+  margin-left: 15px;
+  margin-right: 20px;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
-.innerOfferStripAbout h5{
-    font-size: 24px;
-    color: #7A5656;
-    margin-left: 9px;
-    margin-right: 20px;
-    font-family: 'Roboto Condensed', sans-serif;
+.innerOfferStripAbout h5 {
+  font-size: 24px;
+  color: #7a5656;
+  margin-left: 9px;
+  margin-right: 20px;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
-.innerOfferStripAbout button{
-    display: block;
-    height: 32px;
-    margin-left: 75px;
-    margin-top: -4px;
-    font-size: 15px;
-    padding: 6px 12px 5px;
-    background-color: #14C245;
-    border: none;
-    border-radius: 0;
-    box-shadow: 0px 3px 3px #00000045;
-    font-family: 'Roboto', sans-serif;
+.innerOfferStripAbout button {
+  display: block;
+  height: 32px;
+  margin-left: 75px;
+  margin-top: -4px;
+  font-size: 15px;
+  padding: 6px 12px 5px;
+  background-color: #14c245;
+  border: none;
+  border-radius: 0;
+  box-shadow: 0px 3px 3px #00000045;
+  font-family: "Roboto", sans-serif;
 }
 
-.innerOfferStripAbout img{
-    width: 15px;
-    height: 15px;
-    margin-top: 7px;
-    margin-left: 9px;
+.innerOfferStripAbout img {
+  width: 15px;
+  height: 15px;
+  margin-top: 7px;
+  margin-left: 9px;
 }
 
-.ourFeatuesAboutTagline{
-    width: 72%;
-    color: #537780;
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
-    font-weight: 500;
-    margin: 50px auto;
+.ourFeatuesAboutTagline {
+  width: 72%;
+  color: #537780;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  margin: 50px auto;
 }
 
 .ourFeatuesAbout {
-    width: 100vw;
-    padding: 15px 95px;
+  width: 100vw;
+  padding: 15px 95px;
 }
 
-
-.ourFeatuesAboutFirstBar .secondBarHalfFeaturesAbout img{
-    width: 50vw;
-    height: 375px;
-    padding-left: 30px;
+.ourFeatuesAboutFirstBar .secondBarHalfFeaturesAbout img {
+  width: 50vw;
+  height: 375px;
+  padding-left: 30px;
 }
 
-.ourFeatuesAboutFirstBar .firstBarHalfFeaturesAbout{
-    width: 35vw;
+.ourFeatuesAboutFirstBar .firstBarHalfFeaturesAbout {
+  width: 35vw;
 }
 
-.ourFeatuesAboutFirstBar .firstBarHalfFeaturesAbout h3{
-    font-size: 43px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+.ourFeatuesAboutFirstBar .firstBarHalfFeaturesAbout h3 {
+  font-size: 43px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
 
-.ourFeatuesAboutFirstBar .firstBarHalfFeaturesAbout p{
-    color: #000000a9;
-    font-size: 24px;
-    font-weight: 300;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 20px;
-    line-height: 1.2;
+.ourFeatuesAboutFirstBar .firstBarHalfFeaturesAbout p {
+  color: #000000a9;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+  line-height: 1.2;
 }
 
 .firstCapitalFeatureAbout {
-    font-size: 70px;
+  font-size: 70px;
 }
 
-.readMoreButton{
-    background-color: #11D3BC;
-    border:2px solid #13AE9C;
-    border-radius: 0;
-    padding: 12px 15px;
-    width: 170px;
-    margin-top: 20px;
+.readMoreButton {
+  background-color: #11d3bc;
+  border: 2px solid #13ae9c;
+  border-radius: 0;
+  padding: 12px 15px;
+  width: 170px;
+  margin-top: 20px;
 }
 
 .ourFeatuesAboutSecondBar {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
-
-.ourFeatuesAboutSecondBar .secondBarHalfFeaturesAbout img{
-    width: 50vw;
-    height: 375px;
-    padding-right: 30px;
+.ourFeatuesAboutSecondBar .secondBarHalfFeaturesAbout img {
+  width: 50vw;
+  height: 375px;
+  padding-right: 30px;
 }
 
-.ourFeatuesAboutSecondBar .firstBarHalfFeaturesAbout{
-    width: 50vw;
+.ourFeatuesAboutSecondBar .firstBarHalfFeaturesAbout {
+  width: 50vw;
 }
 
-
-.ourFeatuesAboutSecondBar .firstBarHalfFeaturesAbout p{
-    color: #000000a9;
-    font-size: 26px;
-    font-weight: 300;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 20px;
-    line-height: 1;
+.ourFeatuesAboutSecondBar .firstBarHalfFeaturesAbout p {
+  color: #000000a9;
+  font-size: 26px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+  line-height: 1;
 }
 
-
-.ourFeatuesAboutSecondBar .firstBarHalfFeaturesAbout h3{
-    font-size: 43px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+.ourFeatuesAboutSecondBar .firstBarHalfFeaturesAbout h3 {
+  font-size: 43px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
 
-#ourFeatuesAboutThirdBar{
-    margin-top: 40px;
+#ourFeatuesAboutThirdBar {
+  margin-top: 40px;
 }
 
-#ourFeatuesAboutFourthBar{
-    margin-bottom: 40px;
+#ourFeatuesAboutFourthBar {
+  margin-bottom: 40px;
 }
 
-.processContainerAbout{
-    width: 90vw;
-    margin: 10px auto;
-    
-
+.processContainerAbout {
+  width: 90vw;
+  margin: 10px auto;
 }
 
 .processContainerAbout h3 {
-    font-size: 43px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    margin-left: 25px;
-    margin-top: 30px;
+  font-size: 43px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin-left: 25px;
+  margin-top: 30px;
 }
 
 .processParaInAbout {
-    font-size: 33px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    margin-top: 30px;
-    margin-left: 25px;
-    color: #000000be;
-    width: 80%;
+  font-size: 33px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  margin-top: 30px;
+  margin-left: 25px;
+  color: #000000be;
+  width: 80%;
 }
 
-.diagramBannerContainer{
-    display: flex;
+.diagramBannerContainer {
+  display: flex;
 }
 
 .processContainerAbout .diagramContainerAbout {
-    width: 70%;
-    height: 610px;
-    margin-top: 50px;
-    padding-right: 3%;
+  width: 70%;
+  height: 610px;
+  margin-top: 50px;
+  padding-right: 3%;
 }
 
 .processContainerAbout .bannerContainerAbout {
-    width: 30%;
-    background-color: #FFC93C;
-    height: 610px;
-    margin-top: 50px;
-    margin-bottom: 30px;
+  width: 30%;
+  background-color: #ffc93c;
+  height: 610px;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
-
-.innerBoxbannerContainerAbout{
-    width: 86%;
-    height: 560px;
-    margin-top: 25px;
-    margin-left: 25px;
-    border: 2px solid #F2910A;
-    text-align: center;
+.innerBoxbannerContainerAbout {
+  width: 86%;
+  height: 560px;
+  margin-top: 25px;
+  margin-left: 25px;
+  border: 2px solid #f2910a;
+  text-align: center;
 }
 
 .innerBoxbannerContainerAbout h4 {
-    color: #ffffffb4;
-    font-family: 'Rubik Mono One', sans-serif;
-    font-size: 31px;
-    margin-top: 80px;
+  color: #ffffffb4;
+  font-family: "Rubik Mono One", sans-serif;
+  font-size: 31px;
+  margin-top: 80px;
 }
 .innerBoxbannerContainerAbout img {
-    width: 185px;
-    margin-top: 60px;
+  width: 185px;
+  margin-top: 60px;
 }
 
-.firstRowDiagramContainerAbout{
-    width: 100%;
+.firstRowDiagramContainerAbout {
+  width: 100%;
 }
 
-.blockDiagramContainerAbout{
-    width: 28%;
-    text-align: center;
+.blockDiagramContainerAbout {
+  width: 28%;
+  text-align: center;
 }
 
-
-.blockDiagramContainerAbout img{
-    margin: 0px auto;
-    width: 50px;
+.blockDiagramContainerAbout img {
+  margin: 0px auto;
+  width: 50px;
 }
 
-.blockDiagramContainerAbout p{
-    font-size: 20px;
-    margin: 20px auto;
+.blockDiagramContainerAbout p {
+  font-size: 20px;
+  margin: 20px auto;
 }
 
 .arrowDiagramContainerAbout {
-    width: 8%;
+  width: 8%;
 }
 
 .arrowDiagramContainerAbout img {
-    width: 75%;
-    margin-top: 20px;
+  width: 75%;
+  margin-top: 20px;
 }
 
 .downArrowDiagramContainerAbout {
-    width: 30%;
-    margin-left: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    text-align: center;
+  width: 30%;
+  margin-left: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
 }
 
 .downArrowDiagramContainerAbout img {
-    height: 45px;
+  height: 45px;
 }
 
-.downArrowLeftDiagramContainerAbout{
+.downArrowLeftDiagramContainerAbout {
+  margin-left: 0px;
+  width: 28%;
+}
+
+@media (max-width: 1279.98px) {
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .topQuadrantFirstBarAbout .firstBarHalfAbout {
+    padding: 40px 32px 5px 20px;
+  }
+  .topQuadrantFirstBarAbout .firstBarHalfAbout h4 {
+    font-size: 33px;
+  }
+  .topQuadrantFirstBarAbout .firstBarHalfAbout p {
+    font-size: 22px;
+  }
+  .topQuadrantSecondBarAbout .firstBarHalfAbout {
+    padding: 40px 32px 25px 30px;
+  }
+  .topQuadrantSecondBarAbout .firstBarHalfAbout p {
+    font-size: 22px;
+  }
+  .innerOfferStripAbout {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .innerOfferStripAbout h5 {
+    font-size: 18px;
+  }
+  .offerStripAbout {
+    height: auto;
+    padding: 10px;
+  }
+
+  .innerOfferStripAbout button {
+    height: auto;
     margin-left: 0px;
-    width: 28%;
-}
+  }
 
-@media (max-width: 1279.98px){
-  
-}
+  .processContainerAbout h3 {
+    font-size: 33px;
+  }
+  .processParaInAbout {
+    font-size: 26px;
+  }
+  .diagramBannerContainer {
+    flex-direction: column;
+  }
+  .processContainerAbout .diagramContainerAbout {
+    width: auto;
+  }
+  .processContainerAbout .bannerContainerAbout {
+    width: auto;
+  }
+  .innerBoxbannerContainerAbout h4 {
+    margin-top: 20px;
+  }
+  .innerBoxbannerContainerAbout img {
+    width: 185px;
+    margin-top: auto;
+  }
 
-@media (max-width: 991.98px){
-    
-}
+  .innerBoxbannerContainerAbout {
+    height: 400px;
+    margin-left: 45px;
+  }
 
-@media (max-width: 767.98px){
-   
+  .processContainerAbout .bannerContainerAbout {
+    height: 450px;
+  }
+  .ourFeatuesAbout {
+    padding: 15px 35px;
+  }
+
+  .ourFeatuesAboutFirstBar .firstBarHalfFeaturesAbout {
+    width: auto;
+  }
+  .ourFeatuesAboutFirstBar .firstBarHalfFeaturesAbout h3 {
+    font-size: 33px;
+  }
+  .ourFeatuesAboutSecondBar .firstBarHalfFeaturesAbout h3 {
+    font-size: 33px;
+  }
+  .ourFeatuesAboutFirstBar .firstBarHalfFeaturesAbout p {
+    font-size: 20px;
+    margin-top: auto;
+  }
+  .ourFeatuesAboutSecondBar .firstBarHalfFeaturesAbout p {
+    font-size: 20px;
+    margin-top: auto;
+  }
 }
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 767.98px) and (min-width: 576px) {
+  .topQuadrantFirstBarAbout .firstBarHalfAbout {
+    padding: 40px 32px 5px 20px;
+  }
+  .topQuadrantFirstBarAbout .firstBarHalfAbout h4 {
+    font-size: 33px;
+  }
+  .topQuadrantFirstBarAbout .firstBarHalfAbout p {
+    font-size: 22px;
+  }
+  .topQuadrantSecondBarAbout .firstBarHalfAbout {
+    padding: 40px 32px 25px 30px;
+  }
+  .topQuadrantSecondBarAbout .firstBarHalfAbout p {
+    font-size: 22px;
+  }
+  .innerOfferStripAbout {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .innerOfferStripAbout h5 {
+    font-size: 18px;
+  }
+  .offerStripAbout {
+    height: auto;
+    padding: 10px;
+  }
 
-    .topQuadrantFirstBarAbout .firstBarHalfAbout {
-        padding: 40px 32px 5px 20px;
-    }
-    .topQuadrantFirstBarAbout .firstBarHalfAbout h4 {
-        font-size: 33px;
-    }
-    .topQuadrantFirstBarAbout .firstBarHalfAbout p {
-        font-size: 22px;
-    }
-    .topQuadrantSecondBarAbout .firstBarHalfAbout {
-        padding: 40px 32px 25px 30px;
-    }
-    .topQuadrantSecondBarAbout .firstBarHalfAbout p {
-        font-size: 22px;
-    }
-    .innerOfferStripAbout {  
-        padding: 10px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .innerOfferStripAbout h5 {
-        font-size: 18px;
-    }
-    .offerStripAbout{
-        height: auto;
-        padding: 10px;
-    }
+  .innerOfferStripAbout button {
+    height: auto;
+    margin-left: 0px;
+  }
 
-    .innerOfferStripAbout button {
-        height: auto; 
-        margin-left: 0px;
-    }
+  .processContainerAbout h3 {
+    font-size: 33px;
+  }
+  .processParaInAbout {
+    font-size: 26px;
+  }
+  .diagramBannerContainer {
+    flex-direction: column;
+  }
+  .processContainerAbout .diagramContainerAbout {
+    width: auto;
+  }
+  .processContainerAbout .bannerContainerAbout {
+    width: auto;
+  }
+  .innerBoxbannerContainerAbout h4 {
+    margin-top: 20px;
+  }
+  .innerBoxbannerContainerAbout img {
+    width: 185px;
+    margin-top: auto;
+  }
 
-    .processContainerAbout h3 {
-        font-size: 33px;
-    }
-    .processParaInAbout {
-        font-size: 26px;
-    }
-    .diagramBannerContainer {
-        flex-direction: column;
-    }
-    .processContainerAbout .diagramContainerAbout {
-        width: auto;
-    }
-    .processContainerAbout .bannerContainerAbout {
-        width: auto;
-    }
-    .innerBoxbannerContainerAbout h4 {
-        margin-top: 20px;
-    }
-    .innerBoxbannerContainerAbout img {
-        width: 185px;
-        margin-top: auto; 
-    }
+  .innerBoxbannerContainerAbout {
+    height: 400px;
+    margin-left: 45px;
+  }
 
-    .innerBoxbannerContainerAbout {
-        height: 400px;
-        margin-left: 45px;
-    }
-    
-    .processContainerAbout .bannerContainerAbout {
-        height: 450px;
-    }
-    .ourFeatuesAbout {
-        padding: 15px 35px;
-    }
+  .processContainerAbout .bannerContainerAbout {
+    height: 450px;
+  }
+  .ourFeatuesAbout {
+    padding: 15px 35px;
+  }
 
-    .ourFeatuesAboutFirstBar .firstBarHalfFeaturesAbout {
-        width: auto;
-    }
-    .ourFeatuesAboutFirstBar .firstBarHalfFeaturesAbout h3 {
-        font-size: 33px;
-    }
-    .ourFeatuesAboutSecondBar .firstBarHalfFeaturesAbout h3 {
-        font-size: 33px;
-    }
-    .ourFeatuesAboutFirstBar .firstBarHalfFeaturesAbout p {
-        font-size: 20px;
-        margin-top: auto;
-    }
-    .ourFeatuesAboutSecondBar .firstBarHalfFeaturesAbout p {
-        font-size: 20px;
-        margin-top: auto;
-    }
-} 
+  .ourFeatuesAboutFirstBar .firstBarHalfFeaturesAbout {
+    width: auto;
+  }
+  .ourFeatuesAboutFirstBar .firstBarHalfFeaturesAbout h3 {
+    font-size: 33px;
+  }
+  .ourFeatuesAboutSecondBar .firstBarHalfFeaturesAbout h3 {
+    font-size: 33px;
+  }
+  .ourFeatuesAboutFirstBar .firstBarHalfFeaturesAbout p {
+    font-size: 20px;
+    margin-top: auto;
+  }
+  .ourFeatuesAboutSecondBar .firstBarHalfFeaturesAbout p {
+    font-size: 20px;
+    margin-top: auto;
+  }
+}
 
-@media (max-width: 575.98px){
-    .topQuadrantAbout {
-        width: 100vw;
-        display: flex;
-        flex-direction: column;
-    }
-    .topQuadrantFirstBarAbout,.topQuadrantSecondBarAbout {
-        height: auto; 
-        display: flex;
-    }
+@media (max-width: 575.98px) {
+  .topQuadrantAbout {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .topQuadrantFirstBarAbout,
+  .topQuadrantSecondBarAbout {
+    height: auto;
+    display: flex;
+  }
 
-    .topQuadrantFirstBarAbout {
-        flex-direction: column;
-    }
-    .topQuadrantSecondBarAbout {
-        flex-direction: column-reverse;
-    }
+  .topQuadrantFirstBarAbout {
+    flex-direction: column;
+  }
+  .topQuadrantSecondBarAbout {
+    flex-direction: column-reverse;
+  }
 
-    .topQuadrantFirstBarAbout .firstBarHalfAbout,
-    .topQuadrantSecondBarAbout .firstBarHalfAbout {
-        width: auto;
-    }
-   
-    .topQuadrantFirstBarAbout .secondBarHalfAbout img,
-    .topQuadrantSecondBarAbout .secondBarHalfAbout img {
-        width: 100vw;
-        height: 370px;
-    }
+  .topQuadrantFirstBarAbout .firstBarHalfAbout,
+  .topQuadrantSecondBarAbout .firstBarHalfAbout {
+    width: auto;
+  }
 
+  .topQuadrantFirstBarAbout .secondBarHalfAbout img,
+  .topQuadrantSecondBarAbout .secondBarHalfAbout img {
+    width: 100vw;
+    height: 370px;
+  }
 
-    .offerStripAbout {
-        height: auto; 
-    }
+  .offerStripAbout {
+    height: auto;
+  }
 
-    .innerOfferStripAbout{
-        flex-direction: column;
-    }
+  .innerOfferStripAbout {
+    flex-direction: column;
+  }
 
-    .innerOfferStripAbout img{
-        width: 10px;
-        height: 10px;
-    }
-    .innerOfferStripAbout h5{
-        margin-top: -19px;
-        margin-left: 35px;
-    }
+  .innerOfferStripAbout img {
+    width: 10px;
+    height: 10px;
+  }
+  .innerOfferStripAbout h5 {
+    margin-top: -19px;
+    margin-left: 35px;
+  }
 
-    .innerOfferStripAbout button {
-        width: 30vw;
-        margin-left: auto;
-    }
+  .innerOfferStripAbout button {
+    width: 30vw;
+    margin-left: auto;
+  }
 
-    .processContainerAbout h3 {
-        font-size: 30px;
-    }
+  .processContainerAbout h3 {
+    font-size: 30px;
+  }
 
-    .processParaInAbout {
-        font-size: 23px;
-    }
-    .processContainerAbout .bannerContainerAbout {
-        width: auto;
-    }
-    .processContainerAbout .bannerContainerAbout {
-        height: auto;
-    }
-    .innerBoxbannerContainerAbout{
-        height: auto;
-        margin-bottom: 25px;
-    }
+  .processParaInAbout {
+    font-size: 23px;
+  }
+  .processContainerAbout .bannerContainerAbout {
+    width: auto;
+  }
+  .processContainerAbout .bannerContainerAbout {
+    height: auto;
+  }
+  .innerBoxbannerContainerAbout {
+    height: auto;
+    margin-bottom: 25px;
+  }
 
-    .innerBoxbannerContainerAbout h4 {
-        margin-top: 20px;
-    }
+  .innerBoxbannerContainerAbout h4 {
+    margin-top: 20px;
+  }
 
-    .innerBoxbannerContainerAbout img {
-        margin-top: 25px;
-        margin-bottom: 25px;
-    }
+  .innerBoxbannerContainerAbout img {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
 
-    .diagramBannerContainer {
-        display: flex;
-        flex-direction: column;
-    }
+  .diagramBannerContainer {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .ourFeatuesAboutTagline {
-        width: 87%;
-    }
+  .ourFeatuesAboutTagline {
+    width: 87%;
+  }
 
-    .processContainerAbout .diagramContainerAbout {
-        width: 90vw;
-        height: auto;
-        margin-top: 50px;
-        padding-right: 0%;
-    }
+  .processContainerAbout .diagramContainerAbout {
+    width: 90vw;
+    height: auto;
+    margin-top: 50px;
+    padding-right: 0%;
+  }
 
-    .ourFeatuesAbout {
-        padding: 5vw;
-    }
+  .ourFeatuesAbout {
+    padding: 5vw;
+  }
 
-    .ourFeatuesAboutFirstBar{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .ourFeatuesAboutSecondBar {
-        display: flex;
-        flex-direction: column;
-    }
-    .ourFeatuesAboutFirstBar .secondBarHalfFeaturesAbout img{
-        width: 90vw;
-        padding-left: 0px;
-    }
-    .ourFeatuesAboutFirstBar .firstBarHalfFeaturesAbout {
-         width: auto; 
-    }
+  .ourFeatuesAboutFirstBar {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .ourFeatuesAboutSecondBar {
+    display: flex;
+    flex-direction: column;
+  }
+  .ourFeatuesAboutFirstBar .secondBarHalfFeaturesAbout img {
+    width: 90vw;
+    padding-left: 0px;
+  }
+  .ourFeatuesAboutFirstBar .firstBarHalfFeaturesAbout {
+    width: auto;
+  }
 
-    .ourFeatuesAboutSecondBar .secondBarHalfFeaturesAbout img {
-        width: 90vw;
-        padding-right: 0px;
-    }
-    .ourFeatuesAboutSecondBar .firstBarHalfFeaturesAbout {
-        width: auto;
-    }
+  .ourFeatuesAboutSecondBar .secondBarHalfFeaturesAbout img {
+    width: 90vw;
+    padding-right: 0px;
+  }
+  .ourFeatuesAboutSecondBar .firstBarHalfFeaturesAbout {
+    width: auto;
+  }
 }

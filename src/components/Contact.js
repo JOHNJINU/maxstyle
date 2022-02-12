@@ -1,8 +1,9 @@
 import {Component} from 'react';
 import '../css/Contact.css';
-import icCarousel1 from '../img/ic_enquiry_bg.png';
 import AddressCard from './AddressCard';
 import axios from 'axios';
+import contact_1 from '../img/contact_1.jpg';
+import contact_2 from '../img/contact_2.jpg';
 
 class Contact extends Component{
 
@@ -106,7 +107,7 @@ class Contact extends Component{
                             Vestibulum mollis, justo sed vulputate fermentum, augue dolor facilisis erat, sed venenatis mi velit ac enim.</p>
                     </div>
                     <div className="secondBarHalfAbout">
-                        <img src={icCarousel1} />
+                        <img src={contact_1} className="objectCoverImage" />
                     </div>
                 </div>
                 {/* {top bar ends} */}
@@ -114,7 +115,7 @@ class Contact extends Component{
                 {/* enquiry section starts */}
                 <div className="enquirySectionContainer">
 
-                    <img className="imageEnquiry" src={icCarousel1} />
+                    <img className="imageEnquiry" src={contact_2} />
                     <div className="typingFieldContainer">
                     <p className="enquiryStatusMessage d-none"></p> 
                         <h5>Enquiry</h5>

@@ -1,7 +1,5 @@
 import {Component} from 'react';
 import '../css/About.css';
-import icCarousel1 from '../img/carousel_img_1.png';
-import icCarousel2 from '../img/carousel_img_2.png';
 import icOfferStripBullet from '../img/ic_offer_strip_bullet.png';
 import icMechanic from '../img/ic_mechanic.png';
 import ic_requirement from '../img/ic_requirement.png';
@@ -10,18 +8,15 @@ import ic_advance from '../img/ic_advance.png';
 import ic_confirm_design from '../img/ic_confirm_design.png';
 import ic_suggestion from '../img/ic_suggestion.png';
 import ic_design from '../img/ic_design.png';
-import ic_confirm_order from '../img/ic_confirm_order.png';
-import ic_production from '../img/ic_production.png';
-import ic_delivery from '../img/ic_delivery.png';
 import ic_right_arrow from '../img/ic_right_arrow.png';
 import ic_down_arrow from '../img/ic_down_arrow.png';
 import ic_left_arrow from '../img/ic_left_arrow.png';
-
-
-import ic_about_1 from '../img/ic_about_1.png';
-import ic_about_2 from '../img/ic_about_2.png';
-import ic_about_3 from '../img/ic_about_3.png';
-import ic_about_4 from '../img/ic_about_4.png';
+import about_1 from '../img/about_1.jpg';
+import about_2 from '../img/about_2.jpg';
+import about_3 from '../img/about_3.jpg';
+import about_4 from '../img/about_4.jpg';
+import about_5 from '../img/about_5.jpg';
+import about_6 from '../img/about_6.jpg';
 
 class About extends Component{
 
@@ -41,13 +36,13 @@ class About extends Component{
                             Vestibulum mollis, justo sed vulputate fermentum, augue dolor facilisis erat, sed venenatis mi velit ac enim.</p>
                     </div>
                     <div className="secondBarHalfAbout">
-                        <img src={icCarousel1} />
+                        <img src={about_1}  className="objectCoverImage"/>
                     </div>
                 </div>
                 <div className="topQuadrantSecondBarAbout d-flex">
                    
                     <div className="secondBarHalfAbout">
-                        <img src={icCarousel2} />
+                        <img src={about_2} className="objectCoverImage"/>
                     </div>
                     <div className="firstBarHalfAbout">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero accumsan nisi dignissim feugiat. 
@@ -192,13 +187,13 @@ class About extends Component{
                             <button type="button" className="btn btn-primary readMoreButton">READ MORE</button>
                         </div>
                         <div className="secondBarHalfFeaturesAbout">
-                            <img src={ic_about_1} />
+                            <img src={about_3} className="objectCoverImage"/>
                         </div>
                     </div>
 
                     <div className="ourFeatuesAboutSecondBar d-flex">
                         <div className="secondBarHalfFeaturesAbout">
-                            <img src={ic_about_2} />
+                            <img src={about_4} className="objectCoverImage"/>
                         </div>
                         <div className="firstBarHalfFeaturesAbout">
                             <h3><span className="firstCapitalFeatureAbout">T</span>op-notch materials</h3>
@@ -215,13 +210,13 @@ class About extends Component{
                             <button type="button" className="btn btn-primary readMoreButton">READ MORE</button>
                         </div>
                         <div className="secondBarHalfFeaturesAbout">
-                            <img src={ic_about_3} />
+                            <img src={about_5} className="objectCoverImage" />
                         </div>
                     </div>
 
                     <div className="ourFeatuesAboutSecondBar d-flex" id="ourFeatuesAboutFourthBar">
                         <div className="secondBarHalfFeaturesAbout">
-                            <img src={ic_about_4} />
+                            <img src={about_6} className="objectCoverImage"/>
                         </div>
                         <div className="firstBarHalfFeaturesAbout">
                             <h3><span className="firstCapitalFeatureAbout">H</span>igh end machineries</h3>

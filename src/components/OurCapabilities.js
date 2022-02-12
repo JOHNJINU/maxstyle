@@ -1,11 +1,16 @@
 import {Component} from 'react';
 import '../css/OurCapabilities.css';
-import icCarousel2 from '../img/carousel_img_2.png';
 import icCapabilities1 from '../img/ic_capabilities_1.png';
 import icCapabilities2 from '../img/ic_capabilities_2.png';
 import icCapabilities3 from '../img/ic_capabilities_3.png';
 import icCapabilities4 from '../img/ic_capabilities_4.png';
 import icCapabilities5 from '../img/ic_capabilities_5.png';
+
+import our_capabilities_1 from '../img/our_capabilities_1.JPG';
+import our_capabilities_2 from '../img/our_capabilities_2.jpeg';
+import our_capabilities_3 from '../img/our_capabilities_3.JPG';
+import our_capabilities_4 from '../img/our_capabilities_4.jpg';
+import our_capabilities_5 from '../img/our_capabilities_5.jpg';
 
 class OurCapabilities extends Component{
 
@@ -22,12 +27,12 @@ class OurCapabilities extends Component{
                     <span className="d-block " >10,750 SqFt own production facility for assuring fast production and delivery. Superior German panel processing machines for best fit and finish. Skilled artisans, talented designers & dedicated management for making your home into a class apart.</span>
                 </div> 
                 <div className="secondHalf col-6">
-                    <img src={icCarousel2}/>
+                    <img src={our_capabilities_1} className="objectCoverImage"/>
                 </div>
             </div>
             <div className="secondBarCapabilities d-flex row-fluid no-gutters">
                 <div className="secondHalf col-6">
-                    <img src={icCarousel2}/>
+                    <img src={our_capabilities_2} className="objectCoverImage"/>
                 </div>
                 <div className="firstHalf position-relative col-6">
                     <span className="d-block" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero accumsan nisi dignissim feugiat. Vestibulum mollis, justo sed vulputate fermentum, augue dolor facilisis erat, sed venenatis mi velit ac enim.</span>
@@ -47,7 +52,7 @@ class OurCapabilities extends Component{
                             
                         </div>
                         <div className="secondBarHalfFeaturesCapabilities">
-                            <img src={icCarousel2} />
+                            <img src={our_capabilities_3} className="objectCoverImage" />
                         </div>
                     </div>
 
@@ -62,7 +67,7 @@ class OurCapabilities extends Component{
                 <div className="left">
 
                     <div className="secondBarHalfFeaturesAbout">
-                        <img src={icCarousel2} />
+                        <img src={our_capabilities_4} className="objectCoverImage" />
                     </div>
 
                     <div className="firstBarHalfFeaturesCapabilities">
@@ -86,7 +91,7 @@ class OurCapabilities extends Component{
                             Vestibulum mollis, justo sed vulputate fermentum, augue dolor facilisis erat, sed venenatis mi velit ac enim.</p>    
                     </div>
                     <div className="secondBarHalfFeaturesAbout">
-                        <img src={icCarousel2} />
+                        <img src={our_capabilities_5} className="objectCoverImage"/>
                     </div>
                 </div>
             </div>

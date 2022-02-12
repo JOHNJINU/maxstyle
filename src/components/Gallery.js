@@ -1,12 +1,6 @@
 import {Component} from 'react';
 import '../css/Gallery.css';
-import icCarousel1 from '../img/carousel_img_1.png';
 import icOfferStripBullet from '../img/ic_offer_strip_bullet.png';
-import icGallery1 from '../img/ic_gallery_1.png';
-import icCarousel2 from '../img/carousel_img_2.png';
-import icCarousel3 from '../img/carousel_img_3.png';
-import icProjects2 from '../img/ic_projects_2.png';
-import icProjects3 from '../img/ic_projects_3.png';
 
 import axios from 'axios';
 
@@ -65,7 +59,7 @@ class Gallery extends Component{
 
                    { this.state.arrayOfImages.map((item) => (
                            
-                        <img loading="lazy" src= {"http://192.168.64.2/admin/gallery_images/" + item.filename}  /> 
+                        <img loading="lazy" src= {"http://192.168.64.2/admin/gallery_images/" + item.filename}  className="objectCoverImage"/> 
                        
                          ))
                    }
