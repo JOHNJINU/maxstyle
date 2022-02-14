@@ -1,59 +1,73 @@
 .headerStrip {
-    background : #FF4646;
-    color: #ffffff;
+  background: #ff4646;
+  color: #ffffff;
 }
 
-.headerStrip img{
-    width: 14px;
+.headerStrip img {
+  width: 14px;
 }
 
 .headerOfferStrip {
-    background : #cca56b;
-    color: #ffffff;
-    width: auto;
-    margin: 0 auto;
-    padding: 2px;
-    cursor: pointer;
+  background: #cca56b;
+  color: #ffffff;
+  width: auto;
+  margin: 0 auto;
+  padding: 2px;
+  cursor: pointer;
 }
 
 .offers_link_header:link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-.headerOfferStrip img{
-    width: 20px;
+.headerOfferStrip img {
+  width: 20px;
 }
 
-nav{
-    background-color: #ffffff;
+nav {
+  background-color: #ffffff;
 }
-.navbar-nav{
-    margin-left: auto;
+.navbar-nav {
+  margin-left: auto;
 }
-.navbar-light .navbar-nav .nav-link.active{
-    color: #E57200;
-    font-weight: 500;
+.navbar-light .navbar-nav .nav-link.active {
+  color: #e57200;
+  font-weight: 500;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #000000;
-    font-weight: 400;
+  color: #000000;
+  font-weight: 400;
 }
 
 .navbar-nav button {
-    margin-left: 15px;
-    margin-right: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
-.navBarCompanyLogo{
-
-    width: 237px;
-    height: 110px;
+.navBarCompanyLogo {
+  width: 237px;
+  height: 110px;
 }
 
-.getEstimateButton{
+.getEstimateButton {
+  background-color: #ff7f00;
+  border: 1px solid #e57200;
+  border-radius: 0;
+  padding: 12px 15px;
+}
 
-    background-color: #FF7F00;
-    border:1px solid #E57200;
-    border-radius: 0;
-    padding: 12px 15px;
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  #navbar-get-estimate {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #navbar-get-estimate {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+  }
 }
