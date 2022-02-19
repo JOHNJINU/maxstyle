@@ -209,13 +209,13 @@
 }
 
 .processParaInAbout {
-  font-size: 33px;
+  font-size: 26px;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   margin-top: 30px;
   margin-left: 25px;
   color: #000000be;
-  width: 80%;
+  text-align: justify;
 }
 
 .diagramBannerContainer {
@@ -302,6 +302,9 @@
   width: 28%;
 }
 
+.About-us-what-our-designer-do ul li {
+  font-size: 18px;
+}
 @media (max-width: 1279.98px) {
 }
 

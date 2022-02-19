@@ -1,196 +1,198 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,400&display=swap");
 
-.topBannerPackages{
-    background-color: #FFC93C;
-    height: 350px;
-    padding-left: 70px;
-    padding-top: 50px;
+.topBannerPackages {
+  background-color: #ffc93c;
+  height: 350px;
+  padding-left: 70px;
+  padding-top: 50px;
 }
 
-.topBannerPackagesHeading{
-    font-size: 43px;
+.topBannerPackagesHeading {
+  font-size: 43px;
 }
 
-.topBannerPackagesDescription{
-    width: 55vw;
-    font-size: 25px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    line-height: 1.1;
-    margin-top: 49px;
+.topBannerPackagesDescription {
+  width: 55vw;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.1;
+  margin-top: 49px;
 }
 
-.offerBoardPackages{
-    width: 270px;
-    height: 320px;
-    background-color: #FF7F00;
-    position:absolute;
-    z-index: 100;
-    top:175px;
-    right: 10%;
+.offerBoardPackages {
+  width: 270px;
+  height: 320px;
+  background-color: #ff7f00;
+  position: absolute;
+  z-index: 100;
+  top: 175px;
+  right: 10%;
 }
 
-.innerBoxofferBoardPackages{
-    width: 86%;
-    height: 86%;
-    margin-top: 7%;
-    margin-left: 7%;
-    border: 2px solid #FFFFFF;
+.innerBoxofferBoardPackages {
+  width: 86%;
+  height: 86%;
+  margin-top: 7%;
+  margin-left: 7%;
+  border: 2px solid #ffffff;
 }
 
-.innerBoxofferBoardPackages h5{
-    font-size: 21px;
-    margin-left: 8%;
-    margin-top: 10%;
-    color: #FFFFFF;
-    font-family: 'Roboto Condensed', sans-serif;
+.innerBoxofferBoardPackages h5 {
+  font-size: 21px;
+  margin-left: 8%;
+  margin-top: 10%;
+  color: #ffffff;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
-.innerBoxofferBoardPackages button{
-    display: block;
-    position: absolute;
-    right: 15%;
-    bottom: 11%;
-    height: 29px;
-    font-size: 14px;
-    padding: 2px 12px 5px;
-    background-color: #14C245;
-    border: none;
-    border-radius: 0;
-    box-shadow: 0px 3px 3px #00000045;
-    font-family: 'Roboto', sans-serif;
+.innerBoxofferBoardPackages button {
+  display: block;
+  position: absolute;
+  right: 15%;
+  bottom: 11%;
+  height: 29px;
+  font-size: 14px;
+  padding: 2px 12px 5px;
+  background-color: #14c245;
+  border: none;
+  border-radius: 0;
+  box-shadow: 0px 3px 3px #00000045;
+  font-family: "Roboto", sans-serif;
 }
 
-.imgWarranty{
-    width: 205px;
-    margin-left: 50px;
-    margin-top: 5px;
+.imgWarranty {
+  width: 205px;
+  margin-left: 50px;
+  margin-top: 5px;
 }
 
-.packageHeading{
-    color: #C24914;
-    display: inline-block;
-    font-size: 32px;
-    margin-left: 100px;
-    margin-top: 140px;
-    padding-bottom: 15px;
-    border-bottom: 3px solid #C24914;
+.packageHeading {
+  color: #c24914;
+  display: inline-block;
+  font-size: 32px;
+  margin-left: 100px;
+  margin-top: 90px;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #c24914;
 }
 
 .offerPackDiv {
-    border: solid 3px #C24914;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 70px;
+  border: solid 3px #c24914;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 70px;
 }
 
-.offerPackDivHeader{
-    background-color: #FFDD55;
-    display: flex;
-    justify-content: space-between;
+.offerPackDivHeader {
+  background-color: #ffdd55;
+  display: flex;
+  justify-content: space-between;
 }
 
-.offerPackDivHeader h2{
-    margin-left: 60px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-right: 50px;
+.offerPackDivHeader h2 {
+  margin-left: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: 50px;
 }
 
-.offerPackDivBody{
-    display: flex;
-    margin: 40px 40px 0px 40px;
+.offerPackDivBody {
+  display: flex;
+  margin: 40px 40px 0px 40px;
 }
 
-.offerPackDivLeftColumn{
-    width: 50%;
+.offerPackDivLeftColumn {
+  width: 50%;
 }
 
-.offerPackDivLeftColumn p{
-    margin: 20px;
+.offerPackDivLeftColumn p {
+  margin: 20px;
 }
 
-.offerPackDivRightColumn p{
-    margin: 20px;
+.offerPackDivRightColumn p {
+  margin: 20px;
 }
 
-.offerPackDivBottom{
-    margin: 20px 40px 20px 40px;
+.offerPackDivBottom {
+  margin: 20px 40px 20px 40px;
 }
 
-.offerPackDivBottom p{
-    margin: 30px 20px 0px 0px;
+.offerPackDivBottom p {
+  margin: 30px 20px 0px 0px;
 }
 
-
-
-@media (max-width: 1279.98px){
-  
+.Packages-detail-content-container p {
+  font-size: 20px;
+  text-align: justify;
+  background-color: #faebd7;
+  border: 2px solid #cab8a1;
+  font-style: italic;
+}
+.topBannerPackagesDescriptionAuthor {
+  font-size: 20px !important;
 }
 
-@media (max-width: 991.98px){
-    
+@media (max-width: 1279.98px) {
 }
 
-@media (max-width: 767.98px){
-   
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 767.98px) {
 }
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 767.98px) and (min-width: 576px) {
-    .offerBoardPackages{
-        display: none;
-    }
-    .topBannerPackagesDescription {
-        width: auto;
-    }
-    .topBannerPackages {
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-    
+  .offerBoardPackages {
+    display: none;
+  }
+  .topBannerPackagesDescription {
+    width: auto;
+  }
+  .topBannerPackages {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
+@media (max-width: 575.98px) {
+  .offerBoardPackages {
+    display: none;
+  }
 
-@media (max-width: 575.98px){
-    .offerBoardPackages{
-        display: none;
-    }
+  .topBannerPackages {
+    padding-left: 30px;
+  }
 
-    .topBannerPackages{
-        padding-left: 30px;
-    }
+  .topBannerPackages {
+    background-color: #ffc93c;
+    height: auto;
+    padding-bottom: 20px;
+  }
 
-    .topBannerPackages {
-        background-color: #FFC93C;
-        height: auto;
-        padding-bottom: 20px;
-    }
+  .topBannerPackagesDescription {
+    width: auto;
+  }
+  .packageHeading {
+    margin-top: 20px;
+  }
 
-    .topBannerPackagesDescription {
-        width: auto;
-    }
-    .packageHeading {
-        margin-top: 20px;
-    }
+  .offerPackDiv {
+    margin: 30px 30px 0px 30px;
+  }
+  .offerPackDivHeader h2 {
+    margin-left: 10px;
+  }
+  .offerPackDivLeftColumn {
+    width: auto;
+  }
+  .offerPackDivBody {
+    margin: 20px 20px 0px 20px;
+  }
 
-    .offerPackDiv {
-        margin: 30px 30px 0px 30px;
-    }
-    .offerPackDivHeader h2 {
-        margin-left: 10px;
-    }
-    .offerPackDivLeftColumn {
-        width: auto;
-    }
-    .offerPackDivBody {
-        margin: 20px 20px 0px 20px;
-    }
-
-    .imgWarranty {
-        margin: 15px auto;
-        display: block;
-    }
-   
-    
+  .imgWarranty {
+    margin: 15px auto;
+    display: block;
+  }
 }
