@@ -73,11 +73,10 @@ class Packages extends Component {
         </div>
 
         {/* top banner ends */}
-
+<div className="Packages-star-image-heading">
         <img src={ic_warranty} className="imgWarranty" />
-
         <h3 className="packageHeading">PACKAGE OFFERS</h3>
-
+</div>
         <div className="offerPackDiv">
           <div className="offerPackDivHeader">
             <h2>ESSENTIAL PACK</h2>

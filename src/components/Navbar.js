@@ -52,7 +52,7 @@ class Navbar extends Component {
 
         <nav className="navbar navbar-expand-lg navbar-light">
           <div className="container-fluid">
-            <Link to="/" className="offers_link_header navbar-brand">
+            <Link to="/" className=" navbar-brand">
               {" "}
               <img
                 className="navBarCompanyLogo"

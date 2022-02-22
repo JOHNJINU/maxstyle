@@ -18,6 +18,7 @@
 
 .offers_link_header:link {
   text-decoration: none;
+  display: none;
 }
 
 .headerOfferStrip img {
@@ -56,11 +57,20 @@ nav {
   padding: 12px 15px;
 }
 
+@media (min-width: 1400px) {
+  .navBarCompanyLogo {
+    margin-left: 20%;
+  }
+}
+
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   #navbar-get-estimate {
     position: absolute;
     top: 110px;
     right: 0px;
+  }
+  .navBarCompanyLogo {
+    margin-left: 20%;
   }
 }
 
@@ -69,5 +79,38 @@ nav {
     position: absolute;
     top: 110px;
     right: 0px;
+    z-index: 2;
+  }
+  .navBarCompanyLogo {
+    width: 170px;
+    height: 110px;
+    object-fit: contain;
+  }
+  .navBarCompanyLogo {
+    margin-left: 10%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .navBarCompanyLogo {
+    margin-left: 15%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .navBarCompanyLogo {
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .navBarCompanyLogo {
+    width: 140px;
+    height: 60px;
+    object-fit: contain;
+    margin-left: 10%;
+  }
+  .carousel-caption h5 {
+    font-size: 26px;
   }
 }

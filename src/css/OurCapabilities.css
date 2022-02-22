@@ -183,7 +183,7 @@
 }
 
 .projectsYearsContainer .center {
-  width: 1vw;
+  width: 1%;
   height: 62vw;
 }
 
@@ -319,7 +319,86 @@
   text-align: center;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1400px) {
+  .ourFeatuesCapabilitiesFirstBar {
+    width: 1400px;
+    padding: 50px 35px 10px 65px;
+    margin:0px auto;
+}
+.ourFeatuesCapabilitiesFirstBar .secondBarHalfFeaturesCapabilities img {
+  width: 100%;
+}
+.ourFeatuesCapabilitiesFirstBar .firstBarHalfFeaturesCapabilities {
+  width: 60%;
+}
+.secondBarHalfFeaturesCapabilities{
+  width:40%;
+}
+.hrLineourCapabilitiesOne {
+  width: auto;
+}
+.projectsYearsContainer{
+  width: 1400px;
+  margin: 30px auto;
+}
+.projectsYearsContainer .left {
+  width: 49%;
+}
+.projectsYearsContainer .left .secondBarHalfFeaturesAbout img {
+  width: 100%;
+}
+.projectsYearsContainer .right {
+  width: 49%;
+}
+.projectsYearsContainer .right .secondBarHalfFeaturesAbout img {
+  width: 100%;
+}
+.ourcapabilities-image-container{
+  width: 100%;
+}
+}
+
+@media (min-width: 1400px){
+  .projectsYearsContainer .left .firstBarHalfFeaturesCapabilities {
+    width: 88%;
+}
+.projectsYearsContainer .center {
+  width: 1vw;
+  height: 900px !important;
+}
+.projectsYearsContainer .center hr {
+  height: 900px;
+}
+.hassleFreeContainer .firstSection .firstImage img,
+.hassleFreeContainer .firstSection .secondImage img,
+.hassleFreeContainer .firstSection .thirdImage img {
+  width: 96%;
+  height: 300px;
+  object-fit: cover;
+}
+.hassleFreeContainer {
+  width: 1400px;
+  margin: 0px auto;
+}
+.hassleFreeContainer .thirdSection .firstImage img,
+.hassleFreeContainer .thirdSection .secondImage img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.hassleFreeContainer .thirdSection .center hr {
+  width: 2px;
+  height: 500px;
+  border: 1px solid #ffc93c;
+  position: absolute;
+  top: auto; 
+   left: auto; 
+   margin: 3px;
+}
+.hassleFreeContainer .thirdSection .center {
+  width: 1%;
+  height: auto;
+}
 }
 
 @media (min-width: 1200px) and (max-width: 1399.98px) {

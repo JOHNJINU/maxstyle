@@ -86,7 +86,7 @@ class OurCapabilities extends Component {
 
         <div className="projectsYearsContainer">
           <div className="left">
-            <div className="secondBarHalfFeaturesAbout">
+            <div className="secondBarHalfFeaturesAbout ourcapabilities-image-container">
               <img src={our_capabilities_4} className="objectCoverImage" />
             </div>
 
@@ -120,7 +120,7 @@ class OurCapabilities extends Component {
                 build and maintain their dream with us.
               </p>
             </div>
-            <div className="secondBarHalfFeaturesAbout">
+            <div className="secondBarHalfFeaturesAbout ourcapabilities-image-container">
               <img src={our_capabilities_5} className="objectCoverImage" />
             </div>
           </div>
