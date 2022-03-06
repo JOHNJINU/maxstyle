@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+.Projects-root-container {
+  font-family: "Merriweather", serif;
+}
+
 .topBannerProjects {
   background-color: #ea5455;
   height: 410px;
@@ -11,7 +17,7 @@
 .topBannerProjectsDescription {
   width: 40vw;
   font-size: 18px;
-  font-family: "Roboto", sans-serif;
+
   font-weight: 300;
   line-height: 1.1;
   margin-top: 25px;
@@ -79,7 +85,7 @@
 .listItemOne .left h6 {
   font-size: 25px;
   color: #000000;
-  font-family: "Roboto", sans-serif;
+
   font-weight: 300;
   margin-top: 20px;
 }
@@ -87,7 +93,7 @@
 .listItemOne .left p {
   font-size: 16px;
   color: #000000c0;
-  font-family: "Roboto", sans-serif;
+
   font-weight: 300;
   margin-top: 28px;
   padding-right: 50px;
@@ -127,6 +133,17 @@
   .topBannerProjectsDescription {
     width: auto;
   }
+}
+
+.Projects-testimonial-replacement-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+}
+.Projects-testimonial-replacement-container img {
+  width: 100%;
+  object-fit: cover;
+  min-width: 1400px;
 }
 
 @media (min-width: 1200px) and (max-width: 1399.98px) {

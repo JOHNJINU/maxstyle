@@ -19,6 +19,9 @@ import home_6 from "../img/max_home_3.jpeg";
 import home_7 from "../img/max_home_4.jpeg";
 import home_8 from "../img/max_home_5.jpeg";
 
+import about_1 from "../img/ic_about_top_1.jpg";
+import Site4 from "../img/Site4.jpg";
+
 function Home() {
   // earlier used class now converted to function
 
@@ -48,42 +51,30 @@ function Home() {
 
   const arrayOfExplore = [
     {
-      heading: "IMPORTED GOODS",
+      heading: "High graded Raw materials",
       contentList: [
         "These are highly qualified materials (710 Grade BWP).",
         "We carry out all the steps from design to production and assembly in our own factory with the backing of modern German and Italian machineries.",
         "100% Customized products.",
-        "Imported Raw Materials are; i) 710 Grade BWP Marine Wood - Century, Trojan, Jack wood ii) 710 Grade BWP Maxply",
+        "Our raw materials are; i) 710 Grade BWP Marine Wood ii) Our High Grade Signature Plywood Maxply",
         "Imported Accessories are; Hettich, Ebco, Hepo by Hettich",
       ],
     },
     {
-      heading: "FINEST DETAILING",
+      heading: "Peace of Mind",
       contentList: [
-        "1 Year Onsite warranty against manufacturing defects. (* Terms & Conditions are applying)",
+        "1 Year Onsite warranty against manufacturing defects.",
+        "(Terms & Conditions are applying)",
         "Up to 5 Years Warranty on Accessories- as per the warranty policy terms & conditions by accessories manufacturer. (Fixing charge is free for 1 Year at site services- thereafter service charge is applicable for removal / fixing works with parts. Terms & Conditions are applying)",
-        "This warranty & its period is applicable only for 100% paid amount in total Final Invoice value.",
-        "Offer is open for your consideration strictly for a period of 15days only from this day and subject to our written confirmation thereafter.",
-        "The said work can be completed within 35-45 working days from the date of purchase order with advance. However, intervening work by other agencies should be completed as per dates indicated in the progress bar chart that will be furnished on receipt of order.",
-        "Date of completion will be valued, 5 days from the date of drawing submission, in case of any delay from the site or client, this completion schedule will not be valued.",
+        "Lifetime service provided by the company. Service charges may apply.",
       ],
     },
     {
-      heading: "COST EFFICIENT",
+      heading: "Cost Efficient",
       contentList: [
-        "When joint measurements are being taken for billing, Extra area shall be calculated as an Additional Bill and cut-outs for lights/ columns / speakers /diffusers /half tiles if any used shall be considered as a billing area.",
-        "Additional requirements are being considered as an Additional Billing.",
-        "Cove lightings and design cornices are being considered as an additional charge.",
-        "Any damages / wastage’s due to co-ordination agencies like electrical, AC, fire, lighting etc., will be to your account.",
-        "No deduction in area should be made for light cut-outs for lights/ columns / speakers / diffusers.",
-        "The prices quoted are as per the standard material consumption calculation. Prices may vary subject to variation in the consumption that shall be furnished only on receiving the final drawings & site conditions.",
-        "Transportation charges are inclusive.",
-        "Purchase orders to be released favoring: M/s. PRASIDHI MAXSTYLE INTERIORS.",
-        "Any change in the existing rates of taxes shall be to the client's account.",
-        "All material will remain the property of PRASIDHI MAXSTYLE INTERIORS until the 100% payment is settled.",
-        "50% payment as advance.",
-        "45 % payment on Materials Delivery at site.",
-        "5% payment on Work completion at site.",
+        "Our company provides you designs as per your budget with high grade quality raw materials.",
+        " We Provides Detailed Consultation as per the budget. ",
+        "You can choose the raw materials and Accessories ae per the Budget and preference.",
       ],
     },
   ];
@@ -138,7 +129,7 @@ function Home() {
           </div>
           <div class="carousel-item">
             <img
-              src={home_slider_2}
+              src={about_1}
               class="d-block w-100 objectCoverImage"
               alt="..."
             />
@@ -148,11 +139,7 @@ function Home() {
             </div>
           </div>
           <div class="carousel-item">
-            <img
-              src={home_slider_3}
-              class="d-block w-100 objectCoverImage"
-              alt="..."
-            />
+            <img src={Site4} class="d-block w-100 objectCoverImage" alt="..." />
             <div className="blackOverlayCarousel"></div>
             <div class="carousel-caption d-md-block">
               <h5>Precise and artistic</h5>
@@ -183,21 +170,13 @@ function Home() {
           <div className="innerBoxofferBoardCarousel">
             <h5>
               {" "}
-              35% LESS THAN <br /> RETAIL OUTLET{" "}
+              OUR PRICE IS <br /> LESS THAN 35%{" "}
             </h5>
             <h5>
               {" "}
               FACTORY <br /> PRODUCTION{" "}
             </h5>
             <h5> DIRECT INSTALLATION </h5>
-
-            <div>
-              <Link to="/offers">
-                <button type="button" className="btn btn-primary ">
-                  MORE OFFERS
-                </button>
-              </Link>
-            </div>
           </div>
         </div>
         <a
@@ -254,14 +233,13 @@ function Home() {
         <div className="firstColumn col-8 ">
           <div className="position-relative">
             <img src={home_6} className="w-50 objectCoverImage" />
-            <h4 className="position-absolute">IMPORTED GOODS</h4>
+            <h4 className="position-absolute">High graded Raw materials</h4>
             <p className="position-absolute">
               These are highly qualified materials (710 Grade BWP). We carry out
               all the steps from design to production and assembly in our own
               factory with the backing of modern German and Italian machineries.
-              100% Customized products. Imported Raw Materials are; i) 710 Grade
-              BWP Marine Wood - a) Century b) Trojan c) Jack wood ii) 710 Grade
-              BWP Maxply
+              100% Customized products. Our raw materials are; i) 710 Grade BWP
+              ii) Our High Grade Signature Plywood Maxply
             </p>
             <button
               type="button"
@@ -273,14 +251,13 @@ function Home() {
           </div>
           <div className="position-relative">
             <img src={home_7} className="w-50 objectCoverImage" />
-            <h4 className="position-absolute">FINEST DETAILING</h4>
+            <h4 className="position-absolute">Peace of Mind</h4>
             <p className="position-absolute">
-              1 Year Onsite warranty against manufacturing defects. (* Terms
-              &amp; Conditions are applying). Up to 5 Years Warranty on
-              Accessories- as per the warranty policy terms &amp; conditions by
-              accessories manufacturer. (Fixing charge is free for 1 Year at
-              site services- thereafter service charge is applicable for removal
-              / fixing works with parts. Terms &amp; Conditions are applying)
+              1 Year Onsite warranty against manufacturing defects. (Terms &amp;
+              Conditions are applying). Up to 5 Years Warranty on Accessories-
+              as per the warranty policy terms &amp; conditions by accessories
+              manufacturer.Lifetime service provided by the company. Service
+              charges may apply.
             </p>
             <button
               type="button"
@@ -294,7 +271,7 @@ function Home() {
         <div className="seondColumn col-4 ">
           <div className="position-relative">
             <img src={home_8} className="w-100 objectCoverImage" />
-            <h4>COST EFFICIENT</h4>
+            <h4>Cost Efficient</h4>
             <p>
               When joint measurements are being taken for billing, Extra area
               shall be calculated as an Additional Bill and cut-outs for lights/
@@ -320,7 +297,7 @@ function Home() {
 
       {/* customer experience starts */}
 
-      <div className="customerExperienceContainer">
+      {/* <div className="customerExperienceContainer">
         <h4>CUSTOMER EXPERIENCES</h4>
 
         <div className="customerExperienceList">
@@ -375,7 +352,7 @@ function Home() {
         >
           View All
         </button>
-      </div>
+      </div> */}
 
       {/* customer experience ends */}
 

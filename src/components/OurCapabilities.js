@@ -12,10 +12,17 @@ import our_capabilities_3 from "../img/our_capabilities_3.JPG";
 import our_capabilities_4 from "../img/our_capabilities_4.jpg";
 import our_capabilities_5 from "../img/our_capabilities_5.jpg";
 
+import Site4 from "../img/Site4.jpg";
+import Site5 from "../img/Site5.jpg";
+import Site6 from "../img/Site6.jpg";
+import Site7 from "../img/Site7.jpg";
+import Site8 from "../img/Site8.jpg";
+import ic_factory from "../img/ic_factory.jpg";
+
 class OurCapabilities extends Component {
   render() {
     return (
-      <div>
+      <div className="OurCapabilities-root-container">
         {/* quadrant block starts */}
 
         <div className="firstBarOurCapabilities d-flex row-fluid">
@@ -33,12 +40,12 @@ class OurCapabilities extends Component {
             </span>
           </div>
           <div className="secondHalf col-6">
-            <img src={our_capabilities_1} className="objectCoverImage" />
+            <img src={ic_factory} className="objectCoverImage" />
           </div>
         </div>
         <div className="secondBarCapabilities d-flex row-fluid no-gutters">
           <div className="secondHalf col-6">
-            <img src={our_capabilities_2} className="objectCoverImage" />
+            <img src={Site5} className="objectCoverImage" />
           </div>
           <div className="firstHalf position-relative col-6">
             <span className="d-block">
@@ -66,15 +73,15 @@ class OurCapabilities extends Component {
               </b>
               <br />
               <br />
-              Production facility of our firm situated in S L Puram, have high
+              Production facility of our firm situated in Alappuzha, have high
               storage capacity and able to manufacturing more items at a time.
               Systematic manufacturing and assembling procedures ensure the best
-              result to match the designs. Factory supervisor give time schedule
-              to the workers as per the execution and site status.
+              result to match the designs. Production Excecutive give time
+              schedule to the workers as per the execution and site status.
             </p>
           </div>
           <div className="secondBarHalfFeaturesCapabilities">
-            <img src={our_capabilities_3} className="objectCoverImage" />
+            <img src={Site6} className="objectCoverImage" />
           </div>
         </div>
 
@@ -87,11 +94,11 @@ class OurCapabilities extends Component {
         <div className="projectsYearsContainer">
           <div className="left">
             <div className="secondBarHalfFeaturesAbout ourcapabilities-image-container">
-              <img src={our_capabilities_4} className="objectCoverImage" />
+              <img src={Site7} className="objectCoverImage" />
             </div>
 
             <div className="firstBarHalfFeaturesCapabilities">
-              <h3>27</h3>
+              <h3>32</h3>
               <h5>Projects per month.</h5>
               <p>
                 100% customization in designing and qualified and experienced
@@ -121,7 +128,7 @@ class OurCapabilities extends Component {
               </p>
             </div>
             <div className="secondBarHalfFeaturesAbout ourcapabilities-image-container">
-              <img src={our_capabilities_5} className="objectCoverImage" />
+              <img src={Site8} className="objectCoverImage" />
             </div>
           </div>
         </div>

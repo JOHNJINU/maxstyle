@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 
 .patternLogoContainerImages {
   width: 45%;
@@ -32,7 +32,7 @@
 
 .bottomRectanglefirstColumn p {
   font-size: 24px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Merriweather", serif;
   color: #000000b0;
   margin-top: 20px;
 }
@@ -51,6 +51,7 @@
 .followText {
   font-weight: 500;
   color: #000000b0;
+  font-family: "Merriweather", serif;
 }
 
 .bottomRectangleThirdColumn {
@@ -63,6 +64,7 @@
   margin: 0px 8px;
   font-weight: 500;
   color: #000000b0;
+  font-family: "Merriweather", serif;
 }
 
 .bottomRectangleThirdColumn ul {

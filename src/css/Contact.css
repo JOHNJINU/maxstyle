@@ -1,198 +1,376 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 
-.addressCardContainer{
-    margin: 0px 0px 50px 0px;
+.Contact-root-container {
+  font-family: "Merriweather", serif;
 }
 
-.generalEnquiryText{
-    color: #153E90;
-    width: 700px;
-    font-size: 24px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    margin: 0 auto;  
-    padding-top: 70px;
-    padding-bottom: 50px;
-    text-align: center;
+.addressCardContainer {
+  margin: 0px 0px 50px 0px;
 }
 
-.enquirySectionContainer{
-    position: relative;
-    height: 845px;
-    margin-top: 75px;
+.generalEnquiryText {
+  color: #153e90;
+  width: 700px;
+  font-size: 24px;
+
+  font-weight: 300;
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  text-align: center;
 }
 
-.typingFieldContainer{
-    position: absolute;
-    background-color: #ffffff;
-    padding: 20px 50px 20px 50px;
-    width: 600px;
-    height: 735px;
-    top:70px;
-    right: 100px
+.enquirySectionContainer {
+  position: relative;
+  height: 845px;
+}
+
+.typingFieldContainer {
+  position: absolute;
+  background-color: #ffffff;
+  padding: 20px 50px 20px 50px;
+  width: 600px;
+  height: 735px;
+  top: 70px;
+  right: 100px;
 }
 
 ::placeholder {
-    color: #0000008e;
-    font-size: 1.5rem;
-  }
-
-  .typingFieldContainer input[type=text],
-  .typingFieldContainer input[type=email],
-  textarea{
-      width: 100%;
-      margin-top: 30px;
-      background-color: #00000010;
-      border-width: 0px;
-      padding: 10px 0px 10px 30px;
-      font-size: 1.5rem;
-  }
-
-  .typingFieldContainer input[type=submit]{
-    background-color: #153E90;
-    color: #ffffff;
-    margin-top: 25px;
-    width: 30%;
-    border-width: 0px;
-    padding: 10px 0px 10px 10px;
-    font-size: 1.5rem;
-    display: block;
-    margin-left:auto;
-  }
-  
-  .typingFieldContainer h5 {
-    font-size: 2rem;
-    color: #0E49B5;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    margin-top: 20px;
-  }
-
-.imageEnquiry{
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+  color: #0000008e;
+  font-size: 1rem;
 }
 
-.contactUsTopPortionText{
-    background-color: #153E90;
-    color: #ffffff;
-    height: 420px;
+.typingFieldContainer input[type="text"],
+.typingFieldContainer input[type="email"],
+textarea {
+  width: 100%;
+  margin-top: 30px;
+  background-color: #00000010;
+  border-width: 0px;
+  padding: 10px 0px 10px 30px;
+  font-size: 1.5rem;
 }
 
-.contactUsTopPortionText .firstBarHalfAbout p, 
-.contactUsTopPortionText .firstBarHalfAbout h4{
-    color: #ffffff;
+.typingFieldContainer input[type="submit"] {
+  background-color: #153e90;
+  color: #ffffff;
+  margin-top: 25px;
+  width: 30%;
+  border-width: 0px;
+  padding: 10px 0px 10px 10px;
+  font-size: 1.5rem;
+  display: block;
+  margin-left: auto;
 }
 
-.contactUsTopPortionText .firstBarHalfAbout p{
-    margin-top: 55px;
+.typingFieldContainer h5 {
+  font-size: 2rem;
+  color: #0e49b5;
+
+  font-weight: 500;
+  margin-top: 20px;
 }
 
-.contactUsTopPortionText .firstBarHalfAbout{
-    padding: 50px 42px 25px 80px;
+.imageEnquiry {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.contactUsTopPortionText {
+  background-color: #153e90;
+  color: #ffffff;
+  height: 420px;
+}
+
+.contactUsTopPortionText .firstBarHalfAbout p,
+.contactUsTopPortionText .firstBarHalfAbout h4 {
+  color: #ffffff;
+}
+
+.contactUsTopPortionText .firstBarHalfAbout p {
+  margin-top: 55px;
+}
+
+.contactUsTopPortionText .firstBarHalfAbout {
+  padding: 50px 42px 25px 80px;
 }
 
 .contactUsTopPortionText .secondBarHalfAbout img {
-    height: 420px;
-    object-fit: cover;
+  height: 420px;
+  object-fit: cover;
 }
 
 .enquiryStatusMessage {
-    position: absolute;
+  position: absolute;
 }
-.statusSuccess{
-    background-color: white;
-    color: green ;
-    font-size: 30px ;
-  }
+.statusSuccess {
+  background-color: white;
+  color: green;
+  font-size: 30px;
+}
 
-  .statusFailure{
-    color: red;
+.statusFailure {
+  color: red;
+  font-size: 20px;
+  position: absolute;
+}
+.ContactUs-number-social-media-container > label {
+  font-size: 22px;
+}
+.ContactUs-number-social-media-container > label > span {
+  font-size: 22px;
+  margin-left: 15px;
+}
+
+.ContactUs-number-social-media-container > p {
+  font-size: 22px;
+}
+
+@media (min-width: 1400px) {
+  .cardContainer {
+    width: 30% !important;
+  }
+  .header h5 {
+    font-size: 23px !important;
+  }
+  .body .address {
     font-size: 20px;
-    position: absolute
+    padding: 20px 15px 10px 15px;
   }
-
-@media (max-width: 1279.98px){
-  
 }
 
-@media (max-width: 991.98px){
-    
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .cardContainer {
+    width: 30% !important;
+  }
+  .header h5 {
+    font-size: 23px !important;
+  }
+  .body .address {
+    font-size: 20px;
+    padding: 20px 15px 10px 15px;
+  }
 }
 
-@media (max-width: 767.98px){
-   
+@media (min-width: 992px) and (max-width: 1119.98px) {
+  .cardContainer {
+    background-color: #fffaa4;
+    width: 470px;
+  }
+  .firstRow {
+    padding: 5px 20px 0px 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header h5 {
+    font-size: 24px !important;
+  }
+  .body .address {
+    font-size: 18px !important;
+    padding: 20px 10px 10px 10px !important;
+  }
+  .body .phone {
+    font-size: 18px !important;
+    padding: 0px 10px 12px 10px !important;
+  }
+  .cardContainer {
+    background-color: #fffaa4;
+    width: 460px !important;
+  }
+  .firstRow {
+    padding: 5px 20px 0px 20px;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 767.98px) and (min-width: 576px) {
-    .contactUsTopPortionText .secondBarHalfAbout img {
-        display: none;
-    }
-    .contactUsTopPortionText {
-        height: auto; 
-    }
-    .contactUsTopPortionText .firstBarHalfAbout p {
-        margin-top: 20px; 
-    }
-    .topQuadrantFirstBarAbout .firstBarHalfAbout {
-        width: auto;
-    }
-    .contactUsTopPortionText .firstBarHalfAbout {
-        padding: 30px 42px 25px 40px;
-    }
-    .header h5 {
-        font-size: 20px;
-    }
-    .cardContainer {
-        width: auto;
-    }
+  .contactUsTopPortionText .secondBarHalfAbout img {
+    display: none;
+  }
+  .contactUsTopPortionText {
+    height: auto;
+  }
+  .contactUsTopPortionText .firstBarHalfAbout p {
+    margin-top: 20px;
+  }
+  .topQuadrantFirstBarAbout .firstBarHalfAbout {
+    width: auto;
+  }
+  .contactUsTopPortionText .firstBarHalfAbout {
+    padding: 30px 42px 25px 40px;
+  }
+  .header h5 {
+    font-size: 20px;
+  }
+  .cardContainer {
+    width: auto;
+  }
 
-    .body p {
-        font-size: 18px !important;
-    }
+  .body p {
+    font-size: 18px !important;
+  }
 
-    .locationBlock {
-        font-size: 18px;
-    }
-    .locationUnderline {
-        width: 130px;
-    }
-    
+  .locationBlock {
+    font-size: 18px;
+  }
+  .locationUnderline {
+    width: 130px;
+  }
+  .header h5 {
+    font-size: 24px !important;
+  }
+  .body .address {
+    font-size: 18px !important;
+    padding: 20px 10px 10px 10px !important;
+  }
+  .body .phone {
+    font-size: 18px !important;
+    padding: 0px 10px 12px 10px !important;
+  }
+  .locationBlock {
+    width: auto !important;
+    margin: 20px 0px 5px 10px !important;
+  }
+  .locationUnderline {
+    width: 170px !important;
+    margin: 0px 0px 45px 65px !important;
+  }
+  .ContactUs-follow-icon img {
+    width: 30px;
+  }
+  .ContactUs-number-social-media-container > p {
+    font-size: 18px;
+  }
+  .ContactUs-follow-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ContactUs-number-social-media-container > label > span {
+    display: block;
+  }
+  .generalEnquiryText {
+    width: auto;
+  }
+  .firstRow {
+    padding: 5px 20px 0px 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cardContainer .body {
+    padding: 10px 0px 0px 20px;
+  }
+  .firstRow {
+    padding: 5px 20px 0px 20px;
+    flex-direction: column;
+  }
+
+  .typingFieldContainer {
+    right: 5%;
+  }
+  .cardContainer {
+    margin-top: 20px;
+  }
 }
 
-@media (max-width: 575.98px){
-    .contactUsTopPortionText .firstBarHalfAbout {
-        padding: 50px 42px 25px 30px;
-    }
-    .contactUsTopPortionText .firstBarHalfAbout p {
-        margin-top: 25px;
-    }
-    .typingFieldContainer {
-        width: 90vw;
-        height: auto;
-        top: 0px;
-        left: 5vw;
-        margin: 30px auto;
-    }
-    .contactUsTopPortionText .secondBarHalfAbout img {
-        height: auto;
-    }
-    .enquirySectionContainer {
-        height: 800px;
-        margin-top: 15px;
-    }
+@media (max-width: 575.98px) {
+  .contactUsTopPortionText .firstBarHalfAbout {
+    padding: 50px 42px 25px 30px;
+  }
+  .contactUsTopPortionText .firstBarHalfAbout p {
+    margin-top: 25px;
+  }
+  .typingFieldContainer {
+    width: 90%;
+    height: auto;
+    top: 0px;
+    left: 5%;
+    margin: 30px auto;
+  }
+  .contactUsTopPortionText .secondBarHalfAbout img {
+    height: auto;
+  }
+  .enquirySectionContainer {
+    height: 800px;
+  }
 
-    .addressCardContainer {
-        margin: 0px 0px 50px 0px;
-    }
-    .contactUsTopPortionText {
-        height: auto;
-        display: flex;
-        flex-direction: column;
-    }
-    .generalEnquiryText {
-         width: auto;
-        }
+  .addressCardContainer {
+    margin: 0px 0px 10px 0px !important;
+  }
+  .contactUsTopPortionText {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .generalEnquiryText {
+    width: auto;
+  }
+  .header h5 {
+    font-size: 24px !important;
+  }
+  .body .address {
+    font-size: 18px !important;
+    padding: 20px 10px 10px 10px !important;
+  }
+  .body .phone {
+    font-size: 18px !important;
+    padding: 0px 10px 12px 10px !important;
+  }
+  .locationBlock {
+    width: auto !important;
+    margin: 20px 0px 5px 10px !important;
+    font-size: 22px;
+  }
+  .locationUnderline {
+    width: 170px !important;
+    margin: 0px 0px 45px 65px !important;
+  }
+
+  .ContactUs-follow-icon img {
+    width: 30px;
+  }
+  .ContactUs-number-social-media-container > p {
+    font-size: 18px;
+  }
+  .ContactUs-follow-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ContactUs-number-social-media-container > label > span {
+    display: block;
+  }
+  .generalEnquiryText {
+    width: auto;
+  }
+  .cardContainer {
+    margin-top: 20px;
+  }
+  .typingFieldContainer {
+    padding: 20px 10px 20px 10px;
+  }
+  .typingFieldContainer input[type="text"],
+  .typingFieldContainer input[type="email"],
+  textarea {
+    padding: 10px 0px 10px 10px;
+    font-size: 16px !important;
+  }
+  .typingFieldContainer h5 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  .typingFieldContainer input[type="submit"] {
+    margin-top: 25px;
+    width: 40%;
+    padding: 5px 10px;
+    font-size: 18px;
+  }
 }

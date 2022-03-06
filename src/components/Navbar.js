@@ -1,5 +1,5 @@
 import { Component } from "react";
-import icCompanyLogo from "../img/ic_company_logo.png";
+import icCompanyLogo from "../img/ic_company_logo.jpg";
 import icPhoneReceiver from "../img/ic_phone_receiver.png";
 import icEmail from "../img/ic_email.png";
 import "../css/Header.css";
@@ -44,8 +44,8 @@ class Navbar extends Component {
             <span>
               {" "}
               For enquiries please call : <img src={icPhoneReceiver} /> INDIA -
-              0091 123 45678 90. UAE - 00971 123 4566 2123.{" "}
-              <img src={icEmail} /> enquiry@maxstyleinteriors.com{" "}
+              +91 751 02 44 440 UAE - +971 52 56 44 009 <img src={icEmail} />{" "}
+              enquiry@maxstyleinteriors.com{" "}
             </span>
           </div>
         </div>

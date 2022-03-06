@@ -2,6 +2,7 @@ import { Component } from "react";
 import "../css/Packages.css";
 import ic_warranty from "../img/ic_warranty.png";
 import GetEstimateModal from "./GetEstimateModal";
+import { Link } from "react-router-dom";
 
 class Packages extends Component {
   constructor(props) {
@@ -23,7 +24,7 @@ class Packages extends Component {
 
   render() {
     return (
-      <div>
+      <div className="Packages-root-container">
         {/* top banner starts */}
 
         <div className="topBannerPackages">
@@ -55,7 +56,7 @@ class Packages extends Component {
           <div className="innerBoxofferBoardPackages">
             <h5>
               {" "}
-              35% LESS THAN <br /> RETAIL OUTLET{" "}
+              OUR PRICE IS <br /> LESS THAN 35%
             </h5>
             <h5>
               {" "}
@@ -72,15 +73,24 @@ class Packages extends Component {
           </div>
         </div>
 
+        <div className="Package-more-offers-button-container container mt-4">
+          <Link to="/offers">
+            <button type="button" className="btn btn-primary ">
+              MORE OFFERS
+            </button>
+          </Link>
+        </div>
         {/* top banner ends */}
-<div className="Packages-star-image-heading">
-        <img src={ic_warranty} className="imgWarranty" />
-        <h3 className="packageHeading">PACKAGE OFFERS</h3>
-</div>
+        <div className="Packages-star-image-heading">
+          <img src={ic_warranty} className="imgWarranty" />
+          <h3 className="packageHeading">PACKAGE OFFERS</h3>
+        </div>
         <div className="offerPackDiv">
           <div className="offerPackDivHeader">
             <h2>ESSENTIAL PACK</h2>
-            <h2>Offer Price : 5.50 Lakhs</h2>
+            <h2>
+              Offer Price : <strike>6.5 Lakh</strike> 5.50 Lakhs
+            </h2>
           </div>
           <div className="offerPackDivBody">
             <div className="offerPackDivLeftColumn">
@@ -133,7 +143,9 @@ class Packages extends Component {
         <div className="offerPackDiv">
           <div className="offerPackDivHeader">
             <h2>LUXURY PACK</h2>
-            <h2>Offer Price : 9 Lakhs</h2>
+            <h2>
+              Offer Price : <strike>11.60 Lakh</strike> 9 Lakhs
+            </h2>
           </div>
           <div className="offerPackDivBody">
             <div className="offerPackDivLeftColumn">

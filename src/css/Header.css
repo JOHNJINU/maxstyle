@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
 .headerStrip {
   background: #ff4646;
   color: #ffffff;
+  font-family: "Merriweather", serif;
 }
 
 .headerStrip img {
@@ -48,6 +51,7 @@ nav {
 .navBarCompanyLogo {
   width: 237px;
   height: 110px;
+  object-fit: contain;
 }
 
 .getEstimateButton {
@@ -55,6 +59,10 @@ nav {
   border: 1px solid #e57200;
   border-radius: 0;
   padding: 12px 15px;
+  font-family: "Merriweather", serif;
+}
+#navbarNav {
+  font-family: "Merriweather", serif;
 }
 
 @media (min-width: 1400px) {
@@ -68,6 +76,7 @@ nav {
     position: absolute;
     top: 110px;
     right: 0px;
+    z-index: 2;
   }
   .navBarCompanyLogo {
     margin-left: 20%;

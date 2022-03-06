@@ -1,91 +1,91 @@
-.galleryTopSection{
-    display: flex;
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+.Gallery-root-container {
+  font-family: "Merriweather", serif;
 }
 
-.galleryHeading{
-    font-size: 46px;
-    color: #000000;
-    margin: 40px 0px 40px 80px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+.galleryTopSection {
+  display: flex;
+}
+
+.galleryHeading {
+  font-size: 46px;
+  color: #000000;
+  margin: 40px 0px 40px 80px;
+  font-weight: 500;
 }
 
 .offerStripGallery {
-    height: 105px;
-    margin-right: 25px;
-    margin-left: 75px;    
-    padding: 20px 15px 5px 25px;
+  height: 105px;
+  margin-right: 25px;
+  margin-left: 75px;
+  padding: 20px 15px 5px 25px;
 }
-
 
 .offerStripGallery .innerOfferStripAbout {
-    padding: 20px 5px 10px 0px;    
-    margin-left: 5px;
-    margin-right: 0px;
+  padding: 20px 5px 10px 0px;
+  margin-left: 5px;
+  margin-right: 0px;
 }
 
-.offerStripGallery h5{
-    font-size: 19px;
-    margin-right: 20px;
+.offerStripGallery h5 {
+  font-size: 19px;
+  margin-right: 20px;
 }
-.offerStripGallery button{
-    margin-left: 40px;
-    font-size: 14px;
-}
-
-.offerStripGallery img{
-    width: 8px;
-    height: 8px;
+.offerStripGallery button {
+  margin-left: 40px;
+  font-size: 14px;
 }
 
-.galleryImageContainer{
+.offerStripGallery img {
+  width: 8px;
+  height: 8px;
+}
+
+.galleryImageContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 96%;
+  margin: 0px auto 60px auto;
+}
+
+.galleryImageContainer img {
+  width: 32.8%;
+  height: 350px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1279.98px) {
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 767.98px) {
+}
+
+@media (max-width: 575.98px) {
+  .galleryImageContainer img {
+    width: 96vw;
+  }
+  .offerStripGallery {
+    height: auto;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 10px;
+    width: 90vw;
+    padding: 15px;
+  }
+  .galleryTopSection {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 96%;
-    margin: 0px auto 60px auto;
-}
-
-.galleryImageContainer img{
-    width: 32.8%;
-    height: 350px;
-    object-fit: cover;
-    margin-bottom: 10px;
-}
-
-@media (max-width: 1279.98px){
-  
-}
-
-@media (max-width: 991.98px){
-    
-}
-
-@media (max-width: 767.98px){
-   
-}
-
-@media (max-width: 575.98px){
-
-    .galleryImageContainer img {
-        width: 96vw;
-    }
-    .offerStripGallery {
-        height: auto;
-        margin-right: 25px;
-        margin-left: 25px;
-        margin-top: 10px;
-        width: 90vw;
-        padding: 15px;
-    }
-    .galleryTopSection {
-        display: flex;
-        flex-direction: column;
-    }
-    .galleryHeading {
-        margin: 40px 0px 20px 20px;
-    }
-    .offerStripGallery button {
-        margin-left: auto;
-    }
+    flex-direction: column;
+  }
+  .galleryHeading {
+    margin: 40px 0px 20px 20px;
+  }
+  .offerStripGallery button {
+    margin-left: auto;
+  }
 }

@@ -1,147 +1,146 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 
-.careerHeading{
-    font-size: 2.5rem;
-    color: #000000b0;
-    margin: 50px 0px 40px 80px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+.Careers-root-container {
+  font-family: "Merriweather", serif;
+}
+.careerHeading {
+  font-size: 2.5rem;
+  color: #000000b0;
+  margin: 50px 0px 40px 80px;
+
+  font-weight: 500;
 }
 
 .careerBar {
-    background-color: #155263;
-    display: flex;
-    height: 600px;
+  background-color: #155263;
+  display: flex;
+  height: 600px;
 }
 
-.careerBar img{
-    width: 53vw;
-    object-fit: cover;
+.careerBar img {
+  width: 53vw;
+  object-fit: cover;
 }
 
-.careerBarTextContent{
-    font-size: 1.5rem;
-    width: 300px;
-    margin: 165px 50px 50px 65px;
-    color: #ffffff;
+.careerBarTextContent {
+  font-size: 1.5rem;
+  width: auto;
+  margin: 30px 50px 50px 65px;
+  color: #ffffff;
 }
 
-.careerBarTextTagLine{
-    margin: 40px 50px 0px 65px;
-    font-size: 2rem;
-    color: #ffffff;
-    display: block;
+.careerBarTextTagLine {
+  margin: 40px 50px 0px 65px;
+  font-size: 2rem;
+  color: #ffffff;
+  display: block;
 }
-.careerBarTextMailId{
-    margin: 0px 50px 0px 65px;
-    font-size: 3rem;
-    color: #ffffff;
-    display: block;
-    position: relative;
-    bottom: 15px;
-}
-
-.careerBarTextMailIdUnderLine{
-    border: 1px solid #FF6F3C;
-    width: 295px;
-    height: 10px;
-    margin: 0px 0px 0px 70px;
+.careerBarTextMailId {
+  margin: 0px 50px 0px 65px;
+  font-size: 3rem;
+  color: #ffffff;
+  display: block;
+  position: relative;
+  bottom: 15px;
 }
 
-.currentJobOpeningLine{
-    border: 1px solid #FF6F3C;
-    margin-top: 100px;
+.careerBarTextMailIdUnderLine {
+  border: 1px solid #ff6f3c;
+  width: 295px;
+  height: 10px;
+  margin: 0px 0px 0px 70px;
 }
 
-.currentJobOpeningHeading{
-    color: #000000b4;
-    font-size: 34px;
-    margin: 40px 0px 30px 80px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+.currentJobOpeningLine {
+  border: 1px solid #ff6f3c;
+  margin-top: 100px;
 }
 
-.currentJobOpeningList{
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    margin: 40px 0px 70px 50px;
+.currentJobOpeningHeading {
+  color: #000000b4;
+  font-size: 34px;
+  margin: 40px 0px 30px 80px;
+
+  font-weight: 500;
 }
 
-
-.currentJobOpeningList li{
-    margin-right: 100px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    color: #000000b4;
-    padding-bottom: 20px;
+.currentJobOpeningList {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 40px 0px 70px 50px;
 }
 
-.currentJobOpeningList li img{
-    margin-right: 20px;
-    width: 16px;
+.currentJobOpeningList li {
+  margin-right: 100px;
+
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000b4;
+  padding-bottom: 20px;
 }
 
-@media (max-width: 1279.98px){
-  
+.currentJobOpeningList li img {
+  margin-right: 20px;
+  width: 16px;
 }
 
-@media (max-width: 991.98px){
-    
+@media (max-width: 1279.98px) {
 }
 
-@media (max-width: 767.98px){
-   
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 767.98px) {
 }
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 767.98px) and (min-width: 576px) {
-    .careerHeading {
-        margin: 30px 0px 40px 40px;
-    }
-    .careerBar {
-        height: auto;
-        flex-direction: column;
-    }
-    .careerBar img {
-        width: auto;
-        object-fit: cover;
-    }
-    .careerBarTextContent {
-        font-size: 1.2rem;
-        width: 300px;
-        margin: 65px 50px 50px 65px;
-    }
-    .currentJobOpeningLine {
-        display: none;
-    }
-    .currentJobOpeningHeading {
-        font-size: 28px;
-    }
-    .currentJobOpeningList li {
-        font-size: 22px;
-    }
+  .careerHeading {
+    margin: 30px 0px 40px 40px;
+  }
+  .careerBar {
+    height: auto;
+    flex-direction: column;
+  }
+  .careerBar img {
+    width: auto;
+    object-fit: cover;
+  }
+  .careerBarTextContent {
+    font-size: 1.2rem;
+    width: 300px;
+    margin: 65px 50px 50px 65px;
+  }
+  .currentJobOpeningLine {
+    display: none;
+  }
+  .currentJobOpeningHeading {
+    font-size: 28px;
+  }
+  .currentJobOpeningList li {
+    font-size: 22px;
+  }
 }
 
-@media (max-width: 575.98px){
-    .careerBar {
-        display: flex;
-        flex-direction: column;
-        height: auto;
-        padding-bottom: 100px;
-    }
-    .careerBar img {
-        width: 100vw;
-        height: auto;
-    }
-    .careerBarTextContent {
-        margin: 65px 50px 50px 65px;
-    }
-    .currentJobOpeningLine {
-        margin-top: 40px;
-    }
-    .careerHeading {
-        margin: 50px 0px 40px 20px;
-    }
+@media (max-width: 575.98px) {
+  .careerBar {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 100px;
+  }
+  .careerBar img {
+    width: 100vw;
+    height: auto;
+  }
+  .careerBarTextContent {
+    margin: 65px 50px 50px 65px;
+  }
+  .currentJobOpeningLine {
+    margin-top: 40px;
+  }
+  .careerHeading {
+    margin: 50px 0px 40px 20px;
+  }
 }
