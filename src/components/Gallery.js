@@ -1,68 +1,69 @@
-import { Component } from "react";
+import { useState } from "react";
 import "../css/Gallery.css";
 import icOfferStripBullet from "../img/ic_offer_strip_bullet.png";
-
+import imagePool from "./imagePool";
 import axios from "axios";
 
-class Gallery extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      arrayOfImages: [],
-    };
-  }
-  getUsersData() {
-    axios
-      .get("http://192.168.64.2/admin/api/getGalleryImages.php")
-      .then((res) => {
-        this.setState({ arrayOfImages: res.data });
-      })
-      .catch((error) => {
-        console.log(error);
-      });
-  }
-  componentDidMount() {
-    this.getUsersData();
-  }
+function Gallery() {
+  const [showImagePopup, setShowImagePopup] = useState(false);
+  const [positionOfImage, setPositionOfImage] = useState(0);
+  const closePopup = () => {
+    setShowImagePopup(false);
+  };
 
-  render() {
-    return (
-      <div className="Gallery-root-container">
-        <div className="galleryTopSection">
-          <h3 className="galleryHeading">Gallery</h3>
+  const handleImageClick = (pOfImage) => {
+    setPositionOfImage(pOfImage);
+    console.log("image path with index is " + imagePool[pOfImage].src);
+    setShowImagePopup(true);
+  };
 
-          {/* top advertisement bar starts */}
+  return (
+    <div className="Gallery-root-container">
+      <div className="galleryTopSection">
+        <h3 className="galleryHeading">Gallery</h3>
 
-          <div className="offerStripAbout offerStripGallery">
-            <div className=" innerOfferStripAbout d-flex">
-              <img src={icOfferStripBullet} className="d-block" />
-              <h5> OUR PRICE IS LESS THAN 35% </h5>
-              <img src={icOfferStripBullet} className="d-block" />
-              <h5> FACTORY PRODUCTION </h5>
-              <img src={icOfferStripBullet} className="d-block" />
-              <h5> DIRECT INSTALLATION </h5>
+        {/* top advertisement bar starts */}
+
+        <div className="offerStripAbout offerStripGallery">
+          <div className=" innerOfferStripAbout d-flex">
+            <img src={icOfferStripBullet} className="d-block" />
+            <h5> OUR PRICE IS LESS THAN 35% </h5>
+            <img src={icOfferStripBullet} className="d-block" />
+            <h5> FACTORY PRODUCTION </h5>
+            <img src={icOfferStripBullet} className="d-block" />
+            <h5> DIRECT INSTALLATION </h5>
+          </div>
+        </div>
+
+        {/* top advertisement bar ends */}
+      </div>
+
+      {/* gallery image container starts */}
+
+      <div className="galleryImageContainer">
+        {imagePool.map((item, index) => (
+          <img
+            loading="lazy"
+            className="objectCoverImage Gallery-image-of-gallery"
+            src={process.env.PUBLIC_URL + item.src}
+            onClick={() => handleImageClick(index)}
+          />
+        ))}
+      </div>
+
+      {/* gallery image container ends */}
+      {showImagePopup && (
+        <div className="Gallery-outer-shadow-wrapper-container">
+          <div className="Gallery-outer-shadow-container">
+            <span onClick={closePopup}>CLOSE </span>
+            <div>
+              <img src={imagePool[positionOfImage].src} />
             </div>
           </div>
-
-          {/* top advertisement bar ends */}
         </div>
-
-        {/* gallery image container starts */}
-
-        <div className="galleryImageContainer">
-          {this.state.arrayOfImages.map((item) => (
-            <img
-              loading="lazy"
-              src={"http://192.168.64.2/admin/gallery_images/" + item.filename}
-              className="objectCoverImage"
-            />
-          ))}
-        </div>
-
-        {/* gallery image container ends */}
-      </div>
-    );
-  }
+      )}
+    </div>
+  );
 }
 
 export default Gallery;
