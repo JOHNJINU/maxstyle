@@ -7,8 +7,8 @@ import contact_2 from "../img/contact_2.jpg";
 import icFacebook from "../img/ic_facebook.png";
 import icInstagram from "../img/ic_instagram.png";
 
-import Site1 from "../img/Site1.jpg";
-import Site2 from "../img/Site2.jpg";
+import Site2 from "../img/Site3.jpg";
+import ic_company_full_name from "../img/ic_company_full_name.jpg";
 
 class Contact extends Component {
   constructor(props) {
@@ -161,65 +161,83 @@ class Contact extends Component {
           </div>
         </div>
         {/* enquiry section ends */}
-        <p className="generalEnquiryText">
-          For general enquiries - enquiry@maxstyleinteriors.com
-        </p>
+
+        <div className="Contact-complete-name mt-4">
+          <img src={ic_company_full_name} />
+        </div>
 
         <div className="addressCardContainer">
           <div className="firstRow">
             <AddressCard
-              header="Sales Office, KERALA"
+              header="SALES OFFICE, KERALA"
               address={
                 <>
-                  Prasidhi Maxstyle Interiors <br></br>
+                  <b> Prasidhi Maxstyle Interiors </b>
+                  <br></br>
                   A.S. Canal Road<br></br>
                   Kalappura North P.O.<br></br>
                   Alappuzha, 688 007<br></br>
-                  Kerala
+                  Kerala, India <br></br>
+                  Tel: +91 751 02 44 440
                 </>
               }
-              phone="Tel: +91 751 02 44 440"
-              email="Email: enquiry@maxstyleinteriors.com"
-              website="www.maxstyleinteriors.com"
               locationUrl="https://goo.gl/maps/KjuxVwMttrqdSnUR7"
+              indexNumber="0"
             />
             <AddressCard
               header="FACTORY, KERALA"
               address={
                 <>
-                  Prasidhi Maxstyle Interiors <br></br>
-                  No. 13/263 A Deshabhimani Road<br></br>
+                  <b>Prasidhi Maxstyle Interiors </b>
+                  <br></br>
+                  Deshabhimani Road<br></br>
                   S.L. Puram P.O. <br></br>
                   Alappuzha, 688 007
                   <br></br>
-                  Kerala<br></br>
+                  Kerala, India<br></br>
                 </>
               }
               locationUrl=""
+              indexNumber="1"
             />
 
             <AddressCard
               header="OFFICE, UAE"
               address={
                 <>
-                  38/ F 9. <br></br>
-                  P.O. Box: 51942<br></br>
+                  <b>Maxstyle Home Interiors</b> <br></br>
+                  38 / F-09 , P.O. Box: 51942<br></br>
                   HFZ-1<br></br>
                   Sharjah- U.A.E<br></br>
-                  Tele:+ 971 52 56 44 009
+                  Tel:+ 971 52 56 44 009
                 </>
               }
+              locationUrl=""
+              indexNumber="2"
             />
           </div>
         </div>
 
+        <p className="generalEnquiryText">
+          For general enquiries - enquiry@maxstyleinteriors.com
+        </p>
+
         <div className="ContactUs-number-social-media-container container text-center">
           <label>
-            Call us on <span>Kerala: +91 751 02 44 440 </span>{" "}
-            <span>UAE: +971 52 56 44 009</span>
+            <b>
+              Call us on{" "}
+              <span>
+                Kerala: +91{" "}
+                <span className="Contact-red-phone-number">751 02 44 440</span>{" "}
+              </span>{" "}
+              <span>
+                &nbsp; UAE: +971{" "}
+                <span className="Contact-red-phone-number">52 56 44 009</span>
+              </span>
+            </b>
           </label>
           <p className="mt-4">
-            For latest update, follow<br></br>{" "}
+            For latest updates, follow<br></br>{" "}
             <div className="ContactUs-follow-icon mt-4">
               <img src={icFacebook} /> @Prasidhi Maxstyle Home Interiors{" "}
             </div>

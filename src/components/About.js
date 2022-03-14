@@ -52,11 +52,10 @@ function About() {
           <div className="firstBarHalfAbout">
             <h4>What we do?</h4>
             <p>
-              Our interior designers generally use design elements and visual
-              aesthetics to transform and beautify your interior environments.
-              They usually involve in design planning, color patterns, fabric
-              and furniture alignment, wall designs and lighting of an interior
-              space.
+              Our designers generally use design elements and visual aesthetics
+              to transform and beautify your interior environments. They usually
+              involve in design planning, color patterns, fabric and furniture
+              alignment, wall designs and lighting of an interior space.
             </p>
           </div>
           <div className="secondBarHalfAbout">
@@ -69,12 +68,11 @@ function About() {
           </div>
           <div className="firstBarHalfAbout">
             <p>
-              Our interior designer usually creates design solutions for
-              buildings, conducts material research, selects furniture and decor
-              and oversees the completion of all aspects of a project. They may
-              also resolve issues that may emerge during planning the design of
-              a project, such as financial constraints, furniture types or
-              client preferences.
+              We create design solutions for buildings, conducts material
+              research, selects furniture and decor and oversees the completion
+              of all aspects of a project. They may also resolve issues that may
+              emerge during planning the design of a project, such as financial
+              constraints, furniture types or client preferences.
             </p>
           </div>
         </div>
@@ -88,7 +86,7 @@ function About() {
         </h4>
         <ul className="mt-4">
           <li className="mt-2">
-            <b>Interact with clients:</b> They may speak with clients to
+            <b>Interact with clients:</b> They are interacting with clients to
             discover their requirements, budget and expected project completion
             time. This is typically the first phase in the process but it can
             occur multiple times during the duration of the project.
@@ -97,7 +95,7 @@ function About() {
             <b>Create designs:</b>
             Interior designers can use their understanding of 3D or design
             software to envision and draw design plans to clarify and explain
-            the required task. They may collaborate with clients to select
+            the required task. They will collaborate with clients to select
             materials, colors and furnishings, advising them on the ideal
             options.
           </li>
@@ -111,22 +109,22 @@ function About() {
           </li>
           <li className="mt-2">
             <b>Establish project timelines:</b>
-            They may establish a project timeline for all parties involved in
+            They will establish a project timeline for all parties involved in
             the project to ensure that project progress as per the set
             timelines. Other employees and contractors typically have access to
             this schedule and can follow it as well.
           </li>
           <li className="mt-2">
             <b>Provide updates to clients:</b>
-            They may keep our clients informed about the development of the
+            They will keep our clients informed about the development of the
             project and inform them of any setbacks. They often do this daily or
             weekly and may involve compiling and sending reports on a scheduled
             basis.
           </li>
           <li className="mt-2">
             <b>Research new developments:</b>
-            They are usually skilled at identifying and implementing popular
-            home design trends and styles.
+            They are highly skilled at identifying and implementing popular home
+            design trends and styles.
           </li>
         </ul>
       </div>
@@ -135,11 +133,14 @@ function About() {
 
       <div className="offerStripAbout ">
         <div className=" innerOfferStripAbout d-flex">
-          <img src={icOfferStripBullet} className="d-block" />
-          <h5> OUR PRICE IS LESS THAN 35% </h5>
-          <img src={icOfferStripBullet} className="d-block" />
+          {/* <img src={icOfferStripBullet} className="d-block" /> */}
+          <span></span>
+          <h5> 30% LESS THAN RETAIL STORE PRICE</h5>
+          {/* <img src={icOfferStripBullet} className="d-block" /> */}
+          <span></span>
           <h5> FACTORY PRODUCTION </h5>
-          <img src={icOfferStripBullet} className="d-block" />
+          {/* <img src={icOfferStripBullet} className="d-block" /> */}
+          <span></span>
           <h5> DIRECT INSTALLATION </h5>
         </div>
       </div>
@@ -151,16 +152,16 @@ function About() {
       {/* process work start  */}
 
       <div className="processContainerAbout">
-        <h3>How the process work</h3>
+        <h3>HOW THE PROCESS WORKS</h3>
         <p className="processParaInAbout">
           Our sales team are experts in understanding the client requirements
           and prepare an estimation. After confirming the estimation, we receive
-          50% advance amount on the work. We provide a design of the work and
-          also available the customized designs. Furniture are manufactured in
-          our factory with good finishing. We provide the materials after
-          receiving the 45% of amount. After installing the products, we receive
-          the remaining amount and gives the warranty details regarding the
-          products.
+          50% advance amount for the work. We will provide the designs of the
+          work as per your requirements. Furnitures are manufactured in our
+          factory with expert's supervision. We deliver the materials to the
+          site after receiving the 45% of amount. After installing the products,
+          we receive the remaining amount and gives the warranty certificates
+          regarding the products.
         </p>
 
         <div className="diagramBannerContainer">
@@ -239,7 +240,7 @@ function About() {
           <div className="bannerContainerAbout">
             <div className="innerBoxbannerContainerAbout">
               <h4>
-                LIFETIME <br /> SERVICE <br /> GUARANTEED
+                <b>LIFETIME</b> <br /> SERVICE <br /> GUARANTEED
               </h4>
               <img src={icMechanic} />
             </div>
@@ -298,11 +299,11 @@ function About() {
               Materials
             </h3>
             <p>
-              Highly Qualified materials are used for our production. We provide
+              Highly quality materials are used for our production. We provide
               high grade plywood for the customers’ requirements. We use our
-              signature plywood – High grade brand – 710 Maxply in our factory
-              for the production. Accessories are from well-known German company
-              called Hettich, Hepo and Ebco.
+              signature plywood brand – High Grade 710 MAXPLY in our factory for
+              the production. Accessories are from well-known German brands -
+              Hettich, Hepo and Ebco.
             </p>
           </div>
         </div>
@@ -340,9 +341,9 @@ function About() {
               Machineries
             </h3>
             <p>
-              Italian and German machineries are used for the modular
-              production. Well-known brands in German and Italian machineries
-              are given better finishing for our products.
+              Italian and German panel processing machineries are used for the
+              modular furniture production. World-class German and Italian
+              machineries gives a high-level perfection to your furnitures.
             </p>
           </div>
         </div>

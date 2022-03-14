@@ -34,6 +34,18 @@ class Careers extends Component {
             <img src={icListDot} />
             Sales Executives
           </li>
+          <li>
+            <img src={icListDot} />
+            Site Supervisor
+          </li>
+          <li>
+            <img src={icListDot} />
+            Modular Furniture Machine Operatos
+          </li>
+          <li>
+            <img src={icListDot} />
+            Carpenters
+          </li>
         </ul>
       </div>
     );

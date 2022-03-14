@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+
 .row {
   height: 350px;
 }
@@ -11,7 +12,7 @@
   font-size: 45px;
   margin-top: 85px;
   color: #7a5656;
-  font-family: "Merriweather", serif;
+  font-family: "Arimo", sans-serif;
 }
 .firstBar .firstHalf span {
   font-size: 30px;
@@ -19,7 +20,7 @@
   margin-top: 50px;
   color: #7a5656;
   font-weight: 300;
-  font-family: "Merriweather", serif;
+  font-family: "Arimo", sans-serif;
 }
 
 .secondBar .firstHalf {
@@ -45,24 +46,24 @@
 
 .secondBar .firstHalf img {
   position: absolute;
-  top: 162px;
+  top: 84px;
   left: 415px;
-  width: 82px;
+  width: 243px;
 }
 
 .secondBar .firstHalf h4 {
   font-size: 45px;
-  margin-top: 85px;
+  margin-top: 57px;
   color: #ffffff;
-  font-family: "Merriweather", serif;
+  font-family: "Arimo", sans-serif;
 }
 
 .secondBar .firstHalf span {
   font-size: 30px;
-  margin-left: 135px;
+  margin-left: 78px;
   margin-top: 20px;
   font-weight: 300;
-  font-family: "Merriweather", serif;
+  font-family: "Arimo", sans-serif;
   color: #ffffff;
 }
 
@@ -73,16 +74,16 @@ hr {
 }
 
 .whyToChooseContainer .tagLine {
-  color: #ff4646;
+  color: #a88989;
   font-size: 56px;
   font-weight: 400;
-  font-style: italic;
-  font-family: "Merriweather", serif;
+  font-family: "Arimo", sans-serif;
 }
 
 .whyToChooseContainer img {
-  width: 294px;
-  height: 131px;
+  width: auto;
+  height: 115px;
+  object-fit: contain;
 }
 
 .whyToChooseContent {
@@ -92,7 +93,7 @@ hr {
 .whyToChooseContent h4 {
   top: 0px;
   left: 390px;
-  font-family: "Merriweather", serif;
+  font-family: "Arimo", sans-serif;
 }
 .whyToChooseContent p {
   top: 40px;
@@ -106,7 +107,8 @@ hr {
   left: 390px;
   font-size: 21px;
   padding: 8px 28px;
-  font-family: "Merriweather", serif;
+  font-family: "Arimo", sans-serif;
+  border-radius: 5px;
 }
 
 .firstColumn div {
@@ -138,7 +140,7 @@ hr {
 
 .customerExperienceContainer h4 {
   color: #000000;
-  font-family: "Merriweather", serif;
+  font-family: "Arimo", sans-serif;
 }
 
 .customerExperienceList {
@@ -214,8 +216,8 @@ hr {
 }
 .carousel-caption h5 {
   font-size: 44px;
-  text-shadow: 2px 4px #00000073;
-  font-family: "Merriweather", serif;
+  text-shadow: 0px 0px 8px #000000;
+  font-family: "Arimo", sans-serif;
 }
 
 .carousel-control-prev,
@@ -229,6 +231,10 @@ hr {
   width: 80px;
   height: 50px;
   z-index: -1;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 .offerBoardCarousel {
   width: 270px;
@@ -238,6 +244,7 @@ hr {
   z-index: 100;
   top: 50px;
   right: 10%;
+  border-radius: 5px;
 }
 
 .innerBoxofferBoardCarousel {
@@ -245,20 +252,25 @@ hr {
   height: 86%;
   margin-top: 7%;
   margin-left: 7%;
-  border: 2px solid #b88a8a;
+  border: 2px solid #000000;
 }
 
 .innerBoxofferBoardCarousel h5 {
-  font-size: 21px;
+  font-size: 18px;
   margin-left: 8%;
-  margin-top: 10%;
-  color: #7a5656;
-  font-family: "Merriweather", serif;
+  margin-top: 17px;
+  color: #585656 !important;
+  font-family: "Arimo", sans-serif;
+}
+
+.innerBoxofferBoardCarousel h5 b {
+  font-size: 25px;
+  color: #000000;
 }
 
 #downloadBrochureButton {
-  background-color: #c24914;
-  border: 2px solid #e57200;
+  background-color: #3dc5af;
+  border: 2px solid #93f6e6;
   display: block;
   position: absolute;
   z-index: 100;
@@ -266,7 +278,8 @@ hr {
   bottom: 28px;
   font-size: 15px;
   padding: 12px 8px;
-  font-family: "Merriweather", serif;
+  font-family: "Arimo", sans-serif;
+  border-radius: 5px;
 }
 
 .objectCoverImage {
@@ -320,7 +333,7 @@ hr {
 
 .whyToChooseContent p {
   font-weight: 400;
-  font-family: "Merriweather", serif;
+  font-family: "Arimo", sans-serif;
 }
 @media (min-width: 1400px) {
   .whyToChooseContent h4,
@@ -329,6 +342,7 @@ hr {
     left: 50%;
     margin-left: 3%;
     margin-right: 3%;
+    border-radius: 5px;
   }
   .carousel-inner img {
     height: 500px;
@@ -355,6 +369,9 @@ hr {
   }
   .carousel-item img {
     height: 460px;
+  }
+  .prevIconContainer {
+    width: 31px;
   }
 }
 
@@ -399,6 +416,25 @@ hr {
   .carousel-item img {
     height: 460px;
   }
+  .secondBar .firstHalf h4 {
+    font-size: 45px;
+    margin-left: 44px;
+    margin-top: 41px;
+    text-align: left !important;
+  }
+  .secondBar .firstHalf span {
+    font-size: 30px;
+    margin-left: 49px;
+    margin-top: 20px;
+  }
+  .secondBar .firstHalf img {
+    top: 116px;
+    left: 329px;
+    width: 243px;
+  }
+  .prevIconContainer {
+    width: 31px;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -434,6 +470,42 @@ hr {
   .customerExperienceList div {
     height: 330px;
   }
+  .secondBar .firstHalf h4 {
+    text-align: left !important;
+    font-size: 32px;
+    margin-left: 32px;
+    margin-top: 36px;
+  }
+  .secondBar .firstHalf span {
+    font-size: 26px;
+    margin-left: 32px;
+    margin-top: 20px;
+  }
+  .secondBar .firstHalf img {
+    left: 270px;
+    width: 200px;
+  }
+  .prevIconContainer {
+    width: 32px;
+  }
+  .firstBar .firstHalf h4 {
+    font-size: 32px;
+    margin-top: 56px;
+    margin-left: 62px;
+    text-align: left !important;
+  }
+  .firstBar .firstHalf span {
+    font-size: 30px;
+    margin-left: 62px;
+    margin-top: 32px;
+  }
+  .firstBar .firstHalf img {
+    top: 127px;
+    left: 340px;
+  }
+  .prevIconContainer {
+    width: 32px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -467,18 +539,18 @@ hr {
     font-size: 34px;
     margin-top: 55px;
     color: #7a5656;
-    font-family: "Merriweather", serif;
+    font-family: "Arimo", sans-serif;
     width: 80%;
     margin-left: 10%;
   }
 
   .firstBar .firstHalf span {
-    font-size: 30px;
+    font-size: 24px;
     margin-left: 28%;
     margin-top: 20px;
     color: #7a5656;
     font-weight: 300;
-    font-family: "Merriweather", serif;
+    font-family: "Arimo", sans-serif;
   }
 
   .firstBar .firstHalf img {
@@ -490,17 +562,19 @@ hr {
 
   .secondBar .firstHalf h4 {
     font-size: 34px;
-    margin-top: 65px;
+    margin-top: 38px;
     color: #ffffff;
-    font-family: "Merriweather", serif;
+    font-family: "Arimo", sans-serif;
+    width: 80%;
+    margin-left: 10%;
   }
 
   .secondBar .firstHalf span {
-    font-size: 30px;
+    font-size: 24px;
     margin-left: -6%;
     margin-top: 20px;
     font-weight: 300;
-    font-family: "Merriweather", serif;
+    font-family: "Arimo", sans-serif;
     color: #ffffff;
     text-align: center;
   }
@@ -509,7 +583,7 @@ hr {
     position: static;
     top: 162px;
     margin-left: 35%;
-    width: 82px;
+    width: 119px;
   }
 
   .firstColumn {
@@ -531,7 +605,7 @@ hr {
     top: 0px;
     left: 0px;
     margin-top: 40px;
-    font-family: "Merriweather", serif;
+    font-family: "Arimo", sans-serif;
   }
 
   .whyToChooseContent h4,
@@ -585,6 +659,14 @@ hr {
   .carousel-control-next {
     width: auto;
   }
+  .whyToChooseContainer img {
+    width: 250px !important;
+    height: 115px;
+    object-fit: contain;
+  }
+  .whyToChooseContainer .tagLine {
+    font-size: 40px;
+  }
 }
 /* Medium devices (tablets, less than 992px) */
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -594,8 +676,8 @@ hr {
   }
   .carousel-caption {
     margin-bottom: auto;
-    top: 30px;
-    left: 140px;
+    top: 40px;
+    left: 100px;
     width: 400px;
   }
 
@@ -605,8 +687,9 @@ hr {
   }
 
   .firstBar .firstHalf span {
-    margin-left: 90px;
     margin-top: 30px;
+    text-align: center;
+    margin-left: auto;
   }
 
   .firstBar .firstHalf img {
@@ -622,12 +705,12 @@ hr {
   .secondBar .firstHalf span {
     margin-left: auto;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
   }
   .secondBar .firstHalf img {
     left: 135px;
     top: 212px;
-    width: 62px;
+    width: 120px;
   }
   .whyToChooseContent {
     flex-direction: column;
@@ -664,7 +747,7 @@ hr {
     margin-top: 20px;
   }
   .prevIconContainer {
-    width: 40px;
+    width: 32px;
   }
   .offerBoardCarousel {
     display: none;
@@ -701,6 +784,7 @@ hr {
 
     height: 160px;
     overflow-y: clip;
+    margin-top: 20px;
   }
   .seondColumn div img {
     height: 250px;
@@ -713,10 +797,21 @@ hr {
   .firstBar .firstHalf img,
   .secondBar .firstHalf img {
     position: static;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
   .carousel-control-prev,
   .carousel-control-next {
     width: auto;
+  }
+  .firstBar .firstHalf span br {
+    display: none;
+  }
+  .whyToChooseContainer img {
+    width: auto;
+    height: 70px;
+    object-fit: contain;
   }
 }
 
@@ -845,6 +940,9 @@ hr {
     margin-bottom: 150px;
     left: 0;
     right: 0;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .carousel-indicators {
     left: 0;

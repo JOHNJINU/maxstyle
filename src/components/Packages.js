@@ -1,6 +1,7 @@
 import { Component } from "react";
 import "../css/Packages.css";
-import ic_warranty from "../img/ic_warranty.png";
+import ic_warranty_5year from "../img/ic_warranty_5year.jpg";
+import ic_warranty_1_year from "../img/ic_warranty_1year.jpg";
 import GetEstimateModal from "./GetEstimateModal";
 import { Link } from "react-router-dom";
 
@@ -45,31 +46,27 @@ class Packages extends Component {
         <div className="Packages-detail-content-container container mt-4">
           <p className="p-4">
             Maxstyle Home Interiors propose you the package offers, that can
-            help you to save money. Here we have mainly Essential and Luxury
-            packages. It will be extended as per the customer approach. The
-            customer has an option to remove the item in the package, that is
-            not suitable for your project, and also to add the item, that liked
-            by the customer.
+            help you to save money. Here we have mainly Standard, Essential and
+            Luxury packages. It will be extended as per the customer approach.
+            The customer has an option to remove the item in the package, that
+            is not suitable for your project, and also to add the item, that
+            liked by the customer.
           </p>
         </div>
         <div className="offerBoardPackages">
           <div className="innerBoxofferBoardPackages">
             <h5>
               {" "}
-              OUR PRICE IS <br /> LESS THAN 35%
+              <b>30% LESS </b> <br /> THAN RETAIL STORE PRICE
             </h5>
             <h5>
               {" "}
-              FACTORY <br /> PRODUCTION{" "}
+              <b>FACTORY</b> <br /> PRODUCTION{" "}
             </h5>
-            <h5> DIRECT INSTALLATION </h5>
-            <button
-              type="button"
-              className="btn btn-primary "
-              onClick={this.toggleEstimatePopupVisibilityP}
-            >
-              GET AN ESTIMATE
-            </button>
+            <h5>
+              {" "}
+              <b>DIRECT</b> INSTALLATION{" "}
+            </h5>
           </div>
         </div>
 
@@ -82,14 +79,83 @@ class Packages extends Component {
         </div>
         {/* top banner ends */}
         <div className="Packages-star-image-heading">
-          <img src={ic_warranty} className="imgWarranty" />
+          <div>
+            <span>
+              <img src={ic_warranty_1_year} className="imgWarranty" />
+              <label>
+                <b className="Packages-asterisk">*</b>On Manufacturing Defects
+              </label>
+            </span>
+            <span>
+              <img src={ic_warranty_5year} className="imgWarranty" />
+              <label>
+                <b className="Packages-asterisk">*</b>On Accessories
+              </label>
+            </span>
+          </div>
+
           <h3 className="packageHeading">PACKAGE OFFERS</h3>
         </div>
+
+        <div className="offerPackDiv">
+          <div className="offerPackDivHeader">
+            <h2>STANDARD PACK</h2>
+            <h2>
+              Offer Price :{" "}
+              <strike>
+                {" "}
+                <span>3.70 Lakh</span>
+              </strike>{" "}
+              2.90 Lakhs
+            </h2>
+          </div>
+          <div className="offerPackDivBody">
+            <div className="offerPackDivLeftColumn">
+              <h5>LIVING ROOM</h5>
+              <p>Premium LCD display unit </p>
+
+              <h5>DINING ROOM</h5>
+              <p>6 Seater dining table </p>
+              <p>Hylo Dining Chair – 6 Nos</p>
+
+              <h5>MASTER BEDROOM</h5>
+              <p>Soft close wardrobe – 150 * 210 cm</p>
+              <p>Queen size bed with bottom Storage – 157*198 cm</p>
+              <p>Bed side table (1No) – 40*40 cm</p>
+            </div>
+
+            <div className="offerPackDivRightColumn">
+              <h5>KIDS ROOM</h5>
+              <p>Soft close wardrobe – 150 X 210 cm</p>
+              <p>Queen size bed with bottom Storage – 157*198 cm</p>
+
+              <h5>KITCHEN</h5>
+              <p>Top cabinet – 304*60 cm, Bottom cabinet – 304*90 cm</p>
+              <p>
+                Hettich (German Made – 15 year warranty) Accessories – 6 Nos*
+              </p>
+              <p>Hood and Hob – Faber</p>
+            </div>
+          </div>
+          <div className="offerPackDivBottom">
+            <h5>Hettich Premium Soft Close Accessories(60cm)</h5>
+            <p>
+              Cutlery tray - Plain basket - Plate rack - Bottle pull out - Waste
+              bin – Pull out Model - Detergent holder
+            </p>
+          </div>
+        </div>
+
         <div className="offerPackDiv">
           <div className="offerPackDivHeader">
             <h2>ESSENTIAL PACK</h2>
             <h2>
-              Offer Price : <strike>6.5 Lakh</strike> 5.50 Lakhs
+              Offer Price :{" "}
+              <strike>
+                {" "}
+                <span>6.50 Lakh</span>
+              </strike>{" "}
+              5.50 Lakhs
             </h2>
           </div>
           <div className="offerPackDivBody">
@@ -144,7 +210,12 @@ class Packages extends Component {
           <div className="offerPackDivHeader">
             <h2>LUXURY PACK</h2>
             <h2>
-              Offer Price : <strike>11.60 Lakh</strike> 9 Lakhs
+              Offer Price :{" "}
+              <strike>
+                {" "}
+                <span>11.60 Lakh</span>
+              </strike>{" "}
+              9.00 Lakhs
             </h2>
           </div>
           <div className="offerPackDivBody">

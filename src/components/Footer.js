@@ -41,77 +41,83 @@ class Footer extends Component {
         {/* pattern and logo container ends */}
 
         {/* bottom rectangle starts */}
-        <div className="bottomRectangle d-flex">
-          <div className="bottomRectanglefirstColumn col-4">
-            <p>
-              Ready to make your interiors <br /> a piece of art?
-            </p>
-            <button
-              type="button"
-              className="btn btn-primary getEstimateButton"
-              onClick={this.toggleEstimatePopupVisibilityF}
-            >
-              GET AN ESTIMATE
-            </button>
-          </div>
-          <div className="bottomRectangleSecondColumn col-3">
-            <div className="telephoneNumberContainerFooter">
-              <p>INDIA +91 751 02 44 440</p>
-              <p>UAE - +971 52 56 44 009</p>
+        <div>
+          <div className="bottomRectangle d-flex">
+            <div className="bottomRectanglefirstColumn col-4">
+              <p>
+                Ready to make your interiors <br /> a piece of art?
+              </p>
+              <button
+                id="getEstimateButtonBottom"
+                type="button"
+                className="btn btn-primary getEstimateButton"
+                onClick={this.toggleEstimatePopupVisibilityF}
+              >
+                GET AN ESTIMATE
+              </button>
             </div>
+            <div className="bottomRectangleSecondColumn col-3">
+              <div className="telephoneNumberContainerFooter">
+                <p>INDIA +91 751 02 44 440</p>
+                <p>UAE - +971 52 56 44 009</p>
+              </div>
 
-            <div className="followUsContainer">
-              <span className="followText">Follow us </span>
-              <img src={icFacebook} />
-              <img src={icInstagram} />
+              <div className="followUsContainer">
+                <span className="followText">Follow us on</span>
+                <img src={icFacebook} />
+                <img src={icInstagram} />
+              </div>
+            </div>
+            <div className="bottomRectangleThirdColumn col-4">
+              <ul>
+                <li>
+                  <Link className="noDecoration" to="/">
+                    HOME
+                  </Link>
+                </li>
+                <li>
+                  <Link className="noDecoration" to="/about">
+                    PROFILE
+                  </Link>
+                </li>
+                <li>
+                  <Link className="noDecoration" to="/packages">
+                    PACKAGES
+                  </Link>
+                </li>
+              </ul>
+
+              <ul id="second_ul">
+                <li>
+                  <Link className="noDecoration" to="/ourcapabilities">
+                    OUR CAPABILITIES
+                  </Link>
+                </li>
+                <li>
+                  <Link className="noDecoration" to="/projects">
+                    PROJECTS
+                  </Link>
+                </li>
+                <li>
+                  <Link className="noDecoration" to="/gallery">
+                    GALLERY
+                  </Link>
+                </li>
+                <li>
+                  <Link className="noDecoration" to="/careers">
+                    CAREERS
+                  </Link>
+                </li>
+                <li>
+                  <Link className="noDecoration" to="/contact">
+                    CONTACT
+                  </Link>
+                </li>
+              </ul>
             </div>
           </div>
-          <div className="bottomRectangleThirdColumn col-4">
-            <ul>
-              <li>
-                <Link className="noDecoration" to="/">
-                  HOME
-                </Link>
-              </li>
-              <li>
-                <Link className="noDecoration" to="/about">
-                  ABOUT US
-                </Link>
-              </li>
-              <li>
-                <Link className="noDecoration" to="/packages">
-                  PACKAGES
-                </Link>
-              </li>
-            </ul>
-
-            <ul id="second_ul">
-              <li>
-                <Link className="noDecoration" to="/ourcapabilities">
-                  OUR CAPABILITIES
-                </Link>
-              </li>
-              <li>
-                <Link className="noDecoration" to="/projects">
-                  PROJECTS
-                </Link>
-              </li>
-              <li>
-                <Link className="noDecoration" to="/gallery">
-                  GALLERY
-                </Link>
-              </li>
-              <li>
-                <Link className="noDecoration" to="/careers">
-                  CAREERS
-                </Link>
-              </li>
-              <li>
-                <Link className="noDecoration" to="/contact">
-                  CONTACT
-                </Link>
-              </li>
-            </ul>
+          <div className="Footer-copyright-container">
+            <p>All copyright reserved 2022. Prasidhi Maxstyle Interiors</p>
           </div>
         </div>
         {/* bottom rectangle ends */}

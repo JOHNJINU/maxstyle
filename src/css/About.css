@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 
 .Aboutus-root-container {
-  font-family: "Merriweather", serif;
+  font-family: "Arimo", sans-serif;
 }
 
 .topQuadrantAbout {
@@ -63,14 +63,15 @@
 
 .offerStripAbout {
   width: 95%;
-  height: 115px;
+  height: auto;
   margin: 20px auto;
-  background-color: #d6dae7;
+  background-color: #d337d3;
   padding: 20px;
+  border-radius: 5px;
 }
 
 .innerOfferStripAbout {
-  border: 2px solid #f2910a;
+  border: 2px solid #bfbfbf;
   padding: 20px 5px 4px 5px;
   margin-left: 15px;
   margin-right: 20px;
@@ -78,7 +79,7 @@
 
 .innerOfferStripAbout h5 {
   font-size: 24px;
-  color: #7a5656;
+  color: #ffffff;
   margin-left: 9px;
   margin-right: 20px;
 }
@@ -96,20 +97,25 @@
   box-shadow: 0px 3px 3px #00000045;
 }
 
-.innerOfferStripAbout img {
-  width: 15px;
-  height: 15px;
-  margin-top: 7px;
+.innerBoxbannerContainerAbout b {
+  font-size: 25px;
+}
+
+.innerOfferStripAbout span {
+  width: 4px;
+  height: 35px;
+  margin-top: -4px;
   margin-left: 9px;
+  background-color: #bfbfbf;
 }
 
 .ourFeatuesAboutTagline {
-  width: 72%;
   color: #537780;
 
   font-style: italic;
   font-weight: 500;
   margin: 50px auto;
+  text-align: center;
 }
 
 .ourFeatuesAbout {
@@ -153,6 +159,7 @@
   padding: 12px 15px;
   width: 170px;
   margin-top: 20px;
+  border-radius: 5px;
 }
 
 .ourFeatuesAboutSecondBar {
@@ -232,6 +239,7 @@
   height: 610px;
   margin-top: 50px;
   margin-bottom: 30px;
+  border-radius: 5px;
 }
 
 .innerBoxbannerContainerAbout {
@@ -244,9 +252,16 @@
 }
 
 .innerBoxbannerContainerAbout h4 {
-  color: #ffffffb4;
+  color: #000000;
   font-size: 31px;
   margin-top: 80px;
+  font-family: "Arimo", sans-serif;
+  font-weight: 700;
+}
+
+.innerBoxbannerContainerAbout b {
+  font-size: 60px;
+  color: darkmagenta;
 }
 .innerBoxbannerContainerAbout img {
   width: 185px;
@@ -384,6 +399,17 @@
   .contactUsTopPortionText div:nth-child(2) {
     width: 50%;
   }
+  #ourFeatuesAboutThirdBar {
+    margin-top: 40px;
+    display: flex !important;
+    justify-content: center;
+  }
+  .ourFeatuesAboutFirstBar .secondBarHalfFeaturesAbout img {
+    width: 500px;
+  }
+  .ourFeatuesAboutFirstBar {
+    justify-content: center;
+  }
 }
 
 @media (min-width: 991.98px) and (max-width: 1199.98px) {
@@ -491,19 +517,20 @@
   }
 
   .innerBoxbannerContainerAbout {
-    height: 400px;
+    height: 425px;
     margin-left: 45px;
   }
 
   .processContainerAbout .bannerContainerAbout {
-    height: 450px;
+    height: 480px;
   }
   .ourFeatuesAbout {
     padding: 15px 35px;
   }
 
   .ourFeatuesAboutFirstBar .firstBarHalfFeaturesAbout {
-    width: auto;
+    width: 80%;
+    padding: 20px;
   }
   .ourFeatuesAboutFirstBar .firstBarHalfFeaturesAbout h3 {
     font-size: 33px;
@@ -563,6 +590,9 @@
   #ourFeatuesAboutThirdBar {
     margin-top: 40px;
     flex-direction: column;
+  }
+  .ourFeatuesAboutTagline {
+    margin: 30px auto;
   }
 }
 
@@ -750,7 +780,7 @@
     height: 10px;
   }
   .innerOfferStripAbout h5 {
-    margin-top: -19px;
+    margin-top: -36px;
     margin-left: 35px;
   }
 
@@ -867,5 +897,8 @@
   }
   .firstCapitalFeatureAbout {
     font-size: 55px;
+  }
+  .innerBoxbannerContainerAbout b {
+    font-size: 43px;
   }
 }

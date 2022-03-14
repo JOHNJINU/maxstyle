@@ -1,6 +1,6 @@
 import { Component } from "react";
 import "../css/AddressCard.css";
-import icLocation from "../img/ic_location.png";
+import icLocation from "../img/ic_arrow_location.png";
 
 class AddressCard extends Component {
   render() {
@@ -11,11 +11,8 @@ class AddressCard extends Component {
         </div>
         <div className="body">
           <p className="address">{this.props.address}</p>
-          <p className="phone">{this.props.phone} </p>
-          <p className="phone">{this.props.email} </p>
-          <p className="phone">{this.props.website} </p>
 
-          {this.props.website == "www.maxstyleinteriors.com" ? (
+          {this.props.indexNumber != "1" ? (
             <div>
               <a
                 className="locationBlock"
@@ -26,8 +23,6 @@ class AddressCard extends Component {
                   <img src={icLocation} /> LOCATION MAP{" "}
                 </div>
               </a>
-
-              <hr className="locationUnderline" />
             </div>
           ) : null}
         </div>

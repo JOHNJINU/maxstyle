@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 
 .Contact-root-container {
-  font-family: "Merriweather", serif;
+  font-family: "Arimo", sans-serif;
 }
 
 .addressCardContainer {
@@ -15,8 +15,7 @@
 
   font-weight: 300;
   margin: 0 auto;
-  padding-top: 70px;
-  padding-bottom: 50px;
+  padding-bottom: 15px;
   text-align: center;
 }
 
@@ -127,6 +126,14 @@ textarea {
   font-size: 22px;
 }
 
+.Contact-complete-name img {
+  height: 120px;
+  display: block;
+  margin: 50px auto 0px auto;
+}
+.Contact-red-phone-number {
+  color: #ff0000;
+}
 @media (min-width: 1400px) {
   .cardContainer {
     width: 30% !important;

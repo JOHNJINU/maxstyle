@@ -26,11 +26,11 @@ function Gallery() {
 
         <div className="offerStripAbout offerStripGallery">
           <div className=" innerOfferStripAbout d-flex">
-            <img src={icOfferStripBullet} className="d-block" />
+            <span></span>
             <h5> OUR PRICE IS LESS THAN 35% </h5>
-            <img src={icOfferStripBullet} className="d-block" />
+            <span></span>
             <h5> FACTORY PRODUCTION </h5>
-            <img src={icOfferStripBullet} className="d-block" />
+            <span></span>
             <h5> DIRECT INSTALLATION </h5>
           </div>
         </div>

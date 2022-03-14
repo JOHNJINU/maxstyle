@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 
 .Packages-root-container {
-  font-family: "Merriweather", serif;
+  font-family: "Arimo", sans-serif;
 }
 .topBannerPackages {
   background-color: #ffc93c;
@@ -30,6 +30,7 @@
   z-index: 100;
   top: 175px;
   right: 10%;
+  border-radius: 5px;
 }
 
 .innerBoxofferBoardPackages {
@@ -41,10 +42,14 @@
 }
 
 .innerBoxofferBoardPackages h5 {
-  font-size: 21px;
+  font-size: 18px;
   margin-left: 8%;
-  margin-top: 10%;
+  margin-top: 18px;
   color: #ffffff;
+}
+
+.innerBoxofferBoardPackages b {
+  font-size: 30px;
 }
 
 .innerBoxofferBoardPackages button {
@@ -85,9 +90,11 @@
 }
 
 .offerPackDivHeader {
-  background-color: #ffdd55;
+  background-color: #c3aa8c;
   display: flex;
   justify-content: space-between;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .offerPackDivHeader h2 {
@@ -95,8 +102,17 @@
   padding-top: 20px;
   padding-bottom: 20px;
   margin-right: 50px;
+  color: #fff5f5;
 }
 
+.offerPackDivHeader strike {
+  color: red;
+  text-decoration-thickness: 1px;
+}
+
+.offerPackDivHeader strike span {
+  color: #000000;
+}
 .offerPackDivBody {
   display: flex;
   margin: 40px 40px 0px 40px;
@@ -128,6 +144,7 @@
   background-color: #faebd7;
   border: 2px solid #cab8a1;
   font-style: italic;
+  border-radius: 5px;
 }
 .topBannerPackagesDescriptionAuthor {
   font-size: 20px !important;
@@ -139,8 +156,8 @@
   background-color: #14c245;
   border: none;
   border-radius: 0;
-  box-shadow: 0px 3px 3px #00000045;
   margin-left: auto;
+  border-radius: 5px;
 }
 .Package-more-offers-button-container a {
   text-decoration: none !important;
@@ -149,6 +166,35 @@
 .Package-more-offers-button-container {
   display: flex;
   justify-content: right;
+}
+.offerPackDiv {
+  background-color: #fff8dc;
+  border: none;
+  border-radius: 15px;
+  padding-bottom: 20px;
+}
+.Packages-star-image-heading span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 21px;
+}
+.Packages-star-image-heading div {
+  display: flex;
+}
+
+.Packages-star-image-heading span img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+.Packages-star-image-heading {
+  display: flex;
+  align-items: center;
+}
+.Packages-asterisk {
+  color: #ff0000;
+  margin-right: 2px;
 }
 @media (min-width: 1400px) {
   .topBannerPackages {
@@ -159,11 +205,13 @@
   .offerPackDiv {
     width: 1400px;
     margin: 60px auto;
+    background-color: #fff8dc;
   }
   .Packages-star-image-heading {
     width: 1400px;
     margin: 20px auto;
   }
+
   .imgWarranty {
     margin-left: 0px;
   }
@@ -191,6 +239,12 @@
   .offerBoardPackages {
     top: 205px;
   }
+  .offerStripGallery {
+    height: auto !important;
+    margin-right: 25px;
+    margin-left: 75px;
+    padding: 8px 15px 8px 14px !important;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -201,6 +255,12 @@
   .topBannerPackagesDescription {
     width: 43%;
     text-align: justify;
+  }
+  .offerStripGallery {
+    height: auto !important;
+    margin-right: 25px;
+    margin-left: 75px;
+    padding: 8px 15px 8px 14px !important;
   }
 }
 
@@ -220,6 +280,23 @@
   }
   .packageHeading {
     margin-left: 20px;
+  }
+  .galleryTopSection {
+    display: flex;
+    flex-direction: column;
+  }
+  .offerStripGallery {
+    height: auto !important;
+    margin-right: 25px;
+    margin-left: 5px;
+    margin-top: 10px;
+    padding: 8px 15px 8px 14px !important;
+  }
+  .galleryHeading {
+    margin: 40px 0px 40px 40px;
+  }
+  .offerStripGallery {
+    margin-left: 15px;
   }
 }
 
@@ -261,5 +338,33 @@
   .imgWarranty {
     margin: 15px auto;
     display: block;
+  }
+  .Packages-star-image-heading span img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+  .Packages-star-image-heading {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .Packages-star-image-heading > div > span > label {
+    font-size: 14px;
+    padding: 0px 14px;
+  }
+  .packageHeading {
+    width: 40%;
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+  .offerPackDivHeader {
+    flex-direction: column;
+  }
+  .offerPackDivHeader h2:nth-child(1) {
+    margin-left: 10px;
+    padding-top: 23px;
+    padding-bottom: 0px;
   }
 }

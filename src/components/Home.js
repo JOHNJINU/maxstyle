@@ -1,10 +1,10 @@
 import { Component, useState } from "react";
 import "../css/Home.css";
 import icShakeHand from "../img/icShakeHand.png";
-import icLogoWhyToChoose from "../img/icLogoWhyToChoose.png";
+import icLogoWhyToChoose from "../img/ic_company_logo.jpg";
 import icTestimonialPerson1 from "../img/ic_person_1.png";
 import icTestimonialPerson2 from "../img/ic_person_2.png";
-import icIso from "../img/ic_iso.png";
+import icIso from "../img/ic_iso_no_bg.png";
 import { Link } from "react-router-dom";
 import icOfferHome from "../img/ic_offer_home.png";
 import axios from "axios";
@@ -56,25 +56,25 @@ function Home() {
         "These are highly qualified materials (710 Grade BWP).",
         "We carry out all the steps from design to production and assembly in our own factory with the backing of modern German and Italian machineries.",
         "100% Customized products.",
-        "Our raw materials are; i) 710 Grade BWP Marine Wood ii) Our High Grade Signature Plywood Maxply",
-        "Imported Accessories are; Hettich, Ebco, Hepo by Hettich",
+        `Our materials are; I) 710 Grade BWP Marine Wood II) Our High Grade Signature Plywood Brand <b>MAXPLY</b>`,
+        "Accessories are; Hettich, Ebco, Hepo by Hettich",
       ],
     },
     {
       heading: "Peace of Mind",
       contentList: [
-        "1 Year Onsite warranty against manufacturing defects.",
+        "1 Year onsite warranty against manufacturing defects.",
         "(Terms & Conditions are applying)",
-        "Up to 5 Years Warranty on Accessories- as per the warranty policy terms & conditions by accessories manufacturer. (Fixing charge is free for 1 Year at site services- thereafter service charge is applicable for removal / fixing works with parts. Terms & Conditions are applying)",
+        "Up to 5 Years Warranty on Accessories- as per the warranty policy terms & conditions by accessories manufacturer. (Fixing charge is free for 1 Year at site services- thereafter service charge is applicable for removal / fixing works with parts. Terms & Conditions apply)",
         "Lifetime service provided by the company. Service charges may apply.",
       ],
     },
     {
       heading: "Cost Efficient",
       contentList: [
-        "Our company provides you designs as per your budget with high grade quality raw materials.",
-        " We Provides Detailed Consultation as per the budget. ",
-        "You can choose the raw materials and Accessories ae per the Budget and preference.",
+        "Our company provides you designs as per your budget with high grade materials.",
+        "We Provides detailed consultation as per the budget. ",
+        "You can choose the materials and accessories as per the budget and preference.",
       ],
     },
   ];
@@ -124,7 +124,7 @@ function Home() {
             />
             <div className="blackOverlayCarousel"></div>
             <div class="carousel-caption d-md-block">
-              <h5>Turn your interior into masterpiece.</h5>
+              <h5>TURN YOUR HOME INTERIOR INTO A MASTERPIECE.</h5>
             </div>
           </div>
           <div class="carousel-item">
@@ -135,14 +135,14 @@ function Home() {
             />
             <div className="blackOverlayCarousel"></div>
             <div class="carousel-caption d-md-block">
-              <h5>Create Memories</h5>
+              <h5>CREATE MEMORIES</h5>
             </div>
           </div>
           <div class="carousel-item">
             <img src={Site4} class="d-block w-100 objectCoverImage" alt="..." />
             <div className="blackOverlayCarousel"></div>
             <div class="carousel-caption d-md-block">
-              <h5>Precise and artistic</h5>
+              <h5>PRECISE AND ARTISTIC</h5>
             </div>
           </div>
         </div>
@@ -170,13 +170,20 @@ function Home() {
           <div className="innerBoxofferBoardCarousel">
             <h5>
               {" "}
-              OUR PRICE IS <br /> LESS THAN 35%{" "}
+              <span>
+                <b>30% LESS</b> <br />
+              </span>{" "}
+              THAN RETAIL STORE PRICE
             </h5>
             <h5>
               {" "}
-              FACTORY <br /> PRODUCTION{" "}
+              <b>FACTORY </b>
+              <br /> PRODUCTION{" "}
             </h5>
-            <h5> DIRECT INSTALLATION </h5>
+            <h5>
+              {" "}
+              <b>DIRECT</b> INSTALLATION{" "}
+            </h5>
           </div>
         </div>
         <a
@@ -210,9 +217,9 @@ function Home() {
           <img src={home_5} className="objectCoverImage" />
         </div>
         <div className="firstHalf position-relative col-6">
-          <h4 className="text-center">Our quality measures</h4>
+          <h4 className="text-center">Our quality management system</h4>
           <span className="d-block">
-            An ISO 9001 <br /> certified Company
+            An ISO 9001:2015 <br /> Certified Company
           </span>
           <img src={icIso} />
         </div>
@@ -233,13 +240,13 @@ function Home() {
         <div className="firstColumn col-8 ">
           <div className="position-relative">
             <img src={home_6} className="w-50 objectCoverImage" />
-            <h4 className="position-absolute">High graded Raw materials</h4>
+            <h4 className="position-absolute">HIGH GRADE MATERIALS</h4>
             <p className="position-absolute">
               These are highly qualified materials (710 Grade BWP). We carry out
               all the steps from design to production and assembly in our own
               factory with the backing of modern German and Italian machineries.
-              100% Customized products. Our raw materials are; i) 710 Grade BWP
-              ii) Our High Grade Signature Plywood Maxply
+              100% Customized products. Our materials are; I) 710 Grade BWP II)
+              Our High Grade Signature Plywood Brand <b>MAXPLY</b>
             </p>
             <button
               type="button"
@@ -251,11 +258,11 @@ function Home() {
           </div>
           <div className="position-relative">
             <img src={home_7} className="w-50 objectCoverImage" />
-            <h4 className="position-absolute">Peace of Mind</h4>
+            <h4 className="position-absolute">PEACE OF MIND</h4>
             <p className="position-absolute">
-              1 Year Onsite warranty against manufacturing defects. (Terms &amp;
-              Conditions are applying). Up to 5 Years Warranty on Accessories-
-              as per the warranty policy terms &amp; conditions by accessories
+              1 Year onsite warranty against manufacturing defects. (Terms &amp;
+              Conditions apply). Up to 5 Years Warranty on Accessories- as per
+              the warranty policy terms &amp; conditions by accessories
               manufacturer.Lifetime service provided by the company. Service
               charges may apply.
             </p>
@@ -271,14 +278,12 @@ function Home() {
         <div className="seondColumn col-4 ">
           <div className="position-relative">
             <img src={home_8} className="w-100 objectCoverImage" />
-            <h4>Cost Efficient</h4>
+            <h4>COST EFFICIENT</h4>
             <p>
-              When joint measurements are being taken for billing, Extra area
-              shall be calculated as an Additional Bill and cut-outs for lights/
-              columns / speakers /diffusers /half tiles if any used shall be
-              considered as a billing area. Additional requirements are being
-              considered as an Additional Billing. Cove lightings and design
-              cornices are being considered as an additional charge.
+              Our company provides you designs as per your budget with high
+              grade materials. We provides detailed consultation as per the
+              budget. You can choose the materials and accessories as per the
+              budget and preference.
             </p>
             <button
               type="button"
