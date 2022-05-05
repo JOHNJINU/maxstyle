@@ -111,7 +111,10 @@ class Contact extends Component {
           <div className="typingFieldContainer">
             <p className="enquiryStatusMessage d-none"></p>
             <h5>Enquiry</h5>
-            <form onSubmit={this.sendCustomerEnquiry}>
+            <form
+              action="mailto:enquiry@maxstyleinteriors.com"
+              encType="text/plain"
+            >
               <input
                 type="text"
                 name="personName"
@@ -169,7 +172,7 @@ class Contact extends Component {
         <div className="addressCardContainer">
           <div className="firstRow">
             <AddressCard
-              header="SALES OFFICE, KERALA"
+              header="SALES OFFICE - KERALA"
               address={
                 <>
                   <b> Prasidhi Maxstyle Interiors </b>
@@ -185,7 +188,7 @@ class Contact extends Component {
               indexNumber="0"
             />
             <AddressCard
-              header="FACTORY, KERALA"
+              header="FACTORY - KERALA"
               address={
                 <>
                   <b>Prasidhi Maxstyle Interiors </b>
@@ -202,7 +205,7 @@ class Contact extends Component {
             />
 
             <AddressCard
-              header="OFFICE, UAE"
+              header="OFFICE - UAE"
               address={
                 <>
                   <b>Maxstyle Home Interiors</b> <br></br>
@@ -219,7 +222,7 @@ class Contact extends Component {
         </div>
 
         <p className="generalEnquiryText">
-          For general enquiries - enquiry@maxstyleinteriors.com
+          For general enquiries : enquiry@maxstyleinteriors.com
         </p>
 
         <div className="ContactUs-number-social-media-container container text-center">

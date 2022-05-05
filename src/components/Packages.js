@@ -70,13 +70,6 @@ class Packages extends Component {
           </div>
         </div>
 
-        <div className="Package-more-offers-button-container container mt-4">
-          <Link to="/offers">
-            <button type="button" className="btn btn-primary ">
-              MORE OFFERS
-            </button>
-          </Link>
-        </div>
         {/* top banner ends */}
         <div className="Packages-star-image-heading">
           <div>
@@ -99,7 +92,7 @@ class Packages extends Component {
 
         <div className="offerPackDiv">
           <div className="offerPackDivHeader">
-            <h2>STANDARD PACK</h2>
+            <h2>STANDARD PACKAGE</h2>
             <h2>
               Offer Price :{" "}
               <strike>
@@ -112,14 +105,14 @@ class Packages extends Component {
           <div className="offerPackDivBody">
             <div className="offerPackDivLeftColumn">
               <h5>LIVING ROOM</h5>
-              <p>Premium LCD display unit </p>
+              <p>LED display unit </p>
 
               <h5>DINING ROOM</h5>
               <p>6 Seater dining table </p>
-              <p>Hylo Dining Chair – 6 Nos</p>
+              <p>Dining Chair – 6 Nos</p>
 
               <h5>MASTER BEDROOM</h5>
-              <p>Soft close wardrobe – 150 * 210 cm</p>
+              <p>Soft close wardrobe unit – 150 * 210 cm</p>
               <p>Queen size bed with bottom Storage – 157*198 cm</p>
               <p>Bed side table (1No) – 40*40 cm</p>
             </div>
@@ -131,14 +124,12 @@ class Packages extends Component {
 
               <h5>KITCHEN</h5>
               <p>Top cabinet – 304*60 cm, Bottom cabinet – 304*90 cm</p>
-              <p>
-                Hettich (German Made – 15 year warranty) Accessories – 6 Nos*
-              </p>
+              <p>Accessories(Brand: Ebco) – 6 Nos</p>
               <p>Hood and Hob – Faber</p>
             </div>
           </div>
           <div className="offerPackDivBottom">
-            <h5>Hettich Premium Soft Close Accessories(60cm)</h5>
+            <h5>Premium Soft Close Accessories(60cm)</h5>
             <p>
               Cutlery tray - Plain basket - Plate rack - Bottle pull out - Waste
               bin – Pull out Model - Detergent holder
@@ -148,7 +139,7 @@ class Packages extends Component {
 
         <div className="offerPackDiv">
           <div className="offerPackDivHeader">
-            <h2>ESSENTIAL PACK</h2>
+            <h2>ESSENTIAL PACKAGE</h2>
             <h2>
               Offer Price :{" "}
               <strike>
@@ -163,42 +154,40 @@ class Packages extends Component {
               <h5>FOYER</h5>
               <p>Shoe rack – 100*75 cm</p>
               <h5>LIVING ROOM</h5>
-              <p>Premium LCD display unit – 180 * 160 cm</p>
+              <p>LED display unit</p>
               <h5>DINING ROOM</h5>
               <p>
-                6 Seater dining table with 12 mm clear glass top <br /> Hylo
-                dining chair – 3 Nos <br /> 3 Seater dining bench – 1 No
+                6 Seater Dining Table with 12 mm Table Top <br />
+                Dining Chair – 3 Nos <br /> 3 Seater Dining Bench – 1 No
               </p>
               <h5>MASTER BEDROOM</h5>
               <p>
-                Soft close wardrobe – 150 * 210 cm <br /> Queen size bed with
-                bottom Storage – 157*198 cm <br /> Bed side table (2 No) – 40*40
-                cm
+                Soft - Close Wardrobe unit – 150 * 210 cm <br /> Queen size bed
+                with bottom Storage – 157*198 cm <br /> Bed Side Table (2 No) –
+                40*40 cm
               </p>
             </div>
             <div className="offerPackDivRightColumn">
               <h5>KIDS ROOM</h5>
               <p>
                 Soft close wardrobe – 150 X 210 cm <br /> Queen size bed with
-                bottom Storage – 157*198 cm <br /> Bed side table (2 No) – 40*40
-                cm
+                bottom Storage – 157*198 cm <br /> Bed side table (2 Nos) –
+                40*40 cm
               </p>
               <h5>GUEST BEDROOM</h5>
               <p>
-                Soft close wardrobe – 150 * 210 cm <br /> Queen size bed with
-                bottom storage – 157*198 cm <br /> Bed side table (2 No) – 40*40
-                cm
+                Soft - Close Wardrobe – 150 * 210 cm <br /> Queen Size Bed –
+                159*198 cm <br /> Bed Side Table (2 Nos) – 40*40 cm
               </p>
               <h5>KITCHEN</h5>
               <p>
-                Top cabinet – 304*60 cm, Bottom cabinet – 304*90 cm <br />{" "}
-                Hettich (German Made – 15 year warranty) Accessories – 6 Nos*{" "}
-                <br /> Hood and Hob – Faber
+                Top cabinet – 450*60 cm, Bottom cabinet – 450*85 cm <br />{" "}
+                Accessories(Brand: Ebco) – 6 Nos <br /> Hood and Hob – Faber
               </p>
             </div>
           </div>
           <div className="offerPackDivBottom">
-            <h5>Hettich Premium Soft close Accessories(60cm)</h5>
+            <h5>Kitchen Soft close Accessories(60cm)</h5>
             <p>
               Cutlary tray - Plain basket - Plate rack - Bottle pull out - Waste
               bin – Pull out Model - Detergent holder
@@ -208,7 +197,7 @@ class Packages extends Component {
 
         <div className="offerPackDiv">
           <div className="offerPackDivHeader">
-            <h2>LUXURY PACK</h2>
+            <h2>LUXURY PACKAGE</h2>
             <h2>
               Offer Price :{" "}
               <strike>
@@ -223,15 +212,15 @@ class Packages extends Component {
               <h5>FOYER</h5>
               <p>Shoe rack and Ledges – 100*75 cm / 90*30 (1 No.)</p>
               <h5>LIVING ROOM</h5>
-              <p>TV Unit with Black Glass Shutters – 180*120 cm</p>
+              <p>LED TV Unit– 180*120 cm</p>
               <p>Prayer Unit – 70*90 cm</p>
               <h5>DINING ROOM</h5>
               <p>6 Seater Dining Table with 25 mm Table Top</p>
-              <p>Hylo Dining Chair – 3 Nos</p>
+              <p>Dining Chair – 3 Nos</p>
               <p>3 Seater Dining Bench – 1 No</p>
-              <p>Custom made Living- Dining Partition – 180*270 cm</p>
+              <p>Living- Dining Partition – 180*270 cm</p>
               <h5>MASTER BEDROOM</h5>
-              <p>Soft – Close Hinged Wardrobe up to Ceiling – 150*270 cm</p>
+              <p>Soft – Close Wardrobe up to Ceiling – 150*270 cm</p>
               <p>Dressing Unit- 60*75 cm</p>
               <p>Custom made Writing Table</p>
               <p>Books Cabinet with Paneling and Ledges – 150*270 cm</p>
@@ -240,7 +229,7 @@ class Packages extends Component {
             </div>
             <div className="offerPackDivRightColumn">
               <h5>KIDS ROOM</h5>
-              <p>Soft – Close Hinged Wardrobe up to Ceiling – 150*270 cm</p>
+              <p>Soft – Close Wardrobe up to Ceiling – 150*270 cm</p>
               <p>Custom made Writing Table</p>
               <p>Books Cabinet with Paneling and Ledges – 125*200 cm</p>
               <p>Queen Size Bed with Bottom Storage – 159*198 cm</p>
@@ -252,14 +241,12 @@ class Packages extends Component {
               <h5>KITCHEN</h5>
               <p>Top Cabinet – 450*60 cm</p>
               <p>Bottom Cabinet – 450*85 cm</p>
-              <p>
-                Hettich (German Made – 15 years Warranty) Accessories – 6 Nos
-              </p>
+              <p>Accessories(Brand:Ebco) – 6 Nos</p>
               <p>Hood and Hob – Faber</p>
             </div>
           </div>
           <div className="offerPackDivBottom">
-            <h5>Hettich Premium Soft Close Accessories(60cm)</h5>
+            <h5>Kitchen Soft Close Accessories(60cm)</h5>
             <p>
               Cutlery tray - Plain basket - Plate rack - Bottle pull out - Waste
               bin – Pull out Model - Detergent holder

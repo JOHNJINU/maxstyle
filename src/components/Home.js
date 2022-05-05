@@ -10,7 +10,7 @@ import icOfferHome from "../img/ic_offer_home.png";
 import axios from "axios";
 import MyPDF from "../img/ic_gallery_1.png";
 
-import home_slider_1 from "../img/ic_home_carousel_1.jpg";
+import home_slider_1 from "../img/15.jpeg";
 import home_slider_2 from "../img/ic_home_carousel_2.jpeg";
 import home_slider_3 from "../img/ic_home_carousel_3.jpeg";
 import home_4 from "../img/max_home_1.jpeg";
@@ -19,7 +19,7 @@ import home_6 from "../img/max_home_3.jpeg";
 import home_7 from "../img/max_home_4.jpeg";
 import home_8 from "../img/max_home_5.jpeg";
 
-import about_1 from "../img/ic_about_top_1.jpg";
+import about_1 from "../img/20.jpg";
 import Site4 from "../img/Site4.jpg";
 
 function Home() {
@@ -51,12 +51,12 @@ function Home() {
 
   const arrayOfExplore = [
     {
-      heading: "High graded Raw materials",
+      heading: "High graded materials",
       contentList: [
         "These are highly qualified materials (710 Grade BWP).",
         "We carry out all the steps from design to production and assembly in our own factory with the backing of modern German and Italian machineries.",
         "100% Customized products.",
-        `Our materials are; I) 710 Grade BWP Marine Wood II) Our High Grade Signature Plywood Brand <b>MAXPLY</b>`,
+        `Our materials are; I) 710 Grade BWP Marine Wood II) Our High Grade Signature Plywood Brand : MAXPLY`,
         "Accessories are; Hettich, Ebco, Hepo by Hettich",
       ],
     },
@@ -65,8 +65,8 @@ function Home() {
       contentList: [
         "1 Year onsite warranty against manufacturing defects.",
         "(Terms & Conditions are applying)",
-        "Up to 5 Years Warranty on Accessories- as per the warranty policy terms & conditions by accessories manufacturer. (Fixing charge is free for 1 Year at site services- thereafter service charge is applicable for removal / fixing works with parts. Terms & Conditions apply)",
-        "Lifetime service provided by the company. Service charges may apply.",
+        "Up to 5 Years Warranty on Accessories ( as per the warranty policy terms & conditions by accessories manufacturer.) (Fixing charge is free for 1 Year at site services ( thereafter service charge is applicable for removal / fixing works with parts. Terms & Conditions apply)",
+        "Lifetime service provided by the company. (Service charges applicable.)",
       ],
     },
     {
@@ -184,6 +184,14 @@ function Home() {
               {" "}
               <b>DIRECT</b> INSTALLATION{" "}
             </h5>
+
+            <div className="Package-more-offers-button-container container mt-4">
+              <Link to="/packages">
+                <button type="button" className="btn btn-primary ">
+                  MORE OFFERS
+                </button>
+              </Link>
+            </div>
           </div>
         </div>
         <a

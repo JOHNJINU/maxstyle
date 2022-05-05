@@ -364,6 +364,10 @@
   }
 }
 
+.firstBarOurCapabilities i {
+  color: #ffd700;
+}
+
 @media (min-width: 1400px) {
   .projectsYearsContainer .left .firstBarHalfFeaturesCapabilities {
     width: 88%;

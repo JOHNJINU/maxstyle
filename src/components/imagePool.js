@@ -5,7 +5,7 @@ const imagePool = [
   { src: "./img/3.jpg", product_name: "Image_3" },
 
   { src: "./img/4.jpg", product_name: "Image_4" },
-  { src: "./img/5.jpg", product_name: "Image_5" },
+  { src: "./img/5.jpeg", product_name: "Image_5" },
   { src: "./img/6.jpeg", product_name: "Image_6" },
 
   { src: "./img/7.jpg", product_name: "Image_7" },

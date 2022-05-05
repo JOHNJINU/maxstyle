@@ -11,7 +11,7 @@ import ic_design from "../img/ic_design.png";
 import ic_right_arrow from "../img/ic_right_arrow.png";
 import ic_down_arrow from "../img/ic_down_arrow.png";
 import ic_left_arrow from "../img/ic_left_arrow.png";
-import about_1 from "../img/ic_about_top_1.jpg";
+import about_1 from "../img/20.jpg";
 import about_2 from "../img/ic_about_top_2.jpeg";
 import about_3 from "../img/about_3.jpg";
 import about_4 from "../img/about_4.jpg";
@@ -299,11 +299,11 @@ function About() {
               Materials
             </h3>
             <p>
-              Highly quality materials are used for our production. We provide
-              high grade plywood for the customers’ requirements. We use our
-              signature plywood brand – High Grade 710 MAXPLY in our factory for
-              the production. Accessories are from well-known German brands -
-              Hettich, Hepo and Ebco.
+              Highly quality materials are used for our modular furniture
+              production. We provide high grade plywood for the customers’
+              requirements. We use our signature plywood brand – High Grade 710
+              MAXPLY in our factory for the production. Accessories are from
+              well-known German brands - Hettich, Hepo and Ebco.
             </p>
           </div>
         </div>

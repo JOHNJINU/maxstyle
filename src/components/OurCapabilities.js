@@ -30,8 +30,10 @@ class OurCapabilities extends Component {
             <h4>Our infrastructure</h4>
             <span className="d-block ">
               <b>
-                “Interior design is making the best possible use of the
-                available space.”
+                <i>
+                  “Interior design is making the best possible use of the
+                  available space.”
+                </i>
               </b>
               <br />
               <br />
@@ -68,8 +70,10 @@ class OurCapabilities extends Component {
             <h5>Production facility.</h5>
             <p>
               <b>
-                “The most welcoming spaces are those that are interesting, but
-                not overpowering.”
+                <i>
+                  “The most welcoming spaces are those that are interesting, but
+                  not overpowering.”
+                </i>
               </b>
               <br />
               <br />

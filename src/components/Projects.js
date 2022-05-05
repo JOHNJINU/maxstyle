@@ -16,8 +16,10 @@ class Projects extends Component {
         <div className="topBannerProjects">
           <h3 className="topBannerProjectsHeading">Our works</h3>
           <h5>
-            “The key to great design is capturing the spirit of the client and
-            the essence of the space.”
+            <i>
+              “The key to great design is capturing the spirit of the client and
+              the essence of the space.”
+            </i>
           </h5>
           <p className="topBannerProjectsDescription">
             We are always striving to push boundaries and our production
